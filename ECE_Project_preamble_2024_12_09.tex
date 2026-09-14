@@ -1,0 +1,106 @@
+%DO NOT MODIFY THIS FILE
+\renewcommand{\rmdefault}{phv} % Arial
+\renewcommand{\sfdefault}{phv} % Arial
+% set font to Arial
+\usepackage[top=1in,bottom=1in,left=1.5in,right=1in]{geometry}
+% set the margins
+\usepackage{amsmath,amsxtra,amsthm,amssymb,amsfonts}
+% various AMS packages
+\usepackage{graphicx,rotating,epsfig,epstopdf}
+% insert and rotate images
+%\usepackage[subfigure]{tocloft}
+\usepackage{tocloft}
+% modify toc, lot, lof
+\usepackage{afterpage,subcaption}
+% subfigures in a figure: subfigure can replace subcaption
+\usepackage{setspace}
+% allows you to specify the line spacing
+\doublespacing 
+\usepackage{hyphenat}
+%[none] no hyphenation
+%\usepackage{fixltx2e}
+% text superscript or subscript
+\usepackage{multirow,titlesec}
+% tables with multiple rows and edit chapter format
+\usepackage{indentfirst,mdwlist,array}
+% always indent the first paragraph
+% compact version of list environments
+\usepackage{algorithm,algorithmicx,algpseudocode}
+% insert pseudo-codes in the document
+\usepackage{morefloats,easylist,paralist,enumitem,rotfloat}
+% increase the maximum number of figures
+% nested list with a depth > 4
+% inline list
+\usepackage{url,hyperref,gloss}
+% url: for bibliography with type misc, howpublished=\url{}
+% hyperref: autoref of numbered items and bibliography field: url = 
+% gloss: create a glossary
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+%use colors for texts and tables
+\usepackage{pgfgantt,tikz}%,pgf}
+% pgfgantt: produce Ghantt charts
+% tikz: graphics using commands (w/pgf)
+% pgf: 
+\usepackage{longtable}
+%==========================================================
+\renewcommand{\contentsname}{\hfill Table of Contents\hfill}
+% change the title of toc
+\renewcommand{\cfttoctitlefont}{\normalfont\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill}
+% centered and bold header for toc
+\usepackage{titletoc}
+% title of toc
+\titlecontents*{chapter}% <section-type>
+[0pt]% <left>
+{}% <above-code>
+{\bfseries\chaptername\ \thecontentslabel \quad}% <numbered-entry-format>
+{\bfseries\ \thecontentslabel }% <numberless-entry-format>
+{\bfseries \hfill \contentspage \\}% <filler-page-format>
+% add Chapter to each chapter in toc and no dots
+\titlecontents*{section}
+[0pt]
+{}
+{\hspace{65pt} \thecontentslabel \quad}
+%{\quad \quad \quad \quad \thecontentslabel \quad}
+{}
+{\hfill \contentspage \\}
+% remove dots
+\titlecontents*{subsection}
+[0pt]
+{}
+{\hspace{95pt} \thecontentslabel \quad}
+%{\quad \quad \quad \quad \thecontentslabel \quad}
+{}
+{\hfill \contentspage \\}
+% remove dots
+
+\titlespacing*{\chapter}{0pt}{0pt}{12pt}
+%\titlespacing*{command}{left}{before-sep}{after-sep}[right-sep]
+
+\titleformat{\chapter}[display]{\normalfont \normalfont \bfseries \centering }{\chaptertitlename\ \thechapter}{8pt}{\normalfont \bfseries \centering}
+% control the output of \chapter{}
+\titleformat{\section}{\normalfont\bfseries}{\thesection}{1em}{}
+% control the output of \section{}
+\titleformat{\subsection}{\normalfont\bfseries}{\thesubsection}{1em}{}
+% control the output of \subsection{}
+\renewcommand{\cftlottitlefont}{\hfill\normalfont\bfseries}
+\renewcommand{\cftafterlottitle}{\hfill}
+% change the title of lot
+\renewcommand{\cftloftitlefont}{\hfill\normalfont\bfseries}
+\renewcommand{\cftafterloftitle}{\hfill}
+% change the title of lof
+\usepackage[final]{pdfpages}
+%==========================================================
+\usepackage[toc]{appendix}
+% appendices in the thesis
+%==========================================================
+\usepackage[backend=biber,bibstyle=ieee,sorting=rmc,defernumbers=true]{biblatex}
+\DeclareSortingScheme{rmc}{
+\sort{
+\field{keywords} 
+}
+}
+%==========================================================
+\usepackage{nomencl}
+\makenomenclature
+%END OF PREAMBLE

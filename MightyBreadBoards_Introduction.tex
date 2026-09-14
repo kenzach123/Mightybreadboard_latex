@@ -1,0 +1,49 @@
+Urban air monitoring needs to capture pollution changes in time and in many places. This helps find pollution problems and stop bad effects on health. Government monitoring stations are very accurate. They are expensive and can't be placed everywhere. Cost smart sensors can be used in more places but their readings can change because of temperature, humidity and the way the sensors get older. Some machine learning models like Random Forest and Support Vector Regression are used to fix these problems. These models can't predict extreme pollution levels, beyond what they have seen before. This study solves that problem by creating a system that uses sensors and a special way of combining different models. This new approach helps the system understand factors and still predict high pollution levels when needed. 
+\section{Background of the Study}
+\label{sec: back}
+Ambient air pollution is known around the world as an environmental danger and a serious health problem. Being around pollutants like fine particles (PM2.5, PM10) and harmful gases such as nitrogen dioxide (NO2) ozone (O3) carbon monoxide (CO) and sulfur dioxide (SO2) leads to many early deaths each year and creates big financial problems globally \cite{concas,WHO1}. Officials use fixed air quality monitoring stations with methods to check if rules are followed and to look at health risks \cite{giordano,WHO2}. These proper tools are very accurate. Cost a lot to buy and keep running. This means there are not stations and each one covers a large area, sometimes several square kilometers \cite{concas,hayward}. Because of that these systems miss areas where pollution is very high and also miss the small changes in pollution levels that happen in busy cities \cite{concas,giordano}
+
+To fix the problem of not covering areas low-cost sensors have become a good choice. These sensors are cheaper and smaller making it possible to have more of them for coverage and to track personal exposure \cite{concas}. Even though they can cover places they measure air directly and have big errors \cite{giordano,hayward}. When measuring particles optical sensors guess the weight from how light bounces off them. This guess is wrong if the particles are not all the size or shape \cite{giordano}. High humidity makes the particles bigger which tricks the sensors into thinking there is pollution than there really is \cite{giordano,hayward}. When measuring gases the sensors use reactions that change with temperature. This causes them to mix up signals from gases especially between NO2 and O3 \cite{hayward}. Also as the sensors age and are used more their readings change over time \cite{concas,hayward}. 
+
+Since the numbers from the sensors are not close to the values they must be checked against the proper instruments in the same place \cite{concas,hayward}. Simple models like linear regression are often used because they are easy. They can't handle the complicated and changing relationships between the sensor data, the weather and other air chemicals \cite{hayward}. Some advanced models like Random Forest, Support Vector Regression and Artificial Neural Networks have been used to better deal with these issues but each has its own problems \cite{concas,hayward}. Random Forest can't predict when pollution is higher, than what it was trained on. It gives wrong numbers when pollution is very bad \cite{hayward}. Support Vector Regression needs the settings and doesn't work well with time-based data \cite{concas,hayward}. Artificial Neural Networks need a lot of data. Use too much power \cite{concas,hayward}. Studies show that no one model works best for all types of pollution and different weather \cite{concas,hayward}.
+\section{Problem Statement}
+Although non linear models like Random Forest and Artificial Neural Networks are widely used to calibrate low cost air quality sensors, they struggle to extrapolate. Decision tree models like Random Forest cannot predict values outside their training limits because their predictions rely on averaging values at the leaf nodes. Similarly, Neural Networks focus on the most common baseline readings, causing them to under predict rare peak concentrations. Because these models cannot extrapolate beyond historical data, they flatten or cut off high concentration spikes, making them unreliable for real time health warnings during severe pollution events.
+\section{Objectives}
+To design and develop an air quality monitoring system with stacked ensemble to fix extrapolation issue. The specific objectives are as follows: 
+\begin{itemize}
+\item To design and assemble the physical IoT air monitoring system (measuring PM, SO2, NO2, O3, CO, Temp, RH).   
+\item To develop and train the Stacked ensemble Random Forest + SVR + MLR algorithm to correct environmental biases and extrapolate boundary limits.  
+\item To evaluate the algorithmic accuracy using statistical metrics like RMSE, R2 
+\end{itemize}
+The items here should be sub-systems that will be made to solve the problem stated above.
+\section{Purpose of the Study}
+The purpose of this study seeks to benefit the following 
+\subsection{The Public}
+Empowers communities with accessible, localized, and real-time air quality data. 
+\subsection{Government}
+Assists regulatory bodies like DENR in validating and planning low-cost sensor networks. 
+\subsection{Academe}
+Provides robust hybrid ML calibration models for future environmental research.
+\subsection{ECE Field}
+Enhances physical hardware sensor node reliability through advanced drift correction. 
+\subsection{SDG 3: Good Health}
+Supports public health by providing accurate, real-time exposure data to mitigate respiratory risks. 
+\subsection{SDG 9: Innovation}
+Enhances localized sensor technology and develops robust machine learning calibration models. 
+\subsection{SDG 11: Cities}
+Enables dense, scalable air quality monitoring networks to build sustainable urban communities. 
+\subsection{SDG 13: Climate}
+Fosters environmental resilience through accessible and reliable localized air pollution data. 
+\subsection{SDG 17: Partners}
+Connects academe, regulatory bodies (DENR), and local communities in collaborative research.
+
+\section{Definition of Terms}
+In the context of this project, the following are the operational definition of terms:
+\begin{itemize}
+\item[] \textbf{Calibration}: the process of adjusting and verifying the accuracy of an instrument to ensure that it provides the correct readings within the specified tolerance levels
+Specify your references by placing citations.
+\item[] \textbf{Drift}: Every physical sensor experience performance degradation over time due to continuous material aging, environmental exposure, and chemical depletion.
+\item[] \textbf{Ensemble}: refers to the methods of combining multiple machine learning models
+\item[] \textbf{Overfitting}: happens when a model learns the training data too well, memorizing its random noise and minor quirks instead of the real patterns
+\item[] \textbf{Underfitting}: happens when a model learns the training data too well, memorizing its random noise and minor quirks instead of the real patterns
+\end{itemize}

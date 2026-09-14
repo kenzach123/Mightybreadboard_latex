@@ -1,0 +1,268 @@
+%##############################################################################
+%>> two charts for the whole year
+%==========================================================
+\begin{center}
+%==========================================================
+\begin{ganttchart}[
+%>> height of the title
+y unit title=0.4cm,
+%>> specify the height of the chart lines
+y unit chart=0.5cm, 
+%>> show the horizontal grids with the default style
+hgrid, 
+%>> show the vertical grids with the default style
+vgrid,
+%>> vertical position of the title label
+title label anchor/.style={below=-1.3ex}, 
+%>> shift the coordinates of a title element's borders or corners
+title left shift=.05,
+title right shift=-.05,
+%>> height of the title
+title height=1,
+%>> color of the bars (USE SHADES OF GRAY ONLY)
+bar/.style={fill=gray!50},
+%>> color of the bar in progress
+incomplete/.style={fill=white},
+%>> label of a bar in progress
+progress label text={},
+%>> height of the progress bar
+bar height=0.7,
+%>> shift the coordinates of a group's borders or corners
+group right shift=0,
+group top shift=.6,
+%>> height of the group
+group height=.3,
+%>> dimension of the left and right peaks
+%group peaks={}{}{.2}
+]{1}{24}
+%========> TITLE/COLUMN HEADERS AND NUMBER OF COLUMNS
+% do not change this part
+\gantttitle{Month, S.Y. 2016 -- 2017}{24} \\ 
+\gantttitle{Apr}{4} %(one column = one week)
+\gantttitle{May}{4} 
+\gantttitle{Jun}{4} 
+\gantttitle{Jul}{4} 
+\gantttitle{Aug}{4} 
+\gantttitle{Sept}{4}
+%========> TASKS AND COLUMNS BEING OCCUPIED
+%****specify the tasks to be done (FOR April to Sept ONLY)*****
+%****you can change the number of tasks depending on your project
+%****columns  1 to  4: April activities 
+%****columns  5 to  8: May activities
+%****columns  9 to 12: June activities
+%****columns 13 to 16: July activities
+%****columns 17 to 20: August activities
+%****columns 21 to 24: September activities
+%****SYNTAX: \\ \ganttbar{specific task}{starting column}{ending column} 
+\\ \ganttbar{task A}{1}{2}    %1st task = elem0 (1st task IN THIS CHART)
+\\ \ganttbar{task B}{3}{8}    %2nd task = elem1
+\\ \ganttbar{task C}{9}{10}   %3rd task = elem2
+\\ \ganttbar{task D}{11}{15}  %4th task = elem3
+\\ \ganttbar{task E}{20}{22}  %5th task = elem4 
+\\ \ganttbar{task F}{18}{19}  %6th task = elem5 
+\\ \ganttbar{task G}{16}{24}  %7th task = elem6 
+\\ \ganttbar{task H}{21}{24}  %8th task = elem7
+%========> RELATIONSHIPS BETWEEN TASKS
+%****specify the relationship between tasks*****
+%****the number beside elem depends on the number of tasks
+%****refer to the list above (ganttbar)
+%****you can change the number of links depending on your project
+\ganttlink{elem0}{elem1} 
+\ganttlink{elem0}{elem3} 
+\ganttlink{elem1}{elem2} 
+\ganttlink{elem3}{elem4} 
+\ganttlink{elem1}{elem5} 
+\ganttlink{elem3}{elem5} 
+\ganttlink{elem2}{elem6} 
+\ganttlink{elem3}{elem6} 
+\ganttlink{elem5}{elem7} 
+\end{ganttchart}
+%==========================================================
+\begin{ganttchart}[
+y unit title=0.4cm,
+y unit chart=0.5cm,
+hgrid, 
+vgrid,
+title label anchor/.style={below=-1.4ex},
+title left shift=.05,
+title right shift=-.05,
+title height=1,
+bar/.style={fill=gray!50},
+incomplete/.style={fill=white},
+progress label text={},
+bar height=0.7,
+group right shift=0,
+group top shift=.6,
+group height=.5,
+%group peaks={}{}{.2}
+]{1}{24}
+%========> TITLE/COLUMN HEADERS AND NUMBER OF COLUMNS
+% do not change this part
+\gantttitle{Month, S.Y. 2016 -- 2017}{24} \\ 
+\gantttitle{Oct}{4} %(one column = one week)
+\gantttitle{Nov}{4} 
+\gantttitle{Dec}{4} 
+\gantttitle{Jan}{4} 
+\gantttitle{Feb}{4} 
+\gantttitle{Mar}{4} 
+%========> TASKS AND COLUMNS BEING OCCUPIED
+%****specify the tasks to be done (FOR Oct to March ONLY)*****
+%****you can change the number of tasks depending on your project
+%****columns  1 to  4: October activities
+%****columns  5 to  8: November activities
+%****columns  9 to 12: December activities
+%****columns 13 to 16: January activities
+%****columns 17 to 20: February activities
+%****columns 21 to 24: March activities
+\\ \ganttbar{task I}{1}{2}    %1st task = elem0 (1st task IN THIS CHART)
+\\ \ganttbar{task J}{3}{8}    %2nd task = elem1
+\\ \ganttbar{task K}{9}{10}   %3rd task = elem2
+\\ \ganttbar{task L}{11}{15}  %4th task = elem3
+\\ \ganttbar{task M}{20}{22}  %5th task = elem4
+\\ \ganttbar{task N}{18}{19}  %6th task = elem5
+\\ \ganttbar{task O}{16}{24}  %7th task = elem6
+\\ \ganttbar{task P}{21}{24}  %8th task = elem7
+%========> RELATIONSHIPS BETWEEN TASKS
+%****specify the relationship between tasks*****
+%****the number beside elem depends on the number of tasks
+%****refer to the list above (ganttbar)
+%****you can change the number of links depending on your project
+\ganttlink{elem0}{elem1} 
+\ganttlink{elem0}{elem3} 
+\ganttlink{elem1}{elem2} 
+\ganttlink{elem3}{elem4} 
+\ganttlink{elem1}{elem5} 
+\ganttlink{elem3}{elem5} 
+\ganttlink{elem2}{elem6} 
+\ganttlink{elem3}{elem6} 
+\ganttlink{elem5}{elem7} 
+\end{ganttchart}
+%==========================================================
+\end{center}
+
+%##############################################################################
+%>> one chart for the whole year
+%==========================================================
+\newpage
+\begin{sideways}
+\centering
+\begin{ganttchart}[
+x unit=0.4cm, %width of each column
+y unit title=0.4cm,
+y unit chart=0.5cm,
+hgrid, 
+vgrid,
+title label anchor/.style={below=-1.4ex},
+title left shift=.05,
+title right shift=-.05,
+title height=1,
+bar/.style={fill=gray!50},
+incomplete/.style={fill=white},
+progress label text={},
+bar height=0.7,
+group right shift=0,
+group top shift=.6,
+group height=.5,
+%group peaks={}{}{.2}
+]{1}{48}
+%========> TITLE/COLUMN HEADERS AND NUMBER OF COLUMNS
+% do not change this part
+\gantttitle{Month, S.Y. 2016 -- 2017}{48} \\ 
+\gantttitle{Apr}{4} %(one column = one week)
+\gantttitle{May}{4} 
+\gantttitle{Jun}{4} 
+\gantttitle{Jul}{4} 
+\gantttitle{Aug}{4} 
+\gantttitle{Sept}{4}
+\gantttitle{Oct}{4} 
+\gantttitle{Nov}{4} 
+\gantttitle{Dec}{4} 
+\gantttitle{Jan}{4} 
+\gantttitle{Feb}{4} 
+\gantttitle{Mar}{4} 
+%========> TASKS AND COLUMNS BEING OCCUPIED
+%****specify the tasks to be done (FOR Oct to March ONLY)*****
+%****you can change the number of tasks depending on your project
+%****columns  1 to  4: April activities 
+%****columns  5 to  8: May activities
+%****columns  9 to 12: June activities
+%****columns 13 to 16: July activities
+%****columns 17 to 20: August activities
+%****columns 21 to 24: September activities
+%****columns 25 to 28: October activities
+%****columns 29 to 32: November activities
+%****columns 33 to 36: December activities
+%****columns 37 to 40: January activities
+%****columns 41 to 44: February activities
+%****columns 45 to 48: March activities
+\\ \ganttbar{task A}{1}{2}    % 1st task = elem0 (1st task IN THIS CHART)
+\\ \ganttbar{task B}{3}{8}    % 2nd task = elem1
+\\ \ganttbar{task C}{9}{10}   % 3rd task = elem2
+\\ \ganttbar{task D}{11}{15}  % 4th task = elem3
+\\ \ganttbar{task E}{20}{22}  % 5th task = elem4 
+\\ \ganttbar{task F}{18}{19}  % 6th task = elem5 
+\\ \ganttbar{task G}{16}{24}  % 7th task = elem6 
+\\ \ganttbar{task H}{21}{27}  % 8th task = elem7
+\\ \ganttbar{task I}{25}{30}  % 9th task = elem8
+\\ \ganttbar{task J}{28}{38}  %10th task = elem9
+\\ \ganttbar{task K}{37}{40}  %11th task = elem10
+\\ \ganttbar{task L}{40}{45}  %12th task = elem11
+\\ \ganttbar{task M}{38}{48}  %13th task = elem12
+\\ \ganttbar{task N}{28}{44}  %14th task = elem13
+\\ \ganttbar{task O}{39}{45}  %15th task = elem14
+\\ \ganttbar{task P}{28}{40}  %16th task = elem15
+\\ \ganttbar{task P}{37}{42}  %16th task = elem15
+\\ \ganttbar{task Q}{25}{41}  %16th task = elem15
+\\ \ganttbar{task R}{20}{38}  %16th task = elem15
+\\ \ganttbar{task S}{34}{39}  %16th task = elem15
+\\ \ganttbar{task T}{23}{48}  %16th task = elem15
+\\ \ganttbar{task U}{17}{48}  %16th task = elem15
+%========> RELATIONSHIPS BETWEEN TASKS
+%****specify the relationship between tasks*****
+%****the number beside elem depends on the number of tasks
+%****refer to the list above (ganttbar)
+%****you can change the number of links depending on your project
+\ganttlink{elem0}{elem1} 
+\ganttlink{elem0}{elem3} 
+\ganttlink{elem1}{elem2} 
+\ganttlink{elem3}{elem4} 
+\ganttlink{elem1}{elem5} 
+\ganttlink{elem3}{elem5} 
+\ganttlink{elem2}{elem6} 
+\ganttlink{elem3}{elem6} 
+\ganttlink{elem5}{elem7} 
+\end{ganttchart}
+\end{sideways}
+%##############################################################################
+%>> involvement of each member in the group
+%==========================================================
+\newpage
+\begin{center}
+\begin{tabular}{|c|l||c|c|c|c|}
+\hline
+Task & Task Description & FamilyN1 & FamilyN2 & FamilyN3 & FamilyN4\\
+\hline
+\hline
+A & Specific activity & \cellcolor{gray!50} & \cellcolor{gray!50} &  & \\ \hline
+B & Specific activity & \cellcolor{gray!50} &  & \cellcolor{gray!50} & \cellcolor{gray!50}\\ \hline
+C & Specific activity &  & \cellcolor{gray!50} &  & \\ \hline
+D & Specific activity &  &  & \cellcolor{gray!50} & \\ \hline
+E & Specific activity &  &  &  & \cellcolor{gray!50}\\ \hline
+F & Specific activity & \cellcolor{gray!50} &  &  & \\ \hline
+G & Specific activity &  & \cellcolor{gray!50} &  & \\ \hline
+H & Specific activity &  &  & \cellcolor{gray!50} & \\ \hline
+I & Specific activity &  &  &  & \cellcolor{gray!50}\\ \hline
+J & Specific activity & \cellcolor{gray!50} &  & \cellcolor{gray!50} & \\ \hline
+K & Specific activity &  & \cellcolor{gray!50} & \cellcolor{gray!50} & \\ \hline
+L & Specific activity &  &  & \cellcolor{gray!50} & \cellcolor{gray!50}\\ \hline
+M & Specific activity & \cellcolor{gray!50} & \cellcolor{gray!50} &  & \cellcolor{gray!50}\\ \hline
+N & Specific activity &  & \cellcolor{gray!50} &  & \cellcolor{gray!50}\\ \hline
+O & Specific activity & \cellcolor{gray!50} &  & \cellcolor{gray!50} & \\ \hline
+P & Specific activity & \cellcolor{gray!50} & \cellcolor{gray!50} &  & \\ \hline
+Q & Specific activity & \cellcolor{gray!50} & \cellcolor{gray!50} & \cellcolor{gray!50} & \cellcolor{gray!50}\\ \hline
+R & Specific activity & \cellcolor{gray!50} &  &  & \cellcolor{gray!50}\\ \hline
+S & Specific activity &  &  & \cellcolor{gray!50} & \cellcolor{gray!50}\\ \hline
+T & Specific activity &  & \cellcolor{gray!50} &  & \\ \hline
+U & Specific activity &  &  & \cellcolor{gray!50} & \\ \hline
+\end{tabular}
+\end{center}

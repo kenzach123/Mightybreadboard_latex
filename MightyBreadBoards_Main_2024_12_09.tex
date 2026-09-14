@@ -1,0 +1,233 @@
+\documentclass[reqno,12pt,onecolumn]{report}
+% right side numbers for equations
+% text size is 12 pt
+% document has one column
+% use TeXstudio to build this file
+
+%SINCE THIS USES BIBER FOLLOW THE STEPS BELOW
+%Option>Configure TeXstudio>Build>Default Bibliographic Tool: Biber
+%IF YOU ADD NEW CITATIONS:
+% F6: Compile
+% F8: Bibtex (Biber)
+% F5: Build and View
+
+%FOR LIST OF SYMBOLS:
+%Option>Configure TeXstudio>Commands>Makeindex then APPEND: %.nlo -s nomencl.ist -o %.nls
+
+%IF YOU ADD NEW NOMENCLATURE ITEMS:
+% Update the List of Symbols by clicking on Tools>Index
+% F6: Compile
+% F5: Build and View
+\input{ECE_Project_preamble_2024_12_09}
+
+%==========================================================
+%-----> REFERENCE DATABASE FROM THE GROUP MEMBERS
+%-----> REQUIRED FOR PROPOSAL
+%-----> TO BE UPDATED DURING PROJECT 1 AND PROJECT 2
+\addbibresource{GroupName_Member1.bib} 
+\addbibresource{GroupName_Member2.bib} 
+%==========================================================
+\begin{document}
+\pagenumbering{roman}
+%-----> FILE CONTAINING THE COVER PAGE
+\input{GroupName_Cover} 
+\newpage
+%-----> FILE CONTAINING THE APPROVAL SHEET
+%-----> REQUIRED IN PROJECT 2
+\input{GroupName_ApprovalSheet_2023_02_20} 
+\addtocontents{toc}{~\hfill\textbf{Page}}
+%==========================================================
+\newpage
+\addcontentsline{toc}{chapter}{Abstract}
+\chapter*{Abstract}
+%-----> FILE CONTAINING THE ABSTRACT
+%-----> REQUIRED IN PROJECT 2
+\input{GroupName_Abstract} 
+%==========================================================
+\newpage
+\addcontentsline{toc}{chapter}{Acknowledgment}
+\chapter*{Acknowledgment}
+%-----> FILE(S) CONTAINING THE ACKNOWLEDGEMNT 
+%-----> REQUIRED IN PROJECT 2
+\input{GroupName_Acknowledgment} 
+%==========================================================
+%COMMANDS FOR TABLE OF CONTENTS
+\newpage
+\tableofcontents
+%==========================================================
+%COMMANDS FOR LIST OF TABLES
+\newpage
+\addcontentsline{toc}{chapter}{\protect List of Tables}
+{
+\addtocontents{lot}{~\hfill\textbf{Page}\par}
+\renewcommand{\cftdot}{ }
+\makeatletter
+\listoftables
+}
+%==========================================================
+%COMMANDS FOR LIST OF FIGURES
+\newpage
+\addcontentsline{toc}{chapter}{\protect List of Figures}
+{
+\addtocontents{lof}{~\hfill\textbf{Page}\par}
+\renewcommand{\cftdot}{ }
+\makeatletter
+\listoffigures
+}
+%==========================================================
+%COMMANDS FOR LIST OF SYMBOLS
+\newpage
+\addcontentsline{toc}{chapter}{\protect List of Figures}
+{
+\addtocontents{los}{~\hfill\textbf{Page}\par}
+\renewcommand{\cftdot}{ }
+\makeatletter
+\renewcommand{\nomname}{List of Symbols}
+\printnomenclature 
+}
+%==========================================================
+%START OF ARABIC PAGINATION
+\newpage
+\pagenumbering{arabic}
+%==========================================================
+\chapter{INTRODUCTION}
+\label{chap:intro}
+%-----> FILE(S) FOR THE INTRODUCTION
+%-----> REQUIRED FOR PROPOSAL
+%-----> MUST BE UPDATED IN PROJECT 1 and 2
+\input{GroupName_Introduction} 
+%==========================================================
+\chapter{THEORETICAL BACKGROUND}
+\label{chap:theoretical}
+%-----> FILE(S) FOR THE THEORETICAL BACKGROUND
+%-----> REQUIRED FOR PROPOSAL
+%-----> MUST BE UPDATED IN PROJECT 1 and 2
+\input{GroupName_Theoretical} 
+%==========================================================
+\chapter{RESEARCH METHODOLOGY}
+\label{chap:method}
+%-----> FILE(S) FOR THE METHODOLOGY
+%-----> REQUIRED FOR PROPOSAL
+%-----> MUST BE UPDATED IN PROJECT 1 and 2
+\input{GroupName_Methodology} 
+%==========================================================
+\chapter{RESULTS AND DISCUSSIONS}
+\label{chap:results}
+%-----> FILE(S) FOR THE RESULTS AND DISCUSSIONS
+%-----> REQUIRED IN PROJECT 1
+%-----> MUST BE UPDATED IN PROJECT 2
+\input{GroupName_Results}  
+%==========================================================
+\chapter{CONCLUSIONS AND RECOMMENDATIONS}
+\label{chap:conclusion}
+%-----> FILE(S) FOR THE CONCLUSIONS AND RECOMMENDATIONS
+%-----> REQUIRED IN PROJECT 2
+\input{GroupName_Conclusions}  
+%==========================================================
+\newpage
+\addcontentsline{toc}{chapter}{BIBLIOGRAPHY}
+%-----> keywords should be included as one of the fields in the bib file
+%-----> the bib files are loaded using \addbibresource in the preamble
+\chapter*{BIBLIOGRAPHY}
+\printbibliography[keyword=Books, heading=subbibliography,title={Books}]
+\printbibliography[keyword=Published, heading=subbibliography,title={Published}]
+\printbibliography[keyword=Unpublished, heading=subbibliography,title={Unpublished}]
+\printbibliography[keyword=Electronic Sources, heading=subbibliography,title={Electronic Sources}]
+%==========================================================
+\newpage
+\appendix
+\renewcommand{\chaptername}{\appendixname}
+\addtocontents{toc}{\protect\renewcommand\protect\chaptername{\appendixname}}
+\chapter{PRIOR ART SEARCH and ANALYSIS REPORT}
+%-----> REQUIRED FOR PROPOSAL
+%-----> MUST BE UPDATED IN PROJECT 1 and 2
+\input{App_PASAR_docs}
+%==========================================================
+%XXXXXXXX\newpage
+%XXXXXXXX\appendix
+%XXXXXXXX\renewcommand{\chaptername}{\appendixname}
+%XXXXXXXX\addtocontents{toc}{\protect\renewcommand\protect\chaptername{\appendixname}}
+%XXXXXXXX\chapter{PATENT ANALYTICS REPORT}
+%-----> REQUIRED IN PROJECT 1
+%-----> MUST BE UPDATED IN 2
+%XXXXXXXX\includepdf[pages=-]{App_GroupName_PAR.pdf}
+%==========================================================
+\newpage
+\appendix
+\renewcommand{\chaptername}{\appendixname}
+\addtocontents{toc}{\protect\renewcommand\protect\chaptername{\appendixname}}
+\chapter{PATENT DRAFT}
+%-----> REQUIRED IN PROJECT 2
+%-----> Based on your output in the Workshop on Patent Drafting, print the docx file to pdf then insert it here.
+%-----> Only ONE SET of files is required per group
+%-----> Use the official template from ITSO
+\input{App_PatentDraft}
+%----------------------------------------------------------
+%XXXXXXXX\newpage
+%XXXXXXXX\chapter{ADVISER'S ACCEPTANCE}
+%-----> REQUIRED IN PROJECT 1
+%-----> MUST BE UPDATED IN PROJECT 2
+%XXXXXXXX\input{App_Acceptance}
+%----------------------------------------------------------
+\newpage
+\chapter{TIMETABLE OF ACTIVITIES}
+%-----> REQUIRED INPROJECT 1
+%-----> MUST BE UPDATED IN PROJECT 1 and 2
+%-----> Choose only one type of Gantt chart.
+\input{App_Timetable}
+%----------------------------------------------------------
+\newpage
+\chapter{RESEARCH BUDGET}
+%-----> REQUIRED INPROJECT 1
+%-----> MUST BE UPDATED IN PROJECT 1 and 2
+\input{App_Budget}
+%----------------------------------------------------------
+\newpage
+\chapter{ADDITIONAL FLOWCHARTS}
+%-----> IF APPLICABLE
+%-----> MUST BE UPDATED IN PROJECT 1 and 2
+\input{App_Flowcharts}
+%----------------------------------------------------------
+\newpage
+\chapter{PSEUDO-CODES}
+%-----> IF APPLICABLE
+%-----> MUST BE UPDATED IN PROJECT 1 and 2
+\input{App_Codes}
+%----------------------------------------------------------
+\newpage
+\chapter{ELECTRICAL CIRCUITS}
+%-----> IF APPLICABLE
+%-----> MUST BE UPDATED IN PROJECT 1 and 2
+\input{App_Circuits}
+%----------------------------------------------------------
+\newpage
+\chapter{SUPPLEMENTAL DATA}
+%-----> IF APPLICABLE
+%-----> MUST BE UPDATED IN PROJECT 1 and 2
+\input{App_Data}
+%----------------------------------------------------------
+\newpage
+\chapter{PLAGIARISM CHECK REPORT}
+%-----> REQUIRED IN PROJECT 2
+%-----> This should be the Turnitin report for the FINAL VERSION of your document, the version after final defense and approved by the advoiser and panelists.
+%-----> In submitting to Turnitin, the title of your submission should be: Groupname-Abstract, Groupname-Chapter 1, Groupname-Chapter 2, Groupname-Chapter 3, Groupname-Chapter 4, Groupname-Chapter 5 
+\input{App_Plagiarism}
+%----------------------------------------------------------
+\newpage
+\chapter{ETHICS CLEARANCE}
+%-----> REQUIRED IN PROJECT 2
+%-----> This should be obtained right after the proposal hearing, once your topic is already approved.
+\input{App_EthicsClearance}
+%----------------------------------------------------------
+\newpage
+\chapter{CURRICULUM VITAE}
+%-----> REQUIRED IN PROJECT 2
+%-----> this should be the LAST CHAPTER
+%-----> if possible, insert your grad picture
+%-----> if you do not have any entry on any item, remove them and DO NOT PUT NONE
+\input{App_CV_member1}
+\newpage
+\input{App_CV_member2}
+%----------------------------------------------------------
+%==========================================================
+\end{document}
