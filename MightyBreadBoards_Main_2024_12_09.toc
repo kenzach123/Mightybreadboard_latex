@@ -1,0 +1,63 @@
+\nobreakspace \hfill \textbf {Page}
+\contentsline {chapter}{Abstract}{iii}{Doc-Start}%
+\contentsline {chapter}{Acknowledgment}{iv}{chapter*.1}%
+\contentsline {chapter}{List of Tables}{viii}{chapter*.2}%
+\contentsline {chapter}{List of Figures}{ix}{chapter*.2}%
+\contentsline {chapter}{List of Figures}{1}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Background of the Study}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Problem Statement}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Objectives}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Purpose of the Study}{3}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}The Public}{4}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Government}{4}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Academe}{4}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}ECE Field}{4}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.4.5}SDG 3: Good Health}{4}{subsection.1.4.5}%
+\contentsline {subsection}{\numberline {1.4.6}SDG 9: Innovation}{4}{subsection.1.4.6}%
+\contentsline {subsection}{\numberline {1.4.7}SDG 11: Cities}{4}{subsection.1.4.7}%
+\contentsline {subsection}{\numberline {1.4.8}SDG 13: Climate}{5}{subsection.1.4.8}%
+\contentsline {subsection}{\numberline {1.4.9}SDG 17: Partners}{5}{subsection.1.4.9}%
+\contentsline {section}{\numberline {1.5}Definition of Terms}{5}{section.1.5}%
+\contentsline {chapter}{\numberline {2}THEORETICAL BACKGROUND}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Theories}{6}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Calibration theory}{6}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Statistical Process Control}{7}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Machine Learning}{8}{subsection.2.1.3}%
+\contentsline {subsubsection}{Random forest}{9}{subsubsection*.3}%
+\contentsline {subsubsection}{Support Vector Regression (SVR)}{12}{subsubsection*.4}%
+\contentsline {subsubsection}{Multiple Linear Regression}{14}{subsubsection*.5}%
+\contentsline {subsection}{\numberline {2.1.4}Stack Ensemble}{15}{subsection.2.1.4}%
+\contentsline {subsubsection}{Three-way Holdout Split}{16}{subsubsection*.7}%
+\contentsline {subsection}{\numberline {2.1.5}Validation}{17}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Literature Review}{18}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Calibration using random forest}{18}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Calibration using other machine learning}{20}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Stacked ensemble and hybrid approaches}{22}{subsection.2.2.3}%
+\contentsline {chapter}{\numberline {3}RESEARCH METHODOLOGY}{24}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Proposed Method}{24}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Description of Experiments}{25}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Title of Experiment of 1}{25}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Title of Experiment of 2}{26}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Description of Subjects}{26}{section.3.3}%
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSIONS}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Title of Experiment of 1}{27}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Title of Experiment of 2}{27}{section.4.2}%
+\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{28}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusions}{28}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Recommendations}{28}{section.5.2}%
+\contentsline {chapter}{BIBLIOGRAPHY}{29}{section.5.2}%
+\renewcommand \chaptername {Appendix}
+\contentsline {chapter}{\numberline {A}PRIOR ART SEARCH and ANALYSIS REPORT}{30}{appendix.A}%
+\renewcommand \chaptername {Appendix}
+\contentsline {chapter}{\numberline {A}PATENT DRAFT}{37}{appendix.A}%
+\contentsline {chapter}{\numberline {B}TIMETABLE OF ACTIVITIES}{49}{appendix.B}%
+\contentsline {chapter}{\numberline {C}RESEARCH BUDGET}{52}{appendix.C}%
+\contentsline {chapter}{\numberline {D}ADDITIONAL FLOWCHARTS}{53}{appendix.D}%
+\contentsline {chapter}{\numberline {E}PSEUDO-CODES}{54}{appendix.E}%
+\contentsline {chapter}{\numberline {F}ELECTRICAL CIRCUITS}{55}{appendix.F}%
+\contentsline {chapter}{\numberline {G}SUPPLEMENTAL DATA}{56}{appendix.G}%
+\contentsline {chapter}{\numberline {H}PLAGIARISM CHECK REPORT}{57}{appendix.H}%
+\contentsline {chapter}{\numberline {I}ETHICS CLEARANCE}{65}{appendix.I}%
+\contentsline {chapter}{\numberline {J}CURRICULUM VITAE}{67}{appendix.J}%
+\contentsfinish 

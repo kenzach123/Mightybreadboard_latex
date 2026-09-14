@@ -1,0 +1,13 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'MightyBreadBoards_Main_2024_12_09.blg'
+[265] biber-MSWIN64:342> INFO - === 
+[336] Biber.pm:421> INFO - Reading 'MightyBreadBoards_Main_2024_12_09.bcf'
+[639] Biber.pm:1002> INFO - Found 30 citekeys in bib section 0
+[677] Biber.pm:4487> INFO - Processing section 0
+[700] Biber.pm:4678> INFO - Looking for bibtex file 'Agot_Member1.bib' for section 0
+[834] bibtex.pm:1713> INFO - LaTeX decoding ...
+[955] bibtex.pm:1519> INFO - Found BibTeX data source 'Agot_Member1.bib'
+[1231] Utils.pm:479> ERROR - BibTeX subsystem: C:\Users\zach\AppData\Local\Temp\biber_tmp_ywUY\ffc9abd97fa4953f2733f34bd264a0a2_7988.utf8, line 392, syntax error: found "author", expected end of entry ("}" or ")") (skipping to next "@")
+[1231] Biber.pm:132> WARN - legacy month field 'January' in entry '6' is not an integer - this will probably not sort properly.
+[1231] Biber.pm:134> INFO - WARNINGS: 1
+[1231] Biber.pm:137> INFO - ERRORS: 1
