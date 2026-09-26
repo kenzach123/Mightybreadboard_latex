@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.29)  14 SEP 2026 14:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.29)  26 SEP 2026 21:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1548,30 +1548,6 @@ Package biblatex Warning: citation '17'
 (biblatex)                please correct the citation.
 
 
-Package biblatex Warning: citation 'Tiago'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'Ionascu2021'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'ionascu2024'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'han'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
 Package biblatex Warning: citation 'tastan'
 (biblatex)                was not found at all in the .bbl file,
 (biblatex)                bibliography labels cannot be generated,
@@ -1597,6 +1573,30 @@ Package biblatex Warning: citation 'killeen'
 
 
 Package biblatex Warning: citation 'barrett'
+(biblatex)                was not found at all in the .bbl file,
+(biblatex)                bibliography labels cannot be generated,
+(biblatex)                please correct the citation.
+
+
+Package biblatex Warning: citation 'Tiago'
+(biblatex)                was not found at all in the .bbl file,
+(biblatex)                bibliography labels cannot be generated,
+(biblatex)                please correct the citation.
+
+
+Package biblatex Warning: citation 'Ionascu2021'
+(biblatex)                was not found at all in the .bbl file,
+(biblatex)                bibliography labels cannot be generated,
+(biblatex)                please correct the citation.
+
+
+Package biblatex Warning: citation 'ionascu2024'
+(biblatex)                was not found at all in the .bbl file,
+(biblatex)                bibliography labels cannot be generated,
+(biblatex)                please correct the citation.
+
+
+Package biblatex Warning: citation 'han'
 (biblatex)                was not found at all in the .bbl file,
 (biblatex)                bibliography labels cannot be generated,
 (biblatex)                please correct the citation.
@@ -1841,37 +1841,37 @@ LaTeX Warning: Citation '17' on page 16 undefined on input line 308.
 
 [16 <./stacked.png> <./dataset.png>] [17]
 
-LaTeX Warning: Citation 'concas' on page 18 undefined on input line 338.
-
-
-LaTeX Warning: Citation 'Tiago' on page 18 undefined on input line 338.
-
-
-LaTeX Warning: Citation 'Ionascu2021' on page 18 undefined on input line 338.
+LaTeX Warning: Citation 'tastan' on page 18 undefined on input line 339.
 
 [18]
 
-LaTeX Warning: Citation 'ionascu2024' on page 19 undefined on input line 340.
+LaTeX Warning: Citation 'wang' on page 19 undefined on input line 341.
 
 
-LaTeX Warning: Citation 'han' on page 19 undefined on input line 340.
+LaTeX Warning: Citation 'yaqoob' on page 19 undefined on input line 343.
+
+
+LaTeX Warning: Citation 'killeen' on page 19 undefined on input line 345.
 
 [19]
 
-LaTeX Warning: Citation 'tastan' on page 20 undefined on input line 346.
+LaTeX Warning: Citation 'barrett' on page 20 undefined on input line 347.
 
 
-LaTeX Warning: Citation 'wang' on page 20 undefined on input line 348.
+LaTeX Warning: Citation 'concas' on page 20 undefined on input line 350.
 
 
-LaTeX Warning: Citation 'yaqoob' on page 20 undefined on input line 350.
+LaTeX Warning: Citation 'Tiago' on page 20 undefined on input line 350.
+
+
+LaTeX Warning: Citation 'Ionascu2021' on page 20 undefined on input line 350.
 
 [20]
 
-LaTeX Warning: Citation 'killeen' on page 21 undefined on input line 352.
+LaTeX Warning: Citation 'ionascu2024' on page 21 undefined on input line 352.
 
 
-LaTeX Warning: Citation 'barrett' on page 21 undefined on input line 354.
+LaTeX Warning: Citation 'han' on page 21 undefined on input line 352.
 
 [21]
 
@@ -2670,7 +2670,7 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `MightyBreadBoards_Main_2024_12_09.out' has n
 ot changed.
-(rerunfilecheck)             Checksum: 53638833250A81D0A25375AE164B7374;8218.
+(rerunfilecheck)             Checksum: 097C52B67B3ED8AF02B870CC020FCA9A;8205.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                MightyBreadBoards_Main_2024_12_09
@@ -2704,7 +2704,7 @@ ers/zach/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pf
 b><C:/Users/zach/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.
 pfb><C:/Users/zach/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8
 a.pfb>
-Output written on MightyBreadBoards_Main_2024_12_09.pdf (79 pages, 3035235 byte
+Output written on MightyBreadBoards_Main_2024_12_09.pdf (79 pages, 3035110 byte
 s).
 PDF statistics:
  1454 PDF objects out of 1728 (max. 8388607)
