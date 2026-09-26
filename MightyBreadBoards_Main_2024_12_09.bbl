@@ -1,0 +1,1366 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{rmc/global//global/global/global}
+    \entry{Concas_2021}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=d183145d4a041e252420202f0d022c65}{%
+           family={Concas},
+           familyi={C\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=85188b7e44c303979b27ad613e975907}{%
+           family={Mineraud},
+           familyi={M\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d42704670e5951576200fa13eafe9c31}{%
+           family={Lagerspetz},
+           familyi={L\bibinitperiod},
+           given={Eemil},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f809823974182f66aeb2c56eca19622f}{%
+           family={Varjonen},
+           familyi={V\bibinitperiod},
+           given={Samu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b289761778ba48272de4d0d847c15f83}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xiaoli},
+           giveni={X\bibinitperiod}}}%
+        {{hash=9fab85c9d818d3411d59cb1ff8e53f61}{%
+           family={Puolamäki},
+           familyi={P\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5242dad0a41f74aab8f186dc631f60d0}{%
+           family={Nurmi},
+           familyi={N\bibinitperiod},
+           given={Petteri},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e935e5d3dbf7bbbe18aab2f618b1b740}{%
+           family={Tarkoma},
+           familyi={T\bibinitperiod},
+           given={Sasu},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{313d521ef6eaadccba73781aa40a9bb8}
+      \strng{fullhash}{f352345de648424dac86d8dee6cf635f}
+      \strng{fullhashraw}{f352345de648424dac86d8dee6cf635f}
+      \strng{bibnamehash}{313d521ef6eaadccba73781aa40a9bb8}
+      \strng{authorbibnamehash}{313d521ef6eaadccba73781aa40a9bb8}
+      \strng{authornamehash}{313d521ef6eaadccba73781aa40a9bb8}
+      \strng{authorfullhash}{f352345de648424dac86d8dee6cf635f}
+      \strng{authorfullhashraw}{f352345de648424dac86d8dee6cf635f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Association for Computing Machinery}
+      \field{number}{2}
+      \field{title}{Low-Cost Outdoor Air Quality Monitoring and Sensor Calibration: A Survey and Critical Analysis}
+      \field{volume}{17}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3446005
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3446005
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{WorldHealthOrganization_2026a}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.who.int/health-topics/air-pollution\#tab=tab_1}}
+      \field{title}{Air Pollution}
+      \field{year}{2026}
+      \keyw{Electronic Sources}
+    \endentry
+    \entry{Giordano_2021}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=aabbb5109031c6e1855da944742a0dc0}{%
+           family={Giordano},
+           familyi={G\bibinitperiod},
+           given={Michael\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=10f5c37f13130f4389416a58f6b66597}{%
+           family={Malings},
+           familyi={M\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2c23f09a86d22023f075cd5c6c24f9d6}{%
+           family={Pandis},
+           familyi={P\bibinitperiod},
+           given={Spyros\bibnamedelima N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=13c23f6202b7454e053de300441cc135}{%
+           family={Presto},
+           familyi={P\bibinitperiod},
+           given={Albert\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=6a0c7e28e803133916bb93ea741f4592}{%
+           family={McNeill},
+           familyi={M\bibinitperiod},
+           given={V.F.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=45a033a6b5209b7ad2d7ecd0bd570dad}{%
+           family={Westervelt},
+           familyi={W\bibinitperiod},
+           given={Daniel\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7f8004135d9dc7f891b7126a132e867f}{%
+           family={Beekmann},
+           familyi={B\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1622f8bb7d1d1bef8023710605961df8}{%
+           family={Subramanian},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b24a208dcc0ed7626dded36a3154cbe}
+      \strng{fullhash}{f9c03acbf95a7d7b0dabcd9d6c907fd4}
+      \strng{fullhashraw}{f9c03acbf95a7d7b0dabcd9d6c907fd4}
+      \strng{bibnamehash}{3b24a208dcc0ed7626dded36a3154cbe}
+      \strng{authorbibnamehash}{3b24a208dcc0ed7626dded36a3154cbe}
+      \strng{authornamehash}{3b24a208dcc0ed7626dded36a3154cbe}
+      \strng{authorfullhash}{f9c03acbf95a7d7b0dabcd9d6c907fd4}
+      \strng{authorfullhashraw}{f9c03acbf95a7d7b0dabcd9d6c907fd4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Aerosol Science}
+      \field{title}{From low-cost sensors to high-quality data: A summary of challenges and best practices for effectively calibrating low-cost particulate matter mass sensors}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.jaerosci.2021.105833
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.jaerosci.2021.105833
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{WorldHealthOrganization_2026b}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.who.int/health-topics/air-pollution\#tab=tab_2}}
+      \field{title}{Air Pollution}
+      \field{year}{2026}
+      \keyw{Electronic Sources}
+    \endentry
+    \entry{Hayward_2024}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=7f303a038d2106a559cda6875e7e29f7}{%
+           family={Hayward},
+           familyi={H\bibinitperiod},
+           given={Idris},
+           giveni={I\bibinitperiod}}}%
+        {{hash=c7accba879913842dbd1f474cdcc0b36}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Nicholas\bibnamedelima A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bc65c3f7370e5e1d6b9ad878c699fccb}{%
+           family={Ferracci},
+           familyi={F\bibinitperiod},
+           given={Valerio},
+           giveni={V\bibinitperiod}}}%
+        {{hash=bdb23ade50da04b3c65b2ce6ca6933b8}{%
+           family={Kazemimanesh},
+           familyi={K\bibinitperiod},
+           given={Mohsen},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7a01333f7a8882a1544ea42b848a85a9}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Prashant},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c27e70ad415d419339ddbc368b9a183}
+      \strng{fullhash}{64173b0b925ba1ff1cf4f61ac3479a23}
+      \strng{fullhashraw}{64173b0b925ba1ff1cf4f61ac3479a23}
+      \strng{bibnamehash}{64173b0b925ba1ff1cf4f61ac3479a23}
+      \strng{authorbibnamehash}{64173b0b925ba1ff1cf4f61ac3479a23}
+      \strng{authornamehash}{7c27e70ad415d419339ddbc368b9a183}
+      \strng{authorfullhash}{64173b0b925ba1ff1cf4f61ac3479a23}
+      \strng{authorfullhashraw}{64173b0b925ba1ff1cf4f61ac3479a23}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Atmosphere}
+      \field{number}{12}
+      \field{title}{Low-Cost Air Quality Sensors: Biases, Corrections and Challenges in Their Comparability}
+      \field{volume}{15}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2073-4433/15/12/1523
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2073-4433/15/12/1523
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{Estaji_January2024}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=35baa73322b5bd1bb642c0edfe0902c7}{%
+           family={Estaji},
+           familyi={E\bibinitperiod},
+           given={Alireza},
+           giveni={A\bibinitperiod}}}%
+        {{hash=22c34464f3f897fc7cc15ac270716284}{%
+           family={Götzinger},
+           familyi={G\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7d6669ca4aeb5b5d5acec71d4b5297b4}{%
+           family={Tutzer},
+           familyi={T\bibinitperiod},
+           given={Benedikt},
+           giveni={B\bibinitperiod}}}%
+        {{hash=0b4ddd8d602e255901fc2b8b998819c0}{%
+           family={Kollmann},
+           familyi={K\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c4f341923d76a1046e06a24f343b8e7f}{%
+           family={Sauter},
+           familyi={S\bibinitperiod},
+           given={Thilo},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5e0034a3edea70459a559e8327f8fb16}{%
+           family={Jantsch},
+           familyi={J\bibinitperiod},
+           given={Axel},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ee57b378ef3bd88f282af0ab597ea16}
+      \strng{fullhash}{7607b9d4a9694307ca4bf56b3f95d29a}
+      \strng{fullhashraw}{7607b9d4a9694307ca4bf56b3f95d29a}
+      \strng{bibnamehash}{7607b9d4a9694307ca4bf56b3f95d29a}
+      \strng{authorbibnamehash}{7607b9d4a9694307ca4bf56b3f95d29a}
+      \strng{authornamehash}{0ee57b378ef3bd88f282af0ab597ea16}
+      \strng{authorfullhash}{7607b9d4a9694307ca4bf56b3f95d29a}
+      \strng{authorfullhashraw}{7607b9d4a9694307ca4bf56b3f95d29a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Industrial Informatics}
+      \field{month}{1}
+      \field{title}{Evaluation of Drift Detection Algorithms in the Condition Monitoring Domain}
+      \field{volume}{21}
+      \field{year}{2024}
+      \field{pages}{317\bibrangedash 326}
+      \range{pages}{10}
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/TII.2024.3452208
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/TII.2024.3452208
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{Fraden_2016}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=e76d46be5d7ee9722f07829c42358f70}{%
+           family={Fraden},
+           familyi={F\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {NJ}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{fullhash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{fullhashraw}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{bibnamehash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{authorbibnamehash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{authornamehash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{authorfullhash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{authorfullhashraw}{e76d46be5d7ee9722f07829c42358f70}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Second}
+      \field{title}{Handbook of Modern Sensors}
+      \field{year}{2016}
+      \keyw{Books}
+    \endentry
+    \entry{Oakland_2003}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=1b61c7e74f6c6c42a68fbe7d33dc3447}{%
+           family={Oakland},
+           familyi={O\bibinitperiod},
+           given={John\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {NJ}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{1b61c7e74f6c6c42a68fbe7d33dc3447}
+      \strng{fullhash}{1b61c7e74f6c6c42a68fbe7d33dc3447}
+      \strng{fullhashraw}{1b61c7e74f6c6c42a68fbe7d33dc3447}
+      \strng{bibnamehash}{1b61c7e74f6c6c42a68fbe7d33dc3447}
+      \strng{authorbibnamehash}{1b61c7e74f6c6c42a68fbe7d33dc3447}
+      \strng{authornamehash}{1b61c7e74f6c6c42a68fbe7d33dc3447}
+      \strng{authorfullhash}{1b61c7e74f6c6c42a68fbe7d33dc3447}
+      \strng{authorfullhashraw}{1b61c7e74f6c6c42a68fbe7d33dc3447}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Second}
+      \field{title}{Statistical Process Control}
+      \field{year}{2003}
+      \keyw{Books}
+    \endentry
+    \entry{Investopedia_2013}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=abcdb78a564e00abcb81ee953f22cf04}{%
+           family={{Investopedia}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{fullhash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{fullhashraw}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{bibnamehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{authorbibnamehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{authornamehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{authorfullhash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{authorfullhashraw}{abcdb78a564e00abcb81ee953f22cf04}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.investopedia.com/terms/s/standarddeviation.asp}}
+      \field{title}{Standard Deviation}
+      \field{year}{2013}
+      \keyw{Electronic Sources}
+    \endentry
+    \entry{Benkova_2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=a984da148677b29dba7cf28dfa6c0b85}{%
+           family={Benková},
+           familyi={B\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod}}}%
+        {{hash=37978037f3de9e0ad1430bd98665b95c}{%
+           family={Bednárová},
+           familyi={B\bibinitperiod},
+           given={Dagmar},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e5ace7c425d0db8ae7e35802825fc1d2}{%
+           family={Bogdanovská},
+           familyi={B\bibinitperiod},
+           given={Gabriela},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2423fd7a943b9a12a91e70acc19cd88d}{%
+           family={Pavlíčková},
+           familyi={P\bibinitperiod},
+           given={Marcela},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3c111b341e5b6570bbc7e765799b25b}
+      \strng{fullhash}{48f2482191e44687273cbd6b86b983c1}
+      \strng{fullhashraw}{48f2482191e44687273cbd6b86b983c1}
+      \strng{bibnamehash}{48f2482191e44687273cbd6b86b983c1}
+      \strng{authorbibnamehash}{48f2482191e44687273cbd6b86b983c1}
+      \strng{authornamehash}{a3c111b341e5b6570bbc7e765799b25b}
+      \strng{authorfullhash}{48f2482191e44687273cbd6b86b983c1}
+      \strng{authorfullhashraw}{48f2482191e44687273cbd6b86b983c1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematics}
+      \field{number}{16}
+      \field{title}{Use of Statistical Process Control for Coking Time Monitoring}
+      \field{volume}{11}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2227-7390/11/16/3444
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2227-7390/11/16/3444
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{Alzubi_November2018}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=a6372ac0b6796753d74837379f9f11ab}{%
+           family={Alzubi},
+           familyi={A\bibinitperiod},
+           given={Jafar},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6cb93635abe909e1972e4ceee196b3a3}{%
+           family={Nayyar},
+           familyi={N\bibinitperiod},
+           given={Anand},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9bd9a5a3467b3b802732e5e6adcea4fa}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Akshi},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{62505350a1d8c3be60219b4c28ee340f}
+      \strng{fullhash}{a533a0fc7c014f9b73440478ba96d3ad}
+      \strng{fullhashraw}{a533a0fc7c014f9b73440478ba96d3ad}
+      \strng{bibnamehash}{a533a0fc7c014f9b73440478ba96d3ad}
+      \strng{authorbibnamehash}{a533a0fc7c014f9b73440478ba96d3ad}
+      \strng{authornamehash}{62505350a1d8c3be60219b4c28ee340f}
+      \strng{authorfullhash}{a533a0fc7c014f9b73440478ba96d3ad}
+      \strng{authorfullhashraw}{a533a0fc7c014f9b73440478ba96d3ad}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{month}{11}
+      \field{number}{1}
+      \field{title}{Machine Learning from Theory to Algorithms: An Overview}
+      \field{volume}{1142}
+      \field{year}{2018}
+      \field{pages}{012012}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://doi.org/10.1088/1742-6596/1142/1/012012
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088/1742-6596/1142/1/012012
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{Breiman_2001}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=132b7100417675d55d5d4d8b244f7a34}{%
+           family={Breiman},
+           familyi={B\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {NJ}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{fullhash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{fullhashraw}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{bibnamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authorbibnamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authornamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authorfullhash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authorfullhashraw}{132b7100417675d55d5d4d8b244f7a34}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Second}
+      \field{title}{Random Forests. Machine Learning}
+      \field{year}{2001}
+      \keyw{Books}
+    \endentry
+    \entry{Smola_2004}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=2a09623d007a5ee70c5296e19729e60a}{%
+           family={Smola},
+           familyi={S\bibinitperiod},
+           given={A.J.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7c06bbe61ea42603832b246c6c4c20a4}{%
+           family={Schölkopf},
+           familyi={S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {NJ}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{3ba9f2de8a7daeee7be00311d9007dd9}
+      \strng{fullhash}{3ba9f2de8a7daeee7be00311d9007dd9}
+      \strng{fullhashraw}{3ba9f2de8a7daeee7be00311d9007dd9}
+      \strng{bibnamehash}{3ba9f2de8a7daeee7be00311d9007dd9}
+      \strng{authorbibnamehash}{3ba9f2de8a7daeee7be00311d9007dd9}
+      \strng{authornamehash}{3ba9f2de8a7daeee7be00311d9007dd9}
+      \strng{authorfullhash}{3ba9f2de8a7daeee7be00311d9007dd9}
+      \strng{authorfullhashraw}{3ba9f2de8a7daeee7be00311d9007dd9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Second}
+      \field{title}{A tutorial on support vector regression. Statistics and Computing}
+      \field{year}{2004}
+      \keyw{Books}
+    \endentry
+    \entry{Hastie_2009}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=0cb8fe4210baa81c4b0e67913b4d2768}{%
+           family={Hastie},
+           familyi={H\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod}}}%
+        {{hash=88eea600247d798f8b2ce0b2dc614492}{%
+           family={Tibshirani},
+           familyi={T\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=971cf69058b64a94326dea0f2a8bbcce}{%
+           family={Friedman},
+           familyi={F\bibinitperiod},
+           given={Jerome},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {NJ}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{45eb7d473651da447f1d77717e7f8650}
+      \strng{fullhash}{7ca1bfe876d5e037b6aed69704221267}
+      \strng{fullhashraw}{7ca1bfe876d5e037b6aed69704221267}
+      \strng{bibnamehash}{7ca1bfe876d5e037b6aed69704221267}
+      \strng{authorbibnamehash}{7ca1bfe876d5e037b6aed69704221267}
+      \strng{authornamehash}{45eb7d473651da447f1d77717e7f8650}
+      \strng{authorfullhash}{7ca1bfe876d5e037b6aed69704221267}
+      \strng{authorfullhashraw}{7ca1bfe876d5e037b6aed69704221267}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Second}
+      \field{title}{The Elements of Statistical Learning}
+      \field{year}{2009}
+      \keyw{Books}
+    \endentry
+    \entry{Lu_2023}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=48ce43fe631d2300ea7c7e765f1c33e7}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Mingshen},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b4ab4c5f96705c237fddb2073190813d}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Qinyao},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=220aac8ead6d08879f77fded891b2599}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Shujing},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ff976e1ff33d0c0c4cf2a3188bab06da}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Lihao},
+           giveni={L\bibinitperiod}}}%
+        {{hash=605560ecd3ceba3863af15d74817be92}{%
+           family={Hua},
+           familyi={H\bibinitperiod},
+           given={Dong},
+           giveni={D\bibinitperiod}}}%
+        {{hash=64175ffc1531d53d4c77928f06e81658}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaoxia},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1e56d225d8232b762299e622182d6979}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea5a20cc84d8cc3c858297890c62bf90}
+      \strng{fullhash}{a7b937a8ab74024bc104af489628adb0}
+      \strng{fullhashraw}{a7b937a8ab74024bc104af489628adb0}
+      \strng{bibnamehash}{ea5a20cc84d8cc3c858297890c62bf90}
+      \strng{authorbibnamehash}{ea5a20cc84d8cc3c858297890c62bf90}
+      \strng{authornamehash}{ea5a20cc84d8cc3c858297890c62bf90}
+      \strng{authorfullhash}{a7b937a8ab74024bc104af489628adb0}
+      \strng{authorfullhashraw}{a7b937a8ab74024bc104af489628adb0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Water}
+      \field{number}{7}
+      \field{title}{A Stacking Ensemble Model of Various Machine Learning Models for Daily Runoff Forecasting}
+      \field{volume}{15}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2073-4441/15/7/1265
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2073-4441/15/7/1265
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{Raschka_2020}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=bb679961e3f3f4bba79fc1cf3aa7df1c}{%
+           family={Raschka},
+           familyi={R\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \strng{fullhash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \strng{fullhashraw}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \strng{bibnamehash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \strng{authorbibnamehash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \strng{authornamehash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \strng{authorfullhash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \strng{authorfullhashraw}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://arxiv.org/abs/1811.12808}}
+      \field{title}{Model Evaluation, Model Selection, and Algorithm Selection in Machine Learning}
+      \field{year}{2020}
+      \keyw{Electronic Sources}
+    \endentry
+    \entry{Hodson_2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=6f8d590caca75ce393f82245495f4035}{%
+           family={Hodson},
+           familyi={H\bibinitperiod},
+           given={T.\bibnamedelimi O.},
+           giveni={T\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f8d590caca75ce393f82245495f4035}
+      \strng{fullhash}{6f8d590caca75ce393f82245495f4035}
+      \strng{fullhashraw}{6f8d590caca75ce393f82245495f4035}
+      \strng{bibnamehash}{6f8d590caca75ce393f82245495f4035}
+      \strng{authorbibnamehash}{6f8d590caca75ce393f82245495f4035}
+      \strng{authornamehash}{6f8d590caca75ce393f82245495f4035}
+      \strng{authorfullhash}{6f8d590caca75ce393f82245495f4035}
+      \strng{authorfullhashraw}{6f8d590caca75ce393f82245495f4035}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geoscientific Model Development}
+      \field{number}{14}
+      \field{title}{Root-mean-square error (RMSE) or mean absolute error (MAE): when to use them or not}
+      \field{volume}{15}
+      \field{year}{2022}
+      \field{pages}{5481\bibrangedash 5487}
+      \range{pages}{7}
+      \verb{urlraw}
+      \verb https://gmd.copernicus.org/articles/15/5481/2022/
+      \endverb
+      \verb{url}
+      \verb https://gmd.copernicus.org/articles/15/5481/2022/
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{GeeksforGeeks_2013}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f1e069787ece74531d112559945c6871}{%
+           family={{GeeksforGeeks}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhashraw}{f1e069787ece74531d112559945c6871}
+      \strng{bibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorbibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authornamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhashraw}{f1e069787ece74531d112559945c6871}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.geeksforgeeks.org/machine-learning/what-is-model-validation-and-why-is-it-important/}}
+      \field{title}{What is Model Validation and Why is it Important?}
+      \field{year}{2013}
+      \keyw{Electronic Sources}
+    \endentry
+    \entry{Chai_2014}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=587f1ab9c09463310d40e5cc50478cbf}{%
+           family={Chai},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a2e3c0dfba94c0ec5173131ec27bd73e}{%
+           family={Draxler},
+           familyi={D\bibinitperiod},
+           given={R.\bibnamedelimi R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{502d0c7c0ce45e5fc7d01baa157e7d2d}
+      \strng{fullhash}{502d0c7c0ce45e5fc7d01baa157e7d2d}
+      \strng{fullhashraw}{502d0c7c0ce45e5fc7d01baa157e7d2d}
+      \strng{bibnamehash}{502d0c7c0ce45e5fc7d01baa157e7d2d}
+      \strng{authorbibnamehash}{502d0c7c0ce45e5fc7d01baa157e7d2d}
+      \strng{authornamehash}{502d0c7c0ce45e5fc7d01baa157e7d2d}
+      \strng{authorfullhash}{502d0c7c0ce45e5fc7d01baa157e7d2d}
+      \strng{authorfullhashraw}{502d0c7c0ce45e5fc7d01baa157e7d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geoscientific Model Development}
+      \field{number}{3}
+      \field{title}{Root mean square error (RMSE) or mean absolute error (MAE)? – Arguments against avoiding RMSE in the literature}
+      \field{volume}{7}
+      \field{year}{2014}
+      \field{pages}{1247\bibrangedash 1250}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://gmd.copernicus.org/articles/7/1247/2014/
+      \endverb
+      \verb{url}
+      \verb https://gmd.copernicus.org/articles/7/1247/2014/
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{Tastan_2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=6a01c5e3af4c20c166c2348e6729d04a}{%
+           family={Taştan},
+           familyi={T\bibinitperiod},
+           given={Mehmet},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a01c5e3af4c20c166c2348e6729d04a}
+      \strng{fullhash}{6a01c5e3af4c20c166c2348e6729d04a}
+      \strng{fullhashraw}{6a01c5e3af4c20c166c2348e6729d04a}
+      \strng{bibnamehash}{6a01c5e3af4c20c166c2348e6729d04a}
+      \strng{authorbibnamehash}{6a01c5e3af4c20c166c2348e6729d04a}
+      \strng{authornamehash}{6a01c5e3af4c20c166c2348e6729d04a}
+      \strng{authorfullhash}{6a01c5e3af4c20c166c2348e6729d04a}
+      \strng{authorfullhashraw}{6a01c5e3af4c20c166c2348e6729d04a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{10}
+      \field{title}{Machine Learning–Based Calibration and Performance Evaluation of Low-Cost Internet of Things Air Quality Sensors}
+      \field{volume}{25}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/25/10/3183
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/25/10/3183
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{Wang_2023}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=98e108922b8a4d93ea57d90041e0a6b0}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={An},
+           giveni={A\bibinitperiod}}}%
+        {{hash=03158004daeaeb52dafad8099f6784be}{%
+           family={Machida},
+           familyi={M\bibinitperiod},
+           given={Yuki},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1c8097a6dedd126194d1e398fcc67194}{%
+           family={deSouza},
+           familyi={d\bibinitperiod},
+           given={Priyanka},
+           giveni={P\bibinitperiod}}}%
+        {{hash=82ce8bac94c84ac72eb2b40956e97f2b}{%
+           family={Mora},
+           familyi={M\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ed8bb0cf5db352e8b685cb3c03ade10c}{%
+           family={Duhl},
+           familyi={D\bibinitperiod},
+           given={Tiffany},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b6608b1b512200020b8bfce41c8b2fcf}{%
+           family={Hudda},
+           familyi={H\bibinitperiod},
+           given={Neelakshi},
+           giveni={N\bibinitperiod}}}%
+        {{hash=deca49f0ee54ee446788e0842d03e564}{%
+           family={Durant},
+           familyi={D\bibinitperiod},
+           given={John\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=5a0f730c1fde5fa8fe3349ede83c8000}{%
+           family={Duarte},
+           familyi={D\bibinitperiod},
+           given={Fábio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=aeb05a80989b576d5948e4cbf97421cc}{%
+           family={Ratti},
+           familyi={R\bibinitperiod},
+           given={Carlo},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{48fb26a325958c67f9e0fb26d9f09a8a}
+      \strng{fullhash}{38ec6b5eba31e051f147562b49500dda}
+      \strng{fullhashraw}{38ec6b5eba31e051f147562b49500dda}
+      \strng{bibnamehash}{48fb26a325958c67f9e0fb26d9f09a8a}
+      \strng{authorbibnamehash}{48fb26a325958c67f9e0fb26d9f09a8a}
+      \strng{authornamehash}{48fb26a325958c67f9e0fb26d9f09a8a}
+      \strng{authorfullhash}{38ec6b5eba31e051f147562b49500dda}
+      \strng{authorfullhashraw}{38ec6b5eba31e051f147562b49500dda}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Atmospheric Environment}
+      \field{title}{Leveraging machine learning algorithms to advance low-cost air sensor calibration in stationary and mobile settings}
+      \field{volume}{301}
+      \field{year}{2023}
+      \field{pages}{119692}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1352231023001188
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1352231023001188
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{Yaqoob_October2024}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=a820187634eab3c2de1f8e6fcee90e03}{%
+           family={Yaqoob},
+           familyi={Y\bibinitperiod},
+           given={Irfan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=3c2a6a0658f1ad90e7d4a83eef9c3841}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod}}}%
+        {{hash=cd5b3318f05d7159721ae1d1e35ddb97}{%
+           family={Chaudhry},
+           familyi={C\bibinitperiod},
+           given={Shafique},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7780815e1b0f70f1b8d61240e39d098f}
+      \strng{fullhash}{f2e6bf85493c998eb63a40e4410bbf7c}
+      \strng{fullhashraw}{f2e6bf85493c998eb63a40e4410bbf7c}
+      \strng{bibnamehash}{f2e6bf85493c998eb63a40e4410bbf7c}
+      \strng{authorbibnamehash}{f2e6bf85493c998eb63a40e4410bbf7c}
+      \strng{authornamehash}{7780815e1b0f70f1b8d61240e39d098f}
+      \strng{authorfullhash}{f2e6bf85493c998eb63a40e4410bbf7c}
+      \strng{authorfullhashraw}{f2e6bf85493c998eb63a40e4410bbf7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Machine Learning Calibration of Low-Cost Sensor PM 2.5 data}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/ISSE63315.2024.10741149
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/ISSE63315.2024.10741149
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{Killeen_March2026}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=9c29620fab9fcda157ab5e44e2e50d17}{%
+           family={Killeen},
+           familyi={K\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=faa55b55c60c6317d7984ddcffaff3e4}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Ci},
+           giveni={C\bibinitperiod}}}%
+        {{hash=79fc3e421f89a813d9904c02ea794f45}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Futong},
+           giveni={F\bibinitperiod}}}%
+        {{hash=445c3ea21bfcc407b6acc88cd88806b1}{%
+           family={Kiringa},
+           familyi={K\bibinitperiod},
+           given={Iluju},
+           giveni={I\bibinitperiod}}}%
+        {{hash=04c5dd8bcf966323866a377d9fad84dc}{%
+           family={Yeap},
+           familyi={Y\bibinitperiod},
+           given={Tet},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5ade255279c99fa4190cf15ed5433ec}
+      \strng{fullhash}{fb93653c4b109b001351a98e7b3e895b}
+      \strng{fullhashraw}{fb93653c4b109b001351a98e7b3e895b}
+      \strng{bibnamehash}{fb93653c4b109b001351a98e7b3e895b}
+      \strng{authorbibnamehash}{fb93653c4b109b001351a98e7b3e895b}
+      \strng{authornamehash}{f5ade255279c99fa4190cf15ed5433ec}
+      \strng{authorfullhash}{fb93653c4b109b001351a98e7b3e895b}
+      \strng{authorfullhashraw}{fb93653c4b109b001351a98e7b3e895b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM J. Comput. Sustain. Soc.}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Nitrous Oxide Emission Prediction Using IoT Soil and Weather Sensor Data}
+      \field{volume}{4}
+      \field{year}{2026}
+      \field{pages}{35}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3776747
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3776747
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{Barrett_March2025}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=94a8df374295033b3ca2d2baf16ed6bb}{%
+           family={Barrett},
+           familyi={B\bibinitperiod},
+           given={Travis},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0536ced932c80468d4c14703e5a451d5}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ddf1675bc3f04cead1949ff8b9e3b01b}
+      \strng{fullhash}{ddf1675bc3f04cead1949ff8b9e3b01b}
+      \strng{fullhashraw}{ddf1675bc3f04cead1949ff8b9e3b01b}
+      \strng{bibnamehash}{ddf1675bc3f04cead1949ff8b9e3b01b}
+      \strng{authorbibnamehash}{ddf1675bc3f04cead1949ff8b9e3b01b}
+      \strng{authornamehash}{ddf1675bc3f04cead1949ff8b9e3b01b}
+      \strng{authorfullhash}{ddf1675bc3f04cead1949ff8b9e3b01b}
+      \strng{authorfullhashraw}{ddf1675bc3f04cead1949ff8b9e3b01b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://doi.org/10.48550/arXiv.2503.13487}}
+      \field{month}{3}
+      \field{title}{Statistical Study of Sensor Data and Investigation of ML-based Calibration Algorithms for Inexpensive Sensor Modules: Experiments from Cape Point}
+      \field{year}{2025}
+      \keyw{Published}
+    \endentry
+    \entry{Araujo_2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=e7d7c6c17309ae799da56c201a9407b3}{%
+           family={Araújo},
+           familyi={A\bibinitperiod},
+           given={Tiago},
+           giveni={T\bibinitperiod}}}%
+        {{hash=650a11e1ff91856f6e4e53cfe04037a1}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Lígia},
+           giveni={L\bibinitperiod}}}%
+        {{hash=36c58c71d89c72dea83188420d31e746}{%
+           family={Aguiar},
+           familyi={A\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3d207fde3c957a1ce2850280324bcbd1}{%
+           family={Moreira},
+           familyi={M\bibinitperiod},
+           given={Adriano},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d12bff898fed125b0d3042a1b4b5792e}
+      \strng{fullhash}{2006f12c242ecb150896d7894d4956d3}
+      \strng{fullhashraw}{2006f12c242ecb150896d7894d4956d3}
+      \strng{bibnamehash}{2006f12c242ecb150896d7894d4956d3}
+      \strng{authorbibnamehash}{2006f12c242ecb150896d7894d4956d3}
+      \strng{authornamehash}{d12bff898fed125b0d3042a1b4b5792e}
+      \strng{authorfullhash}{2006f12c242ecb150896d7894d4956d3}
+      \strng{authorfullhashraw}{2006f12c242ecb150896d7894d4956d3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{13}
+      \field{title}{Calibration Assessment of Low-Cost Carbon Dioxide Sensors Using the Extremely Randomized Trees Algorithm}
+      \field{volume}{23}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/23/13/6153
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/23/13/6153
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{Ionascu_2021}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=5d873d095b3c75461fde75c62eade9b1}{%
+           family={Ionascu},
+           familyi={I\bibinitperiod},
+           given={Marian-Emanuel},
+           giveni={M\bibinithyphendelim E\bibinitperiod}}}%
+        {{hash=09be67195a6837e053be926151cc4d8b}{%
+           family={Castell},
+           familyi={C\bibinitperiod},
+           given={Nuria},
+           giveni={N\bibinitperiod}}}%
+        {{hash=059952ddd0bffd7470ee3c64e8f58aed}{%
+           family={Boncalo},
+           familyi={B\bibinitperiod},
+           given={Oana},
+           giveni={O\bibinitperiod}}}%
+        {{hash=004e45b21a51f0b8ca676c90d64747f0}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+        {{hash=df617f1d100567de12564ff08df29cf2}{%
+           family={Darie},
+           familyi={D\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+        {{hash=17a397007244ec22d92e3c482a82175d}{%
+           family={Marcu},
+           familyi={M\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2fc1c0af4a9380c6059d4ded172dc1f3}
+      \strng{fullhash}{442a5c728c96d571c3bf5b3ed745fc0b}
+      \strng{fullhashraw}{442a5c728c96d571c3bf5b3ed745fc0b}
+      \strng{bibnamehash}{442a5c728c96d571c3bf5b3ed745fc0b}
+      \strng{authorbibnamehash}{442a5c728c96d571c3bf5b3ed745fc0b}
+      \strng{authornamehash}{2fc1c0af4a9380c6059d4ded172dc1f3}
+      \strng{authorfullhash}{442a5c728c96d571c3bf5b3ed745fc0b}
+      \strng{authorfullhashraw}{442a5c728c96d571c3bf5b3ed745fc0b}
+      \field{extraname}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{23}
+      \field{title}{Calibration of CO, NO2, and O3 Using Airify: A Low-Cost Sensor Cluster for Air Quality Monitoring}
+      \field{volume}{21}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/21/23/7977
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/21/23/7977
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{Ionascu_2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=5d873d095b3c75461fde75c62eade9b1}{%
+           family={Ionascu},
+           familyi={I\bibinitperiod},
+           given={Marian-Emanuel},
+           giveni={M\bibinithyphendelim E\bibinitperiod}}}%
+        {{hash=17a397007244ec22d92e3c482a82175d}{%
+           family={Marcu},
+           familyi={M\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+        {{hash=79b2f2247c235ffbbbcf84c3227f1340}{%
+           family={Bogdan},
+           familyi={B\bibinitperiod},
+           given={Razvan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=df617f1d100567de12564ff08df29cf2}{%
+           family={Darie},
+           familyi={D\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2fc1c0af4a9380c6059d4ded172dc1f3}
+      \strng{fullhash}{b3a70076c3fe0eb32504f8a75bbe7dad}
+      \strng{fullhashraw}{b3a70076c3fe0eb32504f8a75bbe7dad}
+      \strng{bibnamehash}{b3a70076c3fe0eb32504f8a75bbe7dad}
+      \strng{authorbibnamehash}{b3a70076c3fe0eb32504f8a75bbe7dad}
+      \strng{authornamehash}{2fc1c0af4a9380c6059d4ded172dc1f3}
+      \strng{authorfullhash}{b3a70076c3fe0eb32504f8a75bbe7dad}
+      \strng{authorfullhashraw}{b3a70076c3fe0eb32504f8a75bbe7dad}
+      \field{extraname}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Atmospheric Environment}
+      \field{title}{Calibration of NO, SO2, and PM using Airify: A low-cost sensor cluster for air quality monitoring}
+      \field{volume}{339}
+      \field{year}{2024}
+      \field{pages}{120841}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1352231024005168
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1352231024005168
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{Han_2021}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=98da1c1d35dc369b0fa3b47c78f6e8a6}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Pengfei},
+           giveni={P\bibinitperiod}}}%
+        {{hash=574e599ba939e9d9999ece28ddc40a35}{%
+           family={Mei},
+           familyi={M\bibinitperiod},
+           given={Han},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b57a1b9e5665c3bf5033c8cfe0f7e3ca}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Di},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5eee6fdc2a476edad2cb0b6cc339d1df}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d0bb3bcbc287d2d02322475fc1badc5b}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=d4579e51b1462825e1cbe6f7012e9ca5}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yinghong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=cc54635a791d75cebb03d0325643cb26}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Yuepeng},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{da26bc4e07c1021a8ed88e5689c2c59f}
+      \strng{fullhash}{475db8dcf945cf901e989be1cc75b9d8}
+      \strng{fullhashraw}{475db8dcf945cf901e989be1cc75b9d8}
+      \strng{bibnamehash}{da26bc4e07c1021a8ed88e5689c2c59f}
+      \strng{authorbibnamehash}{da26bc4e07c1021a8ed88e5689c2c59f}
+      \strng{authornamehash}{da26bc4e07c1021a8ed88e5689c2c59f}
+      \strng{authorfullhash}{475db8dcf945cf901e989be1cc75b9d8}
+      \strng{authorfullhashraw}{475db8dcf945cf901e989be1cc75b9d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{1}
+      \field{title}{Calibrations of Low-Cost Air Pollution Monitoring Sensors for CO, NO2, O3, and SO2}
+      \field{volume}{21}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/21/1/256
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/21/1/256
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{Wu_2026}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=6f498537884b9b9d2eef51890fed2ef4}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Weimin},
+           giveni={W\bibinitperiod}}}%
+        {{hash=dd060cd064f8f607eb1bee6712820270}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8ead321e7e345efceaeea93e4f97ff97}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zhaoqin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=00c18c9fc01a599f996a1854279a9117}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Wanjun},
+           giveni={W\bibinitperiod}}}%
+        {{hash=e1480788dc06ba48f27c1036bff5a4ea}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Daoming},
+           giveni={D\bibinitperiod}}}%
+        {{hash=485910874dfdb5b8a44a21f39214297c}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jingfang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f2a0a4f5a03bef37fc5552061319cb71}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=72fc824386ea7884ffac5c1a4498a366}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Zhilin},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{2458bdfc317854687d13ee2def2bbe0a}
+      \strng{fullhash}{891072b4c5699e39d11e910bd3a5fba8}
+      \strng{fullhashraw}{891072b4c5699e39d11e910bd3a5fba8}
+      \strng{bibnamehash}{2458bdfc317854687d13ee2def2bbe0a}
+      \strng{authorbibnamehash}{2458bdfc317854687d13ee2def2bbe0a}
+      \strng{authornamehash}{2458bdfc317854687d13ee2def2bbe0a}
+      \strng{authorfullhash}{891072b4c5699e39d11e910bd3a5fba8}
+      \strng{authorfullhashraw}{891072b4c5699e39d11e910bd3a5fba8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{iScience}
+      \field{title}{Machine learning-based QSPR modeling for predicting the n-octanol/air partition coefficient of polybrominated diphenyl ethers}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.isci.2026.115393
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.isci.2026.115393
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{Tang_2025}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=84241aa76e4de841fb706296804f5716}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Yuming},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1df4f816d7b584b424c3bc5d0a3969cc}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=03d7f1fb15c1994387b8bdfd40550e75}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Xinyi},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1c025137d37967b4fe70ce3701ac7852}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zuhan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=13b67d4d83b1d3002d9480fa84cdc9ee}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Liu},
+           giveni={L\bibinitperiod}}}%
+        {{hash=8d18cc99a8ec14f4443ddd9c9d748887}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shaoquan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2111d59a231ecb71b269ce434839bab5}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Yeheng},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac72cef6a0f6ab5239a375028ed6751c}
+      \strng{fullhash}{63ebf0896d23abd61c5fadc3b95d4fbb}
+      \strng{fullhashraw}{63ebf0896d23abd61c5fadc3b95d4fbb}
+      \strng{bibnamehash}{ac72cef6a0f6ab5239a375028ed6751c}
+      \strng{authorbibnamehash}{ac72cef6a0f6ab5239a375028ed6751c}
+      \strng{authornamehash}{ac72cef6a0f6ab5239a375028ed6751c}
+      \strng{authorfullhash}{63ebf0896d23abd61c5fadc3b95d4fbb}
+      \strng{authorfullhashraw}{63ebf0896d23abd61c5fadc3b95d4fbb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Atmosphere}
+      \field{number}{12}
+      \field{title}{High-Resolution Spatial Prediction of Daily Average PM2.5 Concentrations in Jiangxi Province via a Hybrid Model Integrating Random Forest and XGBoost}
+      \field{volume}{16}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2073-4433/16/12/1317
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2073-4433/16/12/1317
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{Tau_2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=c6a0eb3c32dd7508f37196fbc8d06c17}{%
+           family={Tau},
+           familyi={T\bibinitperiod},
+           given={Robin\bibnamedelima K.E.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=91a5d8b34274a4169f4563fb4e5e8f52}{%
+           family={Yahya},
+           familyi={Y\bibinitperiod},
+           given={Abid},
+           giveni={A\bibinitperiod}}}%
+        {{hash=72c1ce4aa964a4e3202cc5c2561e1933}{%
+           family={Mangwala},
+           familyi={M\bibinitperiod},
+           given={Mmoloki},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6c2fde391b04f303ccd4ced2d9378baf}{%
+           family={Ditshego},
+           familyi={D\bibinitperiod},
+           given={Nonofo\bibnamedelima M.J.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c617b63da3e5354bc952c12a8e540689}
+      \strng{fullhash}{078139b4c038ebf495e6a346c218cfdf}
+      \strng{fullhashraw}{078139b4c038ebf495e6a346c218cfdf}
+      \strng{bibnamehash}{078139b4c038ebf495e6a346c218cfdf}
+      \strng{authorbibnamehash}{078139b4c038ebf495e6a346c218cfdf}
+      \strng{authornamehash}{c617b63da3e5354bc952c12a8e540689}
+      \strng{authorfullhash}{078139b4c038ebf495e6a346c218cfdf}
+      \strng{authorfullhashraw}{078139b4c038ebf495e6a346c218cfdf}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Results in Engineering}
+      \field{title}{XGBoost–random forest stacking with dual-state Kalman filtering for real-time battery SOC estimation}
+      \field{volume}{27}
+      \field{year}{2025}
+      \field{pages}{106428}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2590123025024971
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2590123025024971
+      \endverb
+      \keyw{Published}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
