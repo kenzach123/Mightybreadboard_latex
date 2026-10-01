@@ -1,52 +1,51 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'MightyBreadBoards_Main_2024_12_09.blg'
-[271] biber-MSWIN64:342> INFO - === 
-[417] Biber.pm:421> INFO - Reading 'MightyBreadBoards_Main_2024_12_09.bcf'
-[723] Biber.pm:1002> INFO - Found 31 citekeys in bib section 0
-[761] Biber.pm:4487> INFO - Processing section 0
-[785] Biber.pm:4678> INFO - Looking for bibtex file 'Agot_Member1.bib' for section 0
-[912] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1716] bibtex.pm:1519> INFO - Found BibTeX data source 'Agot_Member1.bib'
-[2291] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2291] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2291] Biber.pm:4307> INFO - Sorting list 'rmc/global//global/global/global' of type 'entry' with template 'rmc' and locale 'en-US'
-[2291] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[2355] bbl.pm:676> INFO - Writing 'MightyBreadBoards_Main_2024_12_09.bbl' with encoding 'UTF-8'
-[2401] bbl.pm:779> INFO - Output to MightyBreadBoards_Main_2024_12_09.bbl
-[2402] Biber.pm:132> WARN - legacy month field 'January' in entry 'Estaji_January2024' is not an integer - this will probably not sort properly.
-[2402] Biber.pm:132> WARN - legacy month field 'November' in entry 'Alzubi_November2018' is not an integer - this will probably not sort properly.
-[2402] Biber.pm:132> WARN - legacy month field 'October' in entry 'Yaqoob_October2024' is not an integer - this will probably not sort properly.
-[2402] Biber.pm:132> WARN - legacy month field 'March' in entry 'Killeen_March2026' is not an integer - this will probably not sort properly.
-[2402] Biber.pm:132> WARN - legacy month field 'March' in entry 'Barrett_March2025' is not an integer - this will probably not sort properly.
-[2402] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2402] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2402] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2403] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2403] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2403] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2403] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2403] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2403] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2403] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2403] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2403] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2404] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2404] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2404] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2404] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2404] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2404] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2404] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2404] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2404] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2405] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2405] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2405] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2405] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2405] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2405] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2405] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2406] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2406] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2406] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
-[2406] Biber.pm:134> INFO - WARNINGS: 36
+[254] biber-MSWIN64:342> INFO - === 
+[337] Biber.pm:421> INFO - Reading 'MightyBreadBoards_Main_2024_12_09.bcf'
+[634] Biber.pm:1002> INFO - Found 30 citekeys in bib section 0
+[671] Biber.pm:4487> INFO - Processing section 0
+[695] Biber.pm:4678> INFO - Looking for bibtex file 'Agot_Member1.bib' for section 0
+[832] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1034] bibtex.pm:1519> INFO - Found BibTeX data source 'Agot_Member1.bib'
+[1597] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1597] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1597] Biber.pm:4307> INFO - Sorting list 'rmc/global//global/global/global' of type 'entry' with template 'rmc' and locale 'en-US'
+[1597] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[1656] bbl.pm:676> INFO - Writing 'MightyBreadBoards_Main_2024_12_09.bbl' with encoding 'UTF-8'
+[1703] bbl.pm:779> INFO - Output to MightyBreadBoards_Main_2024_12_09.bbl
+[1703] Biber.pm:132> WARN - legacy month field 'January' in entry 'Estaji_January2024' is not an integer - this will probably not sort properly.
+[1703] Biber.pm:132> WARN - legacy month field 'November' in entry 'Alzubi_November2018' is not an integer - this will probably not sort properly.
+[1703] Biber.pm:132> WARN - legacy month field 'October' in entry 'Yaqoob_October2024' is not an integer - this will probably not sort properly.
+[1704] Biber.pm:132> WARN - legacy month field 'March' in entry 'Killeen_March2026' is not an integer - this will probably not sort properly.
+[1704] Biber.pm:132> WARN - legacy month field 'March' in entry 'Barrett_March2025' is not an integer - this will probably not sort properly.
+[1704] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1704] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1704] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1704] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1704] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1704] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1704] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1705] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1705] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1705] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1705] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1705] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1705] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1705] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1705] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1705] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1706] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1706] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1706] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1706] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1706] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1706] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1706] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1706] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1706] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1707] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1707] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1707] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1707] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1707] Biber.pm:132> WARN - Field 'keywords' in sorting template is not a sortable field
+[1707] Biber.pm:134> INFO - WARNINGS: 35

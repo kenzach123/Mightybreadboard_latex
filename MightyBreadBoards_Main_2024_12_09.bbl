@@ -244,6 +244,95 @@
       \endverb
       \keyw{Published}
     \endentry
+    \entry{Okafor_2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=41f8dd5a7c842660e61f81b589478b63}{%
+           family={Okafor},
+           familyi={O\bibinitperiod},
+           given={Nwamaka\bibnamedelima U.},
+           giveni={N\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+        {{hash=4ae08dcd66d1fbd0f8feb38fd715b84b}{%
+           family={Alghorani},
+           familyi={A\bibinitperiod},
+           given={Yahia},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5635aeb8369f7fd15418e61cbe53be81}{%
+           family={Delaney},
+           familyi={D\bibinitperiod},
+           given={Declan\bibnamedelima T.},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{74e8fe7a0026df0c100838f6ce84da60}
+      \strng{fullhash}{827ce56eced754b072dbbc532ded8bd7}
+      \strng{fullhashraw}{827ce56eced754b072dbbc532ded8bd7}
+      \strng{bibnamehash}{827ce56eced754b072dbbc532ded8bd7}
+      \strng{authorbibnamehash}{827ce56eced754b072dbbc532ded8bd7}
+      \strng{authornamehash}{74e8fe7a0026df0c100838f6ce84da60}
+      \strng{authorfullhash}{827ce56eced754b072dbbc532ded8bd7}
+      \strng{authorfullhashraw}{827ce56eced754b072dbbc532ded8bd7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ICT Express}
+      \field{number}{3}
+      \field{title}{Improving Data Quality of Low-cost IoT Sensors in Environmental Monitoring Networks Using Data Fusion and Machine Learning Approach}
+      \field{volume}{6}
+      \field{year}{2020}
+      \field{pages}{220\bibrangedash 228}
+      \range{pages}{9}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2405959520300862
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2405959520300862
+      \endverb
+      \keyw{Published}
+    \endentry
+    \entry{Benkova_2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=a984da148677b29dba7cf28dfa6c0b85}{%
+           family={Benková},
+           familyi={B\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod}}}%
+        {{hash=37978037f3de9e0ad1430bd98665b95c}{%
+           family={Bednárová},
+           familyi={B\bibinitperiod},
+           given={Dagmar},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e5ace7c425d0db8ae7e35802825fc1d2}{%
+           family={Bogdanovská},
+           familyi={B\bibinitperiod},
+           given={Gabriela},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2423fd7a943b9a12a91e70acc19cd88d}{%
+           family={Pavlíčková},
+           familyi={P\bibinitperiod},
+           given={Marcela},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3c111b341e5b6570bbc7e765799b25b}
+      \strng{fullhash}{48f2482191e44687273cbd6b86b983c1}
+      \strng{fullhashraw}{48f2482191e44687273cbd6b86b983c1}
+      \strng{bibnamehash}{48f2482191e44687273cbd6b86b983c1}
+      \strng{authorbibnamehash}{48f2482191e44687273cbd6b86b983c1}
+      \strng{authornamehash}{a3c111b341e5b6570bbc7e765799b25b}
+      \strng{authorfullhash}{48f2482191e44687273cbd6b86b983c1}
+      \strng{authorfullhashraw}{48f2482191e44687273cbd6b86b983c1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematics}
+      \field{number}{16}
+      \field{title}{Use of Statistical Process Control for Coking Time Monitoring}
+      \field{volume}{11}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2227-7390/11/16/3444
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2227-7390/11/16/3444
+      \endverb
+      \keyw{Published}
+    \endentry
     \entry{Estaji_January2024}{article}{}{}
       \name{author}{6}{}{%
         {{hash=35baa73322b5bd1bb642c0edfe0902c7}{%
@@ -330,102 +419,6 @@
       \field{title}{Handbook of Modern Sensors}
       \field{year}{2016}
       \keyw{Books}
-    \endentry
-    \entry{Oakland_2003}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=1b61c7e74f6c6c42a68fbe7d33dc3447}{%
-           family={Oakland},
-           familyi={O\bibinitperiod},
-           given={John\bibnamedelima S.},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {NJ}%
-      }
-      \list{publisher}{1}{%
-        {Routledge}%
-      }
-      \strng{namehash}{1b61c7e74f6c6c42a68fbe7d33dc3447}
-      \strng{fullhash}{1b61c7e74f6c6c42a68fbe7d33dc3447}
-      \strng{fullhashraw}{1b61c7e74f6c6c42a68fbe7d33dc3447}
-      \strng{bibnamehash}{1b61c7e74f6c6c42a68fbe7d33dc3447}
-      \strng{authorbibnamehash}{1b61c7e74f6c6c42a68fbe7d33dc3447}
-      \strng{authornamehash}{1b61c7e74f6c6c42a68fbe7d33dc3447}
-      \strng{authorfullhash}{1b61c7e74f6c6c42a68fbe7d33dc3447}
-      \strng{authorfullhashraw}{1b61c7e74f6c6c42a68fbe7d33dc3447}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{Second}
-      \field{title}{Statistical Process Control}
-      \field{year}{2003}
-      \keyw{Books}
-    \endentry
-    \entry{Investopedia_2013}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=abcdb78a564e00abcb81ee953f22cf04}{%
-           family={{Investopedia}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{abcdb78a564e00abcb81ee953f22cf04}
-      \strng{fullhash}{abcdb78a564e00abcb81ee953f22cf04}
-      \strng{fullhashraw}{abcdb78a564e00abcb81ee953f22cf04}
-      \strng{bibnamehash}{abcdb78a564e00abcb81ee953f22cf04}
-      \strng{authorbibnamehash}{abcdb78a564e00abcb81ee953f22cf04}
-      \strng{authornamehash}{abcdb78a564e00abcb81ee953f22cf04}
-      \strng{authorfullhash}{abcdb78a564e00abcb81ee953f22cf04}
-      \strng{authorfullhashraw}{abcdb78a564e00abcb81ee953f22cf04}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.investopedia.com/terms/s/standarddeviation.asp}}
-      \field{title}{Standard Deviation}
-      \field{year}{2013}
-      \keyw{Electronic Sources}
-    \endentry
-    \entry{Benkova_2023}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=a984da148677b29dba7cf28dfa6c0b85}{%
-           family={Benková},
-           familyi={B\bibinitperiod},
-           given={Marta},
-           giveni={M\bibinitperiod}}}%
-        {{hash=37978037f3de9e0ad1430bd98665b95c}{%
-           family={Bednárová},
-           familyi={B\bibinitperiod},
-           given={Dagmar},
-           giveni={D\bibinitperiod}}}%
-        {{hash=e5ace7c425d0db8ae7e35802825fc1d2}{%
-           family={Bogdanovská},
-           familyi={B\bibinitperiod},
-           given={Gabriela},
-           giveni={G\bibinitperiod}}}%
-        {{hash=2423fd7a943b9a12a91e70acc19cd88d}{%
-           family={Pavlíčková},
-           familyi={P\bibinitperiod},
-           given={Marcela},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{a3c111b341e5b6570bbc7e765799b25b}
-      \strng{fullhash}{48f2482191e44687273cbd6b86b983c1}
-      \strng{fullhashraw}{48f2482191e44687273cbd6b86b983c1}
-      \strng{bibnamehash}{48f2482191e44687273cbd6b86b983c1}
-      \strng{authorbibnamehash}{48f2482191e44687273cbd6b86b983c1}
-      \strng{authornamehash}{a3c111b341e5b6570bbc7e765799b25b}
-      \strng{authorfullhash}{48f2482191e44687273cbd6b86b983c1}
-      \strng{authorfullhashraw}{48f2482191e44687273cbd6b86b983c1}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Mathematics}
-      \field{number}{16}
-      \field{title}{Use of Statistical Process Control for Coking Time Monitoring}
-      \field{volume}{11}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://www.mdpi.com/2227-7390/11/16/3444
-      \endverb
-      \verb{url}
-      \verb https://www.mdpi.com/2227-7390/11/16/3444
-      \endverb
-      \keyw{Published}
     \endentry
     \entry{Alzubi_November2018}{article}{}{}
       \name{author}{3}{}{%

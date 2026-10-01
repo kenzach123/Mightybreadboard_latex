@@ -2,7 +2,7 @@ This chapter explores into a comprehensive review of theories and literature, in
 
 \section{Theories}
 \subsection{Statistical Process Control}
-Statistical process control is used for controlling a process using statistical methods to detect the need for calibration [4]. Cumulative Sum (CUSUM) is a statistical process control method specifically designed to identify subtle, continuous sensor drift over extended deployment periods. When the accumulated penalty tally crosses a predefined decision limit of the baseline variance, the system mathematically confirms permanent hardware degradation and triggers a recalibration routine [5]. The CUSUM equation is defined as [6]   
+Statistical process control is used for controlling a process using statistical methods to detect the need for calibration \cite{Okafor_2020}. Cumulative Sum (CUSUM) is a statistical process control method specifically designed to identify subtle, continuous sensor drift over extended deployment periods. When the accumulated penalty tally crosses a predefined decision limit of the baseline variance, the system mathematically confirms permanent hardware degradation and triggers a recalibration routine \cite{Benkova_2023}. The CUSUM equation is defined as \cite{Estaji_January2024}
 \begin{equation}
 	S = \max(0, S_{t-1} + (\mu - E) - c)
 	\label{eq:cusum}
@@ -18,7 +18,7 @@ A drift is detected when $S > 5\sigma$ \\[2pt]
 $\sigma$ = standard deviation. \\
 
 \subsection{Two-point Calibration}
-The foundational method used in all calibration is known as Zero and Span Adjustment (Two-point Calibration) which measure two known reference conditions typically a low point near zero and a high point near maximum range. This assumes a linear change in the measured device creating a slope in its error. The Slope for the adjustment is defined as [2]
+The foundational method used in all calibration is known as Zero and Span Adjustment (Two-point Calibration) which measure two known reference conditions typically a low point near zero and a high point near maximum range. This assumes a linear change in the measured device creating a slope in its error. The Slope for the adjustment is defined as \cite{Fraden_2016}
 
 \begin{equation}
 	M = \left( \frac{A_2 - A_1}{B_2 - B_1} \right)
@@ -30,7 +30,7 @@ $A$ = true Value; and \\
 $B$ = measured value. \\
 
 \subsection{Machine Learning}
-Machine learning is a subfield of artificial intelligence that uses algorithms trained on data sets to create models capable of performing tasks that would otherwise only be possible for humans [8]. A machine learning model receives a dataset.
+Machine learning is a subfield of artificial intelligence that uses algorithms trained on data sets to create models capable of performing tasks that would otherwise only be possible for humans \cite{Alzubi_November2018}. A machine learning model receives a dataset.
 
 \begin{equation}
 	D = \begin{bmatrix}
@@ -48,7 +48,7 @@ $m$ = number of features; and \\
 $n$ = number of entries. \\
 
 \subsubsection{Random forest} 
-Random forest is an ensemble of tree predictors such that each tree depends on the values of a random vector sampled independently and with the same distribution for all trees in the forest [9]. 
+Random forest is an ensemble of tree predictors such that each tree depends on the values of a random vector sampled independently and with the same distribution for all trees in the forest \cite{Breiman_2001}. 
 
 \vspace{12pt}
 \textbf{Hyperparameter}
@@ -89,6 +89,7 @@ $\bar{R}$ = right node mean; \\
 $L$ = left node; \\
 $\bar{L}$ = left node mean; and \\
 $g$ = input feature columns. \\
+
 The values of the nodes are calculated per feature, such that every value of the features that are more than the threshold are placed in R while the remaining are assigned to L. 
 
 \begin{equation}
@@ -122,143 +123,129 @@ $N$ = node. \\
 	\caption{Nodesplit}
 	\label{fig:your_label}
 \end{figure}
+
 \subsubsection{Support Vector Regression (SVR)} 
 Support Vector Regression is a margin-based regression method that ignores small errors intentionally, it handles nonlinear relationships through kernels and holds up on noisy real-world data where standard regression comes up short \cite{Smola_2004}.
 
-\begin{enumerate}
-	\item \textbf{Standardization} \\
-	All inputs are standardized by calculating the mean and the standard deviation of the dataset, calculated as
-	
-	\[
-	\mu_g = \frac{\sum_{i \in D_g} i}{|D_g|}
-	\]
-	
-	\[
-	\sigma_g = \sqrt{\frac{\sum_{i \in D_g} (i - \mu_g)^2}{|D_g|}}
-	\]
-	
-	where:
-	\begin{itemize}
-		\item $g$ = columns in the dataset
-	\end{itemize}
-	
-	Then standardized as
-	\[
-	Z_g = \frac{D_g - \mu_g}{\sigma_g}
-	\]
-	
-	where:
-	\begin{itemize}
-		\item $Z$ = standardized input
-	\end{itemize}
-	
-	\item \textbf{Hyperparameters} \\
-	
-	\textbf{Kernel} ($K(x_i, x_j)$)- The kernel determines how SVR handles patterns in the dataset.
-	
-	\textbf{Regularization (C)} - $C$ controls how much SVR penalizes errors on points outside the tube. High $C$ means the model takes those errors seriously and fits more tightly. Low $C$ means the model accepts more violations in exchange for a simpler, flatter function.
-	
-	\textbf{Epsilon ($\varepsilon$)} - Epsilon defines the width of the tolerance margin around the fitted function. A larger $\varepsilon$ means a wider tube.
-	
-	\textbf{Gamma ($\gamma$)} - $\gamma$ is a special hyperparameter that only exist when the kernel is set to RBF. $\gamma$ defines how far the influence of a single training example reaches, a lower $\gamma$ treats distant points as similar, creating a smoother, more generalized, and linear-like curve.
-	
-	\item \textbf{Kernel} \\
-	The Radial Basis Function (RBF) kernel is used to train nonlinear SVR models which is defined as
-	
-	\[
-	K(x_i, x_j) = e^{-\gamma \|z_i - z_j\|^2}
-	\]
-	
-	where:
-	\begin{itemize}
-		\item $i, j$ = indices for the dataset
-	\end{itemize}
-	
-	\item \textbf{Weight} \\
-	The weight of vectors are calculated as
-	
-	Where $\alpha_i$ and $\alpha_j^*$ are calculated as
-	
-	\[
-	\max_{\alpha_i, \alpha_i^*} \left[ -\frac{1}{2} \sum_{i, j=1}^{n} (\alpha_i - \alpha_i^*)(\alpha_j - \alpha_j^*) K(x_i, x_j) - \epsilon \sum_{i=1}^{n} (\alpha_i + \alpha_i^*) + \sum_{i=1}^{n} z_i (\alpha_i - \alpha_i^*) \right]
-	\]
-	
-	where:
-	\begin{itemize}
-		\item $W_i$ = weighted vectors
-		\item $z$ = standardized target
-	\end{itemize}
-	
-	With a constraint such that
-	\[
-	\sum_{i=1}^{n} (\alpha_i - \alpha_i^*) = 0
-	\]
-	\[
-	0 \le \alpha_i, \alpha_i^* \le C
-	\]
-	\item \textbf{Bias} \\
-	A bias of the SVR is calculated as
-	
-	\[
-	b = z_I - \varepsilon - \sum_{i=1}^{n} (\alpha_i - \alpha_j^*) K(x_i, x_I)
-	\]
-	
-	where:
-	\begin{itemize}
-		\item $b$ = bias
-		\item $I$ = chosen index
-	\end{itemize}
-	
-	\item \textbf{Testing} \\
-	Using the calculated vectors in the training phase, the predicted values are calculated using the SVR general equation
-	
-	\[
-	f(x) = \sum_{i=1}^{n} (W_i K(x_i, x) + b)
-	\]
-	
-	where:
-	\begin{itemize}
-		\item $f(x)$ = SVR prediction
-	\end{itemize}
-\end{enumerate}
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{SVR.jpg}
+	\caption{Support Vector Regression}
+	\label{fig:SVR}
+\end{figure}
 
-\subsubsection{Multiple Linear Regression} 
-Multiple regression is an ensemble of linear regressions which is a statistical method used for predictive analysis. It models the relationship between a dependent variable and one or more independent variables by fitting a linear equation to the data. Multiple Linear Regression specifically extends this concept to include two or more independent variables \cite{Hastie_2009}. In MLT beta is describes the linear relationships of the inputs which is defined as
+\vspace{12pt}
+\textbf{Hyperparameters}
 
-\[
-\beta = (w^T w)^{-1} w^T Y
-\]
+SVR has four standard hyperparameters that is set to configure how the model behaves.
 
-Beta is calculated using a matrix where:
-\[
-\beta = \begin{bmatrix} 
-	\beta_0 \\ 
-	\beta_1 \\ 
-	\vdots \\ 
-	\beta_n 
-\end{bmatrix} 
-\quad 
-w = \begin{bmatrix} 
-	1 & x_{11} & x_{12} & \cdots & x_{1m} \\ 
-	1 & x_{21} & x_{22} & \cdots & x_{2m} \\ 
-	\vdots & \vdots & \vdots & \ddots & \vdots \\ 
-	1 & x_{n1} & x_{n2} & \cdots & x_{nm} 
-\end{bmatrix}
-\]
-
-Using the calculated $\beta$ in the training phase the predicted value is calculated as
-
-\[
-g(x) = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots + \beta_n x_m
-\]
-
-where:
 \begin{itemize}
-	\item $g(x)$ = MLR prediction
+	\item[] Kernel (\underline{$K$}) = The kernel determines how SVR handles patterns in the dataset with 5 types which are Linear, Polynomial, Gaussian, Radial Basis Function (RBF), and Sigmoid.
+	\item[] Regularization ($C$) = Controls how much SVR penalizes errors on points outside the tube. High $C$ means the model takes those errors seriously and fits more tightly. Low $C$ means the model accepts more violations in exchange for a simpler, flatter function.
+	\item[] Epsilon ($\varepsilon$) = Epsilon defines the width of the tolerance margin around the fitted function. A larger $\varepsilon$ means a wider tube.
+	\item[] Gamma ($\gamma$) = a hyperparameter that only exist when the kernel is set to RBF. it defines how far the influence of a single training example reaches, a lower $\gamma$ treats distant points as similar, creating a smoother, more generalized, and linear-like curve.
 \end{itemize}
 
+The SVR equation is defined as
+\begin{equation}
+	y(x) = \sum_{h \in SV} (W_h K(x_h, x)) + b
+	\label{eq:svr_equation}
+\end{equation}
+\noindent where: \\[2pt]
+$SV$ = support vectors; \\
+$W$ = weighted Vector; \\
+$b$ = bias. \\[12pt]
+
+The Radial Basis Function (\textbf{RBF}) kernel measures the similarity between all entries, it is defined as
+\begin{equation}
+	K(x_h, x_j) = e^{-\gamma ||x_h - x_j||^2}
+	\label{eq:rbf_kernel}
+\end{equation}
+\noindent where: \\[2pt]
+$h, j$ = input feature row indices; \\[12pt]
+
+Weighted vectors measures how much an entry influences the output
+\begin{equation}
+	W_h = \alpha_h - \alpha_h^*
+	\label{eq:weighted_vectors}
+\end{equation}
+\noindent where: \\[2pt]
+$\alpha$ = upper weight; \\
+$\alpha^*$ = lower weight; \\[12pt]
+
+The $\alpha$ are calculated using
+\begin{equation}
+	\max_{\alpha_h, \alpha_h^*} \left[ \sum_{h=1}^n y_h (\alpha_h - \alpha_h^*) - \varepsilon \sum_{h=1}^n (\alpha_h + \alpha_h^*) - \frac{1}{2} \sum_{h=1}^n \left( \sum_{j=1}^n (\alpha_h - \alpha_h^*) (\alpha_j - \alpha_j^*) K(x_h, x_j) \right) \right]
+	\label{eq:alpha_calculation}
+\end{equation}
+
+With constraints such that
+\begin{equation}
+	-C \leq W_h \leq C
+	\label{eq:weight_constraint_1}
+\end{equation}
+\begin{equation}
+	\sum_{h=1}^n w_h = 0
+	\label{eq:weight_constraint_2}
+\end{equation}
+
+Support Vectors are picked from the weighted vectors that meets the condition
+\begin{equation}
+	SV = \{0 < W_h \leq C\}
+	\label{eq:support_vectors}
+\end{equation}
+
+By picking a single sample from the dataset the bias is calculated as
+\begin{equation}
+	b = y_I - \varepsilon - \sum_{h=1}^n W_h K(x_h, x_I)
+	\label{eq:bias_calculation}
+\end{equation}
+\noindent where: \\[2pt]
+$I$ = chosen index; \\[12pt]
+
+
+\subsubsection{Multiple Linear Regression} 
+Multiple regression is an ensemble of linear regressions which models the relationship between a dependent variable and one or more independent variables by fitting a linear equation to the data \cite{Hastie_2009}. 
+
+The general equation for MLR is defined as
+\begin{equation}
+	y(x) = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots \beta_n x_m
+	\label{eq:mlr_equation}
+\end{equation}
+\noindent where: \\[2pt]
+$\beta$ = slope; \\[12pt]
+
+Beta is defined as
+\begin{equation}
+	\beta = (X^T X)^{-1} X^T Y
+	\label{eq:beta_definition}
+\end{equation}
+\noindent where: \\[2pt]
+\begin{equation}
+	\beta = \begin{bmatrix} 
+		\beta_0 \\ 
+		\beta_1 \\ 
+		\vdots \\ 
+		\beta_n 
+	\end{bmatrix} \quad
+	X = \begin{bmatrix} 
+		1 & x_{11} & x_{12} & \cdots & x_{1m} \\ 
+		1 & x_{21} & x_{22} & \cdots & x_{2m} \\ 
+		\vdots & \vdots & \vdots & \ddots & \vdots \\ 
+		1 & x_{n1} & x_{n2} & \cdots & x_{nm} 
+	\end{bmatrix} \quad
+	Y = \begin{bmatrix} 
+		y_1 \\ 
+		y_2 \\ 
+		\vdots \\ 
+		y_n 
+	\end{bmatrix}
+	\label{eq:mlr_matrices}
+\end{equation}
+
+
 \subsection{Stack Ensemble}
-Stack Ensemble is a machine learning technique that builds a new model by combining the predictions of several previously trained models. Stack ensemble takes advantage of mutual complementarity among the base models to improve performance and enhance generalization ability \cite{Lu_2023}. Stack ensemble works by training multiple models as the basic learner and a second layer of model to serve as the meta learner. The meta learner combines the prediction of the basic learners to create its own prediction as shown in figure 2.1.3.
+Stack Ensemble is a machine learning technique that builds a new model by combining the predictions of several previously trained models. Stack ensemble takes advantage of mutual complementarity among the base models to improve performance and enhance generalization ability \cite{Lu_2023}. Stack ensemble works by training multiple models as the basic learner and a second layer of model to serve as the meta learner. The meta learner combines the prediction of the basic learners to create its own prediction as shown in figure 2.3 
 
 \begin{figure}[h!]
 	\centering
@@ -266,8 +253,8 @@ Stack Ensemble is a machine learning technique that builds a new model by combin
 	\caption{Ensemble Stacking}
 	\label{fig:ensemble_stacking}
 \end{figure}
-\subsubsection{Three-way Holdout Split} 
-Three-way holdout split is a method for stack ensemble to divide the dataset for training and validation \cite{Raschka_2020}. For a dataset with less than 100,000 entries a split of 50\% basic learner, 25\% meta learner and 25\% validation is a standard. However, for datasets with more than 100,000 entries a split of 98\% basic learner, 1\% meta learner and 1\% validation is used as shown in figure 2.1.3.1.
+
+In stack ensemble Three-way holdout split is used to divide the dataset for training and validation \cite{Raschka_2020}. For a dataset with less than 100,000 entries a split of 50\% basic learner, 25\% meta learner and 25\% validation is a standard. However, for datasets with more than 100,000 entries a split of 98\% basic learner, 1\% meta learner and 1\% validation is used as shown in figure 2.1.3.1.
 
 \begin{figure}[h!]
 	\centering
@@ -277,31 +264,32 @@ Three-way holdout split is a method for stack ensemble to divide the dataset for
 \end{figure}
 
 \subsection{Validation}
-Validating the machine learning model performance is a necessary step in machine learning to confirm that the model achieves its intended purpose. Validation is done right after a model is trained and exposed to unseen data \cite{Hodson_2022,GeeksforGeeks_2013}. Countless validation methods exist for machine learning, however the two methods which are considered as standards for regression models are RMSE and R$^2$.
-\begin{enumerate}
-	\item \textbf{Root Mean Square Error} \\
-	The root mean square error (RMSE) has been used as a standard statistical metric to measure model performance \cite{Chai_2014}. RMSE measures the average amount of error per prediction, meaning it is in the same unit as the output. RMSE is calculated as
-	
-	\[
-	RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - h_i)^2}
-	\]
-	
-	where:
-	\begin{itemize}
-		\item $h$ = predicted value of the datapoint
-	\end{itemize}
-	\item \textbf{Coefficient of Determination} \\
-	Coefficient of Determination ($R^2$) is used to measure how well a model fits data and how well it can predict. $R^2$ determines how much the variation is in the data. The closer the $R^2$ value is to 1, the better the model fits in the data [16]. The $R^2$ is calculated as
-	
-	\[
-	R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - h_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}
-	\]
-	
-	where:
-	\begin{itemize}
-		\item $\bar{y}$ = mean of target values
-	\end{itemize}
-\end{enumerate}
+Validating the machine learning model performance is a necessary step in machine learning to confirm that the model achieves its intended purpose. Validation is done right after a model is trained and exposed to unseen data \cite{Hodson_2022,GeeksforGeeks_2013}. Countless validation methods exist for machine learning, however the two methods which are considered as standards for regression models are RMSE, $R^2$ and MAE
+
+\vspace{12pt}
+\textbf{Coefficient of Determination ($R^2$)}
+
+Coefficient of Determination ($R^2$) is used to measure how well a model fits data and how well it can predict. $R^2$ determines how much the variation is in the data. The closer the $R^2$ value is to 1, the better the model fits in the data [16]. The $R^2$ is calculated as
+\begin{equation}
+	R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}
+\end{equation}
+where:\\
+$\bar{y}$ = mean of target values\\
+$\hat{y}$ = predicted target value
+
+\vspace{12pt}
+\textbf{The root mean square error (RMSE)}
+
+The root mean square error has been used as a standard statistical metric to measure model performance \cite{Chai_2014}. RMSE measures the average amount of error per prediction, meaning it is in the same unit as the output. RMSE is calculated as
+\begin{equation}
+	RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
+\end{equation}
+
+\textbf{Mean Absolute Error (MAE):}\\
+Measures absolute difference between prediction and reference
+\begin{equation}
+	MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
+\end{equation}
 
 \section{Literature Review}
 This section investigates the application of machine learning (ML) algorithms for the in-field calibration of low-cost air quality sensors monitoring particulate matter (PM), sulfur dioxide (SO2), nitrogen dioxide (NO2), ozone (O3), and carbon monoxide (CO). While low-cost sensors present a scalable solution to achieve high spatial and temporal resolution in air quality monitoring, their raw measurements often exhibit poor correspondence with professional-grade reference stations. The reliability of these devices is heavily compromised by internal hardware errors and external environmental interferences. Specifically, their performance is notoriously sensitive to non-linear factors such as temperature variations, relative humidity, cross-gas sensitivities, and progressive sensor drift. To bridge this accuracy gap, recent research highlights machine learning as an essential calibration tool. By effectively modelling the complex, non-linear dependencies between environmental confounders and target pollutant signals, ML techniques can dynamically correct sensor data and significantly enhance overall measurement reliability. 

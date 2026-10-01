@@ -25,11 +25,10 @@
 \contentsline {subsection}{\numberline {2.1.2}Two-point Calibration}{7}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Machine Learning}{8}{subsection.2.1.3}%
 \contentsline {subsubsection}{Random forest}{8}{subsubsection*.3}%
-\contentsline {subsubsection}{Support Vector Regression (SVR)}{12}{subsubsection*.5}%
-\contentsline {subsubsection}{Multiple Linear Regression}{14}{subsubsection*.6}%
+\contentsline {subsubsection}{Support Vector Regression (SVR)}{11}{subsubsection*.5}%
+\contentsline {subsubsection}{Multiple Linear Regression}{14}{subsubsection*.7}%
 \contentsline {subsection}{\numberline {2.1.4}Stack Ensemble}{15}{subsection.2.1.4}%
-\contentsline {subsubsection}{Three-way Holdout Split}{16}{subsubsection*.8}%
-\contentsline {subsection}{\numberline {2.1.5}Validation}{17}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.5}Validation}{16}{subsection.2.1.5}%
 \contentsline {section}{\numberline {2.2}Literature Review}{18}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Comparing different calibration method}{18}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Calibration using random forest}{20}{subsection.2.2.2}%
