@@ -1,64 +1,255 @@
-Describe the organization or flow of the contents in this chapter before the start of the first section.
-What can your readers learn from this chapter?
-How did you organize your discussions and subsections?
-You can add subsections but NOT sections.
-
-Description of Subjects can be removed if this is not applicable to your research.
+This chapter covers the development of both the hardware and software components of this study, detailing the methods of execution. Additionally, this chapter highlights the application of these proposed methods through experiments.
 
 \section{Proposed Method}
-Aside from the discussion regarding the proposed method, this must contain the block diagram(s) and possible flowchart(s).
-Note that supporting circuits, block diagrams and flowcharts should be in the appendix.
-For components, the order should be INPUT, PROCESS, OUTPUT.
-The sequence should be as follows: system block diagram, flowchart(s), components, circuit(s), and final project.
+This project is about a calibration method using stacked ensemble. To gather data necessary for the machine training, the proposed project uses an Air Monitoring System built with a low-cost sensor that can detect Particulate Matter as the device in test. Then it uses DENR standard PM monitoring system to serve as the calibration reference. The proposed model can read PM every 3 minutes and display it to the web and store it in a csv. The system uses an ESP32 Microcontroller to run the machine learning model to calibrate the readings.   
 
-DO NOT FORGET: 
-All figures and tables should be mentioned in the paragraph or discussion.
-Discuss the system block diagram in detail.
-Each block should contain the process NOT the result of the process.
-Variable names and the flow shown in the flowcharts should also be explained.
-For components, the following should be included: picture of actual component; model number; technical specifications (only those that are significant for the project); purpose or function in the prototype; and reason for selection.
-For the proposal hearing, CAD model with dimensions of the prototype should be shown and discussed.
-After the final defense, include the actual picture at different angles and explain its step-by-step operation.
+Figure 3.1. shows the simplified block diagram of the proposed Air Monitoring System. As shown in the diagram, the sensor detects the Particulate matter then passed to the processor where the data is processed. After processing, the processed data is then passed to the cloud where it can be accessed by a user device.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{Simplified Block Diagram.png}
+	\caption{Simplified Block Diagram}
+	\label{fig:three_way_holdout}
+\end{figure}
+
+\subsection{System Components}
+The following are the components used in the air monitoring system
+
+\subsubsection{Input Devices}
+\begin{enumerate}
+	\item Particulate Matter Sensor
+	
+	Figure 3.2 shows an image of RRH62000, a particulate matter sensor with a built-in temperature and humidity sensor. It operates at 4.5V to 5.5V and can measure PM10, PM2.5 and PM1 with $\pm 10\%$ relative accuracy error and 0.1ug/m$^3$ resolution. For its Temperature sensor, it can measure -40$^\circ$C to 125$^\circ$C with $\pm 0.4^\circ$C relative accuracy error and 0.01$^\circ$C resolution. For its humidity sensor, it can measure 0\%RH to 100\%RH with $\pm 5$\%RH relative accuracy error and 0.04\%RH resolution. It has a customizable sampling time of 3-180 seconds. It uses both UART and I2C protocol to communicate with the MCU. It is used in the study to measure PM10, PM2.5, Temperature and Humidity.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.6\textwidth]{RRH62000.png}
+		\caption{RRH62000}
+		\label{fig:rrh62000}
+	\end{figure}
+	
+	\item Reference Sensor
+	
+	Figure 3.3 shows an image of a BAM-1020, it is a particulate matter sensor capable of sensing PM10 and PM2.5, with an accuracy certification that Exceeds U.S. EPA Class III and has a sampling time of 1hour. The device is operated under the jurisdiction of the Environmental Management Bureau Region 7(EMB7) and is used for this study as the reference sensor.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.6\textwidth]{BAM1020.png}
+		\caption{BAM1020}
+		\label{fig:bam1020}
+	\end{figure}
+	
+\vspace{1em}
+\item Particulate Matter Sensor
+
+Figure 3.4 shows an image of an ESP32 WROOM 32E microcontroller, it is a dual-core 32-bit LX6 microprocessor with up to 240 MHz and a storage of 448 KB ROM and 520 KB SRAM.  additionally, it has a built-in Wi-Fi with up to 150Mbps. It has 26 total GPIOs with 2 I2Cs. The ESP32 is used by this study to read the PM readings of the RRH62000 and implement the machine learning model.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.6\textwidth]{ESP32 WROOM 32E.png}
+	\caption{ESP32 WROOM 32E} 
+	\label{fig:esp32}
+\end{figure}
+
+\vspace{1em}
+\noindent \textit{Output Devices}
+	\item Cloud Platform 
+	
+	Figure 3.5 shows an image of ThingSpeak by MathWorks, it is an IoT cloud platform used in this study for storage and real-time data visualization. The platform communicates via standard HTTP protocols, supports CSV data export, and provides configurable public and private channel visibility. The study uses the free-tier service configuration, which has 4 channels, a yearly limit of 3 million messages, and a minimum update interval of 15 seconds. Additionally, it has email notifications capped at 800 messages per year with a rate limit of 2 emails per 30 minutes. 
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.6\textwidth]{Thingspeak.png}
+		\caption{ThingSpeak} 
+		\label{fig:thingspeak}
+	\end{figure}
+	
+\end{enumerate}
+
+\subsection{Algorithm}
+Figure 3.6 shows the architecture of the proposed stacked ensemble training model. The training process adopts a two-level configuration. The primary dataset is used to train the Random Forest Regression (RFR) and Support Vector Regression (SVR) as the Basic learners. Once trained, these base models are tested with another dataset, the prediction of these base models are paired with the reference values and are then used to train the Meta learner. After the Multiple Linear Regression (MLR) is trained, another dataset is passed to validate the performance of the stack ensemble.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth]{Stack enseble architecture - training.png}
+	\caption{Stack enseble architecture - training} 
+	\label{fig:Stack enseble architecture - training}
+\end{figure}
+
+Figure 3.7 show the architecture of the stack ensemble in operation. During real-time prediction, the sensor inputs are simultaneously fed into the basic learners (RFR and SVR). Each base model generates a prediction based on the raw environmental and particulate readings. These predictions are then passed as input features to the meta learner (MLR). The MLR model applies its learned regression weights and intercept to create its own predictions which is considered as the calibrated final output.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.95\textwidth]{Stack enseble architecture - operation.png}
+	\caption{Stack Ensemble Architecture - Operation} 
+	\label{fig:Stack Ensemble Architecture - Operation}
+\end{figure}
+
+To gather the dataset for the training, an air monitoring system is designed to gather and log data to the ThingSpeak. Figure 3.8 shows the flowchart of the data gathering, it starts with setting the channel id and write API of the ThingSpeak channel. Then it takes the sensor readings of RRH62000 and stores it into variables. The stored values are then sent to the ThingSpeak and after 3 minutes the loop starts again from reading the sensor values of RRH62000.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=1.1\textwidth]{Data Gathering.png}
+	\caption{Data Gathering} 
+	\label{fig:Data Gathering}
+\end{figure}
+
+Figure 3.9 shows the program flowchart of how the stack ensemble is trained. It starts with importing the dataset using pandas. A variable named \textit{f\_train} is assigned with the dataset of the basic model while \textit{df\_train} is assigned with the dataset for testing the basic learner. Then a variable \textit{feature\_cols} is created to hold the column names of the input features and \textit{target\_col} for the target columns. Then another varaible is created to segregate the input features and target of the dataset for both the training and testing. X\_train and X\_test is the variable assigned to hold the dataset of the input features for the training and testing, y\_train and y\_test is assigned to hold the dataset of the target values for the training and testing. Then the RFR, SVR, MLR are trained using the imported dataset.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Model Training.png}
+	\caption{Model Training} 
+	\label{fig:Model Training}
+\end{figure}
+
+Figure 3.10 shows the subprocess of how the RFR is trained. It starts by creating a variable \textit{rf\_model} to store an empty and untrained RFR. The previously defined \textit{X\_train} and \textit{y\_train} are then fitted in the \textit{rf\_model} to train it using the dataset. After training the model is exported using the joblib function. To test the model \textit{y\_pred} is created to store the predictions of the model. \textit{rf\_model.predict(X\_test)} is called to create a prediction using the input features in \textit{X\_test}, then the outputs are stored to \textit{y\_pred}. Using the \textit{y\_test} and \textit{y\_pred} the MAE, RMSE and R$^2$ are calculated and plotted into a scatter plot.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\textwidth]{RFR Training.png}
+	\caption{Random Forest Regression Training} 
+	\label{fig:Random Forest Regression Training}
+\end{figure}
+
+Figure 3.11 shows the subprocess of how the SVR is trained. It starts by creating a variable \textit{svr\_model} to store an empty and untrained SVR. The previously defined \textit{X\_train} and \textit{y\_train} are then fitted in the \textit{svr\_model} to train it using the dataset. After training the model is exported using the joblib function. To test the model the previously defined \textit{y\_pred} is overridden to store the predictions of the svr model. \textit{svr\_model.predict(X\_test)} is called to create a prediction using the input features in \textit{X\_test}, then the outputs are stored to \textit{y\_pred}. Using the \textit{y\_test} and \textit{y\_pred} the MAE, RMSE and R$^2$ are calculated and plotted into a scatter plot.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\textwidth]{SVR Training.png}
+	\caption{Support Vector Regressor Training} 
+	\label{fig:Support Vector Regressor}
+\end{figure}
+
+Figure 3.12 shows the subprocess of how the MLR is trained. It starts by creating a new variable \textit{df\_train} to store the dataset used to train the basic learner and the previously defined \textit{df\_test} is overridden by a dataset used to validate the stack ensemble. Then another varaible is created to segregate the input features and target of the dataset for both the training and testing. \textit{X\_meta\_train} and \textit{X\_test} is the variable assigned to hold the dataset of the input features for the training and testing, \textit{y\_meta} and \textit{y\_test} is assigned to hold the dataset of the target values for the training and testing.
+
+Using the previously created RFR and SVR models new variables are created. \textit{pred\_rf\_meta\_train} and \textit{pred\_rf\_meta\_test} is used to store the prediction of the RFR model using the \textit{X\_meta} and \textit{y\_meta} then \textit{pred\_svr\_meta\_train} and \textit{pred\_svr\_meta\_test} is used to store the prediction of the SVR model using the \textit{X\_meta} and \textit{y\_test}. The predictions are then compiled into columns and stored in new variables \textit{X\_meta\_train\_set\_} for the training and \textit{X\_meta\_test\_set} for the testing dataset. A new variable \textit{mlr\_model} created to store an empty and untrained MLR. The previously defined \textit{X\_meta\_train\_set} and \textit{y\_meta} are then fitted in the \textit{mlr\_model} to train it using the dataset. After training the model is exported using the joblib function. To test the model the previously defined \textit{y\_pred} is overridden to store the predictions of the model. \textit{mlr\_model.predict(X\_meta\_test\_set)} is called to create a prediction using the input features in \textit{X\_meta\_test\_set}, then the outputs are stored to \textit{y\_pred}. Using the \textit{y\_test} and \textit{y\_pred} the MAE, RMSE and R$^2$ are calculated and plotted into a scatter plot.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\textwidth]{MLR Training.png}
+	\caption{Multiple Linear Regression} 
+	\label{fig:Multiple Linear Regression}
+\end{figure}
+
+
+\subsection{Circuit Configuration}
+Figure 3.13 shows the actual circuit configuration of the Air Monitoring System. The RRH62000 sensor is configured to I2C mode by connecting the Sel pin to Gnd and is connected to the ESP32 via I2C. The MCU is powered by either a 2S liFePo4 battery or a type-C charger via buck converter.  The circuit has two switches, S3 makes the MCU take power from the type-C and S4 connects the battery to the type-C to charge it. Under normal operation both switches are turned on so that the MCU can have an uninterruptable supply even if the type-C is removed.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Circuit Diagram.png}
+	\caption{Circuit Diagram} 
+	\label{fig:Circuit Diagram}
+\end{figure}
+
+\subsection{Design}
+Figure 3.14 shows the actual design of the Air Monitoring System, the system has a dimension of 95 x 139 x 200mm. The system is equipped with ventilation holes to make sure that the internal components do not heat up. Additionally, the RRH62000 is put directly outside so that it is exposed directly to the open air to measure the ambient conditions.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Air Monitoring System.jpg}
+	\caption{Air Monitoring System} 
+	\label{fig:Air Monitoring System}
+\end{figure}
+
 
 \section{Description of Experiments}
 \label{sec: expts}
-During the proposal period, describe in detail the possible experiments that will be performed.
-For each experiment, it must have the objective(s), materials, and procedure.
-Each subsection here should be an experiment.
-All the details, settings, and assumptions should be discussed.
-Tables may also be presented here.
+This section contains detailed information on the experiments essential for the 
+study
 
-\subsection{Title of Experiment of 1}
-This experiment aims to measure something.
-Note that each experiment should have a measureable objective that will help you determine/test a specific aspect/performance of your prototype.
-You should VARY ONLY ONE VARIABLE PER EXPERIMENT.
-The materials required are:
+\subsection{Data Gathering}
+The objective of this experiment is to gather readings of the proposed system with respect to the DENR reference for a span of 6 months.
+
+The materials necessary for this experiment are:
+
 \begin{enumerate}
-	\item material 1;
-	\item material 2; and
-	\item specify program name and include this in the appendix.
-\end{enumerate}
-The procedure is as follows:
-\begin{enumerate}
-	\item Each item here should be something to be done. 
-	\item Descriptions or expected changes can be included RIGHT AFTER a specific procedure.
-	\item For those that require tables, show the template of the table and specify in the procedure the column where the data should be inputted. 
-	\item If a graph will be required, spcify the type of graph and data to be used.
-	\item Lastly, instructions on processing the collected data should also be mentioned here.
-\end{enumerate}
-\subsection{Title of Experiment of 2}
-This experiment aims to measure something.
-The materials required are:
-\begin{enumerate}
-	\item material 1
-	\item material 2
-\end{enumerate}
-The procedure is as follows:
-\begin{enumerate}
-	\item Load the program to something.
-	\item Place one part in a corner.
+	\item Air Monitoring System
+	\item Computer
+	\item DENR reference station (BAM-1020)
 \end{enumerate}
 
-\section{Description of Subjects}
-This section is optional or may be changed depending on your project.
-For those who will use datasets, you can discuss the details here.
+The procedures are as follows:
+
+\begin{enumerate}
+	\item Collocate the air monitoring system with the BAM-1020 for 6 months.
+	\item After 6 months, export the logged readings from the Thingspeak into a csv.
+	\item Request to DENR for the data gathered by BAM-1020 within 6 months.
+	\item Average the readings of the air monitoring system into an hourly reading that matches the BAM-1020 timestamps.
+	\item Fill table 3.1 with the data gathered for 6 months collocation.
+	
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			\multicolumn{5}{|c|}{PM10} \\ \hline
+			Temperature & Humidity & PM10(KCl) & PM10(Smoke) & Bam-1020 \\ \hline
+			& & & & \\ \hline
+			& & & & \\ \hline
+		\end{tabular}\\[1ex]
+		\raggedright Table 3.1a: PM10 Dataset
+	\end{center}
+	
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			\multicolumn{5}{|c|}{PM2.5} \\ \hline
+			Temperature & Humidity & PM2.5(KCl) & PM2.5(Smoke) & Bam-1020 \\ \hline
+			& & & & \\ \hline
+			& & & & \\ \hline
+		\end{tabular}\\[1ex]
+		\raggedright Table 3.1b: PM2.5 Dataset
+	\end{center}
+	
+	\item Save the dataset as an xlsx
+\end{enumerate}
+
+\subsection{Model Training}
+The objective for this experiment is to train a stack ensemble model that can increase the accuracy of the sensor and be able to extrapolate.
+
+The materials necessary for this experiment are:
+
+\begin{enumerate}
+	\item Computer
+\end{enumerate}
+
+The procedures are as follows:
+
+\begin{enumerate}
+	\item Open the dataset in excel.
+	\item Sort the dataset descending from the highest BAM-1020 readings.
+	\item Separate the 10\% highest in the dataset and store it as OOD dataset.
+	\item Randomly separate the remaining dataset into three sets as basic learner (50\%), meta learner (20\%) and validation (20\%).
+	\item Train the SVR and RFR using the basic learner dataset.
+	\item Validate the basic learner using the meta learner dataset + 5\% of the lowest in OOD dataset
+	\item Plot the distribution of the validation.
+	\item Calculate the R$^2$, RMSE and MAE.
+	\item Fill table 3.2 with the output of the validation corresponding with its target
+	
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\multicolumn{3}{|c|}{PM10 Meta Learner} \\ \hline
+			SVR & RFR & Bam-1020 \\ \hline
+			& & \\ \hline
+			& & \\ \hline
+		\end{tabular}\\[1ex]
+		\raggedright Table 3.2a: PM10 Meta Learner
+	\end{center}
+	
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\multicolumn{3}{|c|}{PM2.5 Meta Learner} \\ \hline
+			SVR & RFR & Bam-1020 \\ \hline
+			& & \\ \hline
+			& & \\ \hline
+		\end{tabular}\\[1ex]
+		\raggedright Table 3.2b: PM2.5 Meta Learner
+	\end{center}
+	
+	\item Train the MLR using the dataset tabulated in table 3.2.
+	\item Validate the Stack ensemble using the validation dataset + 5\% of the highest in OOD dataset.
+	\item Plot the distribution of the validation.
+	\item Calculate the R$^2$, RMSE and MAE.
+\end{enumerate}
