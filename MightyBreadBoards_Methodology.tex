@@ -258,3 +258,153 @@ Figure \ref{fig:mlr_training_flow} shows the subprocess of how the MLR is traine
 \end{figure}
 
 \section{Description of Experiments}
+This section contains detailed information on the experiments essential for the study.
+
+\subsection{Collocation}
+The objective of this experiment is to gather readings of the proposed system with respect to the DENR reference for a span of 6 months.
+
+\noindent The materials necessary for this experiment are:
+\begin{enumerate}
+	\item Air Monitoring System
+	\item Computer
+	\item DENR reference station (BAM-1020)
+\end{enumerate}
+
+\noindent The procedures are as follows:
+\begin{enumerate}
+	\item Collocate the air monitoring system with the BAM-1020 for 6 months.
+	\item After 6 months, export the logged readings from the Thingspeak into a csv.
+	\item Request to DENR for the data gathered by BAM-1020 within 6 months.
+	\item Average the readings of the air monitoring system into an hourly reading that matches the BAM-1020 timestamps.
+	\item Fill Table 3.1 with the data gathered for 6 months collocation.
+	
+	\begin{table}[htbp]
+		\centering
+		\renewcommand{\arraystretch}{1.3}
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			\multicolumn{5}{|c|}{\textbf{PM10}} \\ \hline
+			\textbf{Temperature} & \textbf{Humidity} & \textbf{PM10(KCl)} & \textbf{PM10(Smoke)} & \textbf{Bam-1020} \\ \hline
+			& & & & \\ \hline
+			& & & & \\ \hline
+		\end{tabular}
+		\caption{Table 3.1a: PM10 Dataset}
+		\label{tab:collocation_pm10}
+	\end{table}
+	
+	\begin{table}[htbp]
+		\centering
+		\renewcommand{\arraystretch}{1.3}
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			\multicolumn{5}{|c|}{\textbf{PM2.5}} \\ \hline
+			\textbf{Temperature} & \textbf{Humidity} & \textbf{PM2.5(KCl)} & \textbf{PM2.5(Smoke)} & \textbf{Bam-1020} \\ \hline
+			& & & & \\ \hline
+			& & & & \\ \hline
+		\end{tabular}
+		\caption{Table 3.1b: PM2.5 Dataset}
+		\label{tab:collocation_pm25}
+	\end{table}
+	
+	\item Save the dataset as an xlsx.
+\end{enumerate}
+
+\subsection{Hourly reading synchronization}
+The objective for this experiment is to convert the three-minute readings of the Air Monitoring System into an hourly reading to synchronize with the BAM-1020 readings.
+
+\noindent The materials necessary for this experiment are:
+\begin{enumerate}
+	\item Computer
+\end{enumerate}
+
+\noindent The procedures are as follows:
+\begin{enumerate}
+	\item Import the csv file of the Air Monitoring System and BAM-1020 to excel.
+	\item Sort the readings with the same hourly timestamp.
+	\item Average the readings of the Air Monitoring System into an hourly readings to match the BAM-1020.
+	\item Fill the table with the synchronized hourly readings.
+	
+	\begin{table}[htbp]
+		\centering
+		\renewcommand{\arraystretch}{1.3}
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			\multicolumn{5}{|c|}{\textbf{PM10}} \\ \hline
+			\textbf{Temperature} & \textbf{Humidity} & \textbf{PM10(KCl)} & \textbf{PM10(Smoke)} & \textbf{Bam-1020} \\ \hline
+			& & & & \\ \hline
+			& & & & \\ \hline
+		\end{tabular}
+		\caption{Table 3.2a: PM10 Dataset}
+		\label{tab:sync_pm10}
+	\end{table}
+	
+	\begin{table}[htbp]
+		\centering
+		\renewcommand{\arraystretch}{1.3}
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			\multicolumn{5}{|c|}{\textbf{PM2.5}} \\ \hline
+			\textbf{Temperature} & \textbf{Humidity} & \textbf{PM2.5(KCl)} & \textbf{PM2.5(Smoke)} & \textbf{Bam-1020} \\ \hline
+			& & & & \\ \hline
+			& & & & \\ \hline
+		\end{tabular}
+		\caption{Table 3.2b: PM2.5 Dataset}
+		\label{tab:sync_pm25}
+	\end{table}
+	
+	\item Save the excel file.
+\end{enumerate}
+
+\subsection{Model Training}
+The objective for this experiment is to train a stack ensemble model that can increase the accuracy of the sensor and be able to extrapolate.
+
+\noindent The materials necessary for this experiment are:
+\begin{enumerate}
+	\item Computer
+\end{enumerate}
+
+\noindent The procedures are as follows:
+\begin{enumerate}
+	\item Open the dataset in excel.
+	\item Sort the dataset descending from the highest BAM-1020 readings.
+	\item Separate the 10\% highest in the dataset and store it as OOD dataset.
+	\item Randomly separate the remaining dataset into three sets as basic learner (50\%), meta learner (20\%) and validation (20\%).
+	\item Train the SVR and RFR using the basic learner dataset.
+	\item Validate the basic learner using the meta learner dataset + 5\% of the lowest in OOD dataset.
+	\item Plot the distribution of the validation.
+	\item Calculate the $R^2$, RMSE and MAE.
+	\item Fill Table 3.3 with the output of the validation corresponding with its target.
+	
+	\begin{table}[htbp]
+		\centering
+		\renewcommand{\arraystretch}{1.3}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\multicolumn{3}{|c|}{\textbf{PM10 Meta Learner}} \\ \hline
+			\textbf{SVR} & \textbf{RFR} & \textbf{Bam-1020} \\ \hline
+			& & \\ \hline
+			& & \\ \hline
+		\end{tabular}
+		\caption{Table 3.3a: PM10 Meta Learner}
+		\label{tab:meta_pm10}
+	\end{table}
+	
+	\begin{table}[htbp]
+		\centering
+		\renewcommand{\arraystretch}{1.3}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\multicolumn{3}{|c|}{\textbf{PM2.5 Meta Learner}} \\ \hline
+			\textbf{SVR} & \textbf{RFR} & \textbf{Bam-1020} \\ \hline
+			& & \\ \hline
+			& & \\ \hline
+		\end{tabular}
+		\caption{Table 3.3b: PM2.5 Meta Learner}
+		\label{tab:meta_pm25}
+	\end{table}
+	
+	\item Train the MLR using the dataset tabulated in Table 3.3.
+	\item Validate the Stack ensemble using the validation dataset + 5\% of the highest in OOD dataset.
+	\item Plot the distribution of the validation.
+	\item Calculate the $R^2$, RMSE and MAE.
+\end{enumerate}
