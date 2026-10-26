@@ -1,9 +1,260 @@
 This chapter covers the development of both the hardware and software components of this study, detailing the methods of execution. Additionally, this chapter highlights the application of these proposed methods through experiments. 
 
-\section{Proposed Method}
-This project is about a calibration method using stacked ensemble. Figure 3.1 shows the block diagram of the air monitoring system. The proposed system uses an RRH62000 sensor to read PM, temperature and Humidity, then its readings are sent to the ESP32. The ESP32 then executes the stack ensembled algorithm to calibrate the readings into a more accurate one. Upon undergoing the stack ensemble, the calibrated data is now sent to the thingspeak and users can now display and view such data through their device using thingspeak.  
+\section{Proposed Methods}
+This project is about a calibration method using stacked ensemble. Figure \ref{fig:simplified_system} shows the block diagram of the air monitoring system. The proposed system uses an RRH62000 sensor to read PM, temperature and Humidity, then its readings are sent to the ESP32. The ESP32 then executes the stack ensembled algorithm to calibrate the readings into a more accurate one. Upon undergoing the stack ensemble, the calibrated data is now sent to the thingspeak and users can now display and view such data through their device using thingspeak.
 
 To gather data necessary for the machine training, the proposed project uses the Air Monitoring System built and collocates it besides the DENR standard PM monitoring system to serve as the calibration reference. The proposed model can read PM every 3 minutes and display it to the web and store it in a csv.
 
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.95\textwidth]{fig3_1_system_diagram.png}
+	\caption{Simplified Air Monitoring System diagram}
+	\label{fig:simplified_system}
+\end{figure}
+
+\subsection{System Components}
+The following are the components used in the air monitoring system.
+
+\vspace{1em}
+\noindent \textbf{Input Devices}
+\begin{enumerate}
+	\item \textbf{Particulate Matter Sensor}
+	
+	Figure \ref{fig:rrh62000} shows an image of RRH62000, it is used in the study to measure PM10, PM2.5, Temperature and Humidity. The particulate matter sensor has a built-in temperature and humidity sensor. It operates at 4.5V--5.5V and can measure PM10, PM2.5 and PM1 with $\pm 10\%$ relative accuracy error at $0.1\,\mu\text{g/m}^3$ resolution. Since the PM sensor uses Laser Scattering Technology it has two different PM reading, PM(KCl) for PM with reference to KCl particle and PM(Smoke) for PM with reference to smoke particles. For its Temperature sensor, it can measure $-40^\circ\text{C}$--$125^\circ\text{C}$ with $\pm 0.4^\circ\text{C}$ relative accuracy error at $0.01^\circ\text{C}$ resolution. For its humidity sensor, it can measure $0\%$--$100\%\text{RH}$ with $\pm 5\%\text{RH}$ relative accuracy error at $0.04\%\text{RH}$ resolution. It has a customizable sampling time of 3--180 seconds. It uses both UART and I$^2$C protocol to communicate with the MCU.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.5\textwidth]{fig3_2_rrh62000.png}
+		\caption{RRH62000}
+		\label{fig:rrh62000}
+	\end{figure}
+	
+	\item \textbf{IMU Sensor}
+	
+	Figure \ref{fig:mpu6500} shows an image of MPU6500, it is used in the study to detect if the Air Monitoring System has capsized during deployment. The 6-axis motion tracking sensor has a built-in 3-axis accelerometer and 3-axis gyroscope. It operates at 2.4V--3.6V and can measure acceleration across user-selectable full-scale ranges of $\pm 2, 4, 8, 16g$ at 16-bit resolution. For its gyroscope sensor, it can measure angular velocity across user-selectable full-scale ranges of $\pm 250, 500, 1000, 2000^\circ\text{/s}$ at 16-bit resolution. It has programmable output data rates up to 4 kHz for the accelerometer and 8 kHz for the gyroscope. It uses both I$^2$C and SPI protocols to communicate with the MCU.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.55\textwidth]{fig3_6_mpu6500.png}
+		\caption{MPU6500}
+		\label{fig:mpu6500}
+	\end{figure}
+	
+	\item \textbf{Power Supply}
+	
+	Figure \ref{fig:adapter} shows an image of a 9V adapter, it is used in the study as its main power source. The adapter takes an input of 220V and outputs a steady 9V at a max current of 3A.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.5\textwidth]{fig3_7_adapter.png}
+		\caption{9V Adapter}
+		\label{fig:adapter}
+	\end{figure}
+	
+	\item \textbf{Switch}
+	
+	Figure \ref{fig:switch} shows an image of a switch used in the study to turn ON/OFF the WiFi and the ESP32.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.45\textwidth]{fig3_11_switch.png}
+		\caption{Switch}
+		\label{fig:switch}
+	\end{figure}
+\end{enumerate}
+
+\vspace{1em}
+\noindent \textbf{Processor}
+
+Figure \ref{fig:esp32} shows an image of an ESP32 WROOM 32E microcontroller, it is a dual-core 32-bit LX6 microprocessor with up to 240 MHz and a storage of 448 KB ROM and 520 KB SRAM. Additionally, it has a built-in Wi-Fi with up to 150Mbps. It has 26 total GPIOs with two I$^2$Cs. The ESP32 is used by this study to read the PM readings of the RRH62000 and implement the machine learning model.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.6\textwidth]{fig3_4_esp32.png}
+	\caption{ESP32 WROOM 32E}
+	\label{fig:esp32}
+\end{figure}
+
+\vspace{1em}
+\noindent \textbf{Output Devices}
+\begin{enumerate}
+	\item \textbf{Cloud Platform}
+	
+	Figure \ref{fig:thingspeak} shows an image of ThingSpeak by MathWorks, it is an IoT cloud platform used in this study for storage and real-time data visualization. The platform communicates via standard HTTP protocols, supports CSV data export, and provides configurable public and private channel visibility. The study uses the free-tier service configuration, which has 4 channels, a yearly limit of 3 million messages, and a minimum update interval of 15 seconds. Additionally, it has email notifications capped at 800 messages per year with a rate limit of 2 emails per 30 minutes.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{fig3_5_thingspeak.png}
+		\caption{ThingSpeak}
+		\label{fig:thingspeak}
+	\end{figure}
+	
+	\item \textbf{Wi-Fi}
+	
+	Figure \ref{fig:router} shows an image of a TP-Link TL-MR100 Wi-Fi router used in the study to enable the ESP32 to connect to the internet. It features a micro sim slot with speeds up to 300Mbps. It is a 4G Wi-Fi that runs in 9V at 0.85A.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.55\textwidth]{fig1_11_router.png}
+		\caption{TP-Link TL-MR100}
+		\label{fig:router}
+	\end{figure}
+	
+	\item \textbf{LED}
+	
+	Figure \ref{fig:rgb_led} shows an image of a clear RGB LED, it is used in the study to output current states of the Air Monitoring System where certain color pertains to different statuses. A single LED can display red, green and blue colors and has working voltage of 2.2V--5.5V with a current of 20mA.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.45\textwidth]{fig3_8_rgb_led.png}
+		\caption{Clear RGB LED}
+		\label{fig:rgb_led}
+	\end{figure}
+	
+	\item \textbf{Fan}
+	
+	Figure \ref{fig:fan} shows an image of a fan which is used for the study to keep the Air Monitoring System cooled when under the intense heat of the sun. It is rated to have a working condition of 5--12V.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.5\textwidth]{fig3_9_fan.png}
+		\caption{FAN}
+		\label{fig:fan}
+	\end{figure}
+	
+	\item \textbf{Relay}
+	
+	Figure \ref{fig:relay} shows an image of a relay module which is used for this study to control the state of the FAN. It has an input supply voltage of 4.5--5V with a logic voltage of 3.3V. On its contacts, it can handle up to 250V at 10A.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.55\textwidth]{fig3_10_relay.png}
+		\caption{Relay Module}
+		\label{fig:relay}
+	\end{figure}
+\end{enumerate}
+
+\subsection{Circuit Configuration}
+Figure \ref{fig:circuit_diagram} shows the circuit configuration of the Air Monitoring System. The RRH62000 sensor is configured to I$^2$C mode by connecting the Sel pin to Gnd and is connected to the ESP32 via I$^2$C. The MCU and the Wi-Fi is powered by a 9V adapter. The circuit has two switches, S1 controls the state of the Wi-Fi while S2 controls the state of the ESP32. There is also an MPU6500 connected to the ESP32 via I$^2$C to monitor the orientation and tilt of the system. Additionally, there is a fan connected to the main power supply which is controlled by the ESP32 via a relay. Lastly there are three RGB LED connected to the ESP32 to visualize the current state of the system.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.95\textwidth]{fig3_13_circuit_diagram.png}
+	\caption{Air Monitoring System Circuit Diagram}
+	\label{fig:circuit_diagram}
+\end{figure}
+
+\subsection{Design}
+Figure \ref{fig:system_design} shows images of the real-time design of the Air Monitoring System, the system is equipped with ventilation openings to make sure that the internal components do not heat up. These ventilation openings are covered by a PVC elbow with a wire mesh to prevent rain and insects from entering the system. Additionally, the RRH62000 is put directly outside so that it is exposed directly to the open air to measure the ambient conditions. It is covered by a DIY louvered stevenson screen to prevent rain showers from getting inside the sensor.
+
+\begin{figure}[htbp]
+	\centering
+	\begin{tabular}{cc}
+		\includegraphics[width=0.45\textwidth]{fig3_14a_front.png} &
+		\includegraphics[width=0.45\textwidth]{fig3_14b_side.png} \\
+		a.) Front Dimensions & b.) Side Dimensions \\[1em]
+		\includegraphics[width=0.45\textwidth]{fig3_14c_switch.png} &
+		\includegraphics[width=0.45\textwidth]{fig3_14d_led.png} \\
+		c.) Switch Designation & d.) LED Designation \\[1em]
+		\includegraphics[width=0.45\textwidth]{fig3_14e_rrh.png} &
+		\includegraphics[width=0.45\textwidth]{fig3_14f_wifi.png} \\
+		e.) RRH62000 Dimensions & f.) Wi-Fi Dimensions \\[1em]
+		\multicolumn{2}{c}{\includegraphics[width=0.75\textwidth]{fig3_14g_internal.png}} \\
+		\multicolumn{2}{c}{g.) Internal Dimensions}
+	\end{tabular}
+	\caption{Air Monitoring System}
+	\label{fig:system_design}
+\end{figure}
+
+\subsection{Collocation}
+To gather the dataset, the Air monitoring System is collocated with the DENR BAM-1020 for a span of six months from October 23, 2026, to April 30, 2027. Figure \ref{fig:collocation} shows images of the Air Monitoring System collocating with the DENR BAM-1020.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.65\textwidth]{fig3_15_collocation.png}
+	\caption{Collocation}
+	\label{fig:collocation}
+\end{figure}
+
+During collocation the readings are monitored using the Thingspeak website. Figure \ref{fig:live_thingspeak} shows the UI of ThingSpeak with live readings that updates every three minutes.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth]{fig3_16_live_thingspeak.png}
+	\caption{Live ThingSpeak Readings}
+	\label{fig:live_thingspeak}
+\end{figure}
+
+After 6 months of collocation the data readings stored on the ThingSpeak are exported and the raw readings from the BAM-1020 are received from the DENR.
+
+\subsection{Algorithm}
+Figure \ref{fig:stack_operation} shows the architecture of the stack ensemble in operation. During real-time prediction, the sensor inputs are simultaneously fed into the basic learners (RFR and SVR). Each base model generates a prediction based on the raw environmental and particulate readings. These predictions are then passed as inputs to the meta learner (MLR). The MLR model applies its learned regression weights and intercept to create its own predictions which is considered as the calibrated final output.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.85\textwidth]{fig3_7_stack_operation.png}
+	\caption{Stack Ensemble Architecture - Operation}
+	\label{fig:stack_operation}
+\end{figure}
+
+\vspace{1em}
+\noindent \textbf{Data Gathering}
+
+To gather the dataset for the training, an air monitoring system is designed to gather and log data to the ThingSpeak. Figure \ref{fig:data_gathering_flow} shows the flowchart of the data gathering, it starts with setting the channel id and write API of the ThingSpeak channels. Then it reads the gyro sensor and tests if 0.02 seconds has passed since the last tilt calculation. If this condition is true, the MCU computes the tilt angles of the system using complementary filter. Then the MCU tests if the tilt is $> 50$ degrees. When the condition is true it sets the variable ``capsize'' to ``1'', then it tests another condition if 15 seconds has passed since the last tilt was sent to the ThingSpeak. If the condition is true, it sends the value of variable ``capsize'' to the ThingSpeak. After sending it tests a condition if three minutes have passed since the last PM sensor was read, if the condition is met it takes the sensor readings of RRH62000 and sends it to the ThingSpeak.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.95\textwidth]{fig3_8_data_gathering.png}
+	\caption{Data Gathering}
+	\label{fig:data_gathering_flow}
+\end{figure}
+
+\vspace{1em}
+\noindent \textbf{Training}
+
+Figure \ref{fig:stack_training} shows the architecture of the proposed stacked ensemble training model. The training process adopts a two-level configuration. The primary dataset is used to train the Random Forest Regression (RFR) and Support Vector Regression (SVR) as the Basic learners. Once trained, these base models are tested with another dataset, the prediction of these base models are paired with the reference values and are then used to train the Meta learner. After the Multiple Linear Regression (MLR) is trained, another dataset is passed to validate the performance of the stack ensemble.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{fig3_6_stack_training.png}
+	\caption{Stack Ensemble Architecture - Training}
+	\label{fig:stack_training}
+\end{figure}
+
+Figure \ref{fig:model_training_flow} shows the program flowchart of how the stack ensemble is trained. It starts with importing necessary libraries such as Matplotlib, numpy, pandas and sklearn. Then it imports the three dataset for the basic learner, meta learner and validation. Then the input features and targets are separated. Then the RFR, SVR, MLR are trained using the imported dataset.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{fig3_9_model_training.png}
+	\caption{Model training}
+	\label{fig:model_training_flow}
+\end{figure}
+
+Figure \ref{fig:rfr_training_flow} shows the subprocess of how the RFR is trained. It starts by creating an empty and untrained RFR model with sklearn. Then the model is trained using the segregated basic learner dataset. After training the model is exported using the joblib and it is tested with the meta learner dataset. The test results are then measured with MAE, $R^2$ and RMSE using the built-in metrics of sklearn. After that the results are plotted using matplotlib.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{fig3_10_rfr_training.png}
+	\caption{RFR Training}
+	\label{fig:rfr_training_flow}
+\end{figure}
+
+Figure \ref{fig:svr_training_flow} shows the subprocess of how the SVR is trained. It starts by creating an empty and untrained SVR model with sklearn. Then the model is trained using the segregated basic learner dataset. After training the model is exported using the joblib and it is tested with the meta learner dataset. The test results are then measured with MAE, $R^2$ and RMSE using the built-in metrics of sklearn. After that the results are plotted using matplotlib.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{fig3_11_svr_training.png}
+	\caption{SVR Training}
+	\label{fig:svr_training_flow}
+\end{figure}
+
+Figure \ref{fig:mlr_training_flow} shows the subprocess of how the MLR is trained. It starts by creating an empty and untrained MLR model with sklearn. Then the model is trained using the predicted output of the SVR and RFR using the meta learner dataset. After training the model is exported using the joblib and it is tested with the validation dataset. The test results are then measured with MAE, $R^2$ and RMSE using the built-in metrics of sklearn. After that the results are plotted using matplotlib.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{fig3_12_mlr_training.png}
+	\caption{MLR Training}
+	\label{fig:mlr_training_flow}
+\end{figure}
 
 \section{Description of Experiments}

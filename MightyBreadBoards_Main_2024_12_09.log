@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.29)  26 OCT 2026 17:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.29)  26 OCT 2026 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1468,7 +1468,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--36
 
 ]
 (MightyBreadBoards_Main_2024_12_09.toc
-Underfull \hbox (badness 10000) in paragraph at lines 2--59
+Underfull \hbox (badness 10000) in paragraph at lines 2--60
  
  []
 
@@ -1625,26 +1625,568 @@ Package pdftex.def Info: dataset.png  used on input line 261.
  [17 <./stacked.png> <./dataset.png>] [18] [19] [20] [21] [22] [23])
 [24]
 Chapter 3.
-(MightyBreadBoards_Methodology.tex) [25
+(MightyBreadBoards_Methodology.tex
 
-]
+LaTeX Warning: Reference `fig:simplified_system' on page 25 undefined on input 
+line 4.
+
+
+LaTeX Warning: File `fig3_1_system_diagram.png' not found on input line 10.
+
+
+! Package pdftex.def Error: File `fig3_1_system_diagram.png' not found: using d
+raft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...0.95\textwidth]{fig3_1_system_diagram.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:rrh62000' on page 25 undefined on input line 23.
+
+[25
+
+] [26]
+
+LaTeX Warning: File `fig3_2_rrh62000.png' not found on input line 27.
+
+
+! Package pdftex.def Error: File `fig3_2_rrh62000.png' not found: using draft s
+etting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...[width=0.5\textwidth]{fig3_2_rrh62000.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:mpu6500' on page 27 undefined on input line 34.
+
+[27]
+
+LaTeX Warning: File `fig3_6_mpu6500.png' not found on input line 38.
+
+
+! Package pdftex.def Error: File `fig3_6_mpu6500.png' not found: using draft se
+tting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...[width=0.55\textwidth]{fig3_6_mpu6500.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:adapter' on page 28 undefined on input line 45.
+
+
+LaTeX Warning: File `fig3_7_adapter.png' not found on input line 49.
+
+
+! Package pdftex.def Error: File `fig3_7_adapter.png' not found: using draft se
+tting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 ...s[width=0.5\textwidth]{fig3_7_adapter.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:switch' on page 28 undefined on input line 56.
+
+
+LaTeX Warning: File `fig3_11_switch.png' not found on input line 60.
+
+
+! Package pdftex.def Error: File `fig3_11_switch.png' not found: using draft se
+tting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...[width=0.45\textwidth]{fig3_11_switch.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:esp32' on page 28 undefined on input line 69.
+
+[28] [29]
+
+LaTeX Warning: File `fig3_4_esp32.png' not found on input line 73.
+
+
+! Package pdftex.def Error: File `fig3_4_esp32.png' not found: using draft sett
+ing.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 ...ics[width=0.6\textwidth]{fig3_4_esp32.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:thingspeak' on page 30 undefined on input line 83
+.
+
+
+LaTeX Warning: File `fig3_5_thingspeak.png' not found on input line 87.
+
+
+! Package pdftex.def Error: File `fig3_5_thingspeak.png' not found: using draft
+ setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 ...dth=0.85\textwidth]{fig3_5_thingspeak.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[30]
+
+LaTeX Warning: Reference `fig:router' on page 31 undefined on input line 94.
+
+
+LaTeX Warning: File `fig1_11_router.png' not found on input line 98.
+
+
+! Package pdftex.def Error: File `fig1_11_router.png' not found: using draft se
+tting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 ...[width=0.55\textwidth]{fig1_11_router.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:rgb_led' on page 31 undefined on input line 105.
+
+[31]
+
+LaTeX Warning: File `fig3_8_rgb_led.png' not found on input line 109.
+
+
+! Package pdftex.def Error: File `fig3_8_rgb_led.png' not found: using draft se
+tting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...width=0.45\textwidth]{fig3_8_rgb_led.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:fan' on page 32 undefined on input line 116.
+
+
+LaTeX Warning: File `fig3_9_fan.png' not found on input line 120.
+
+
+! Package pdftex.def Error: File `fig3_9_fan.png' not found: using draft settin
+g.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 ...hics[width=0.5\textwidth]{fig3_9_fan.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[32]
+
+LaTeX Warning: Reference `fig:relay' on page 33 undefined on input line 127.
+
+
+LaTeX Warning: File `fig3_10_relay.png' not found on input line 131.
+
+
+! Package pdftex.def Error: File `fig3_10_relay.png' not found: using draft set
+ting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 ...[width=0.55\textwidth]{fig3_10_relay.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:circuit_diagram' on page 33 undefined on input li
+ne 138.
+
+
+LaTeX Warning: File `fig3_13_circuit_diagram.png' not found on input line 142.
+
+
+! Package pdftex.def Error: File `fig3_13_circuit_diagram.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 ...5\textwidth]{fig3_13_circuit_diagram.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:system_design' on page 33 undefined on input line
+ 148.
+
+[33]
+
+LaTeX Warning: File `fig3_14a_front.png' not found on input line 153.
+
+
+! Package pdftex.def Error: File `fig3_14a_front.png' not found: using draft se
+tting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 ...width=0.45\textwidth]{fig3_14a_front.png}
+                                                   &
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `fig3_14b_side.png' not found on input line 154.
+
+
+! Package pdftex.def Error: File `fig3_14b_side.png' not found: using draft set
+ting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 ...[width=0.45\textwidth]{fig3_14b_side.png}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `fig3_14c_switch.png' not found on input line 156.
+
+
+! Package pdftex.def Error: File `fig3_14c_switch.png' not found: using draft s
+etting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 ...idth=0.45\textwidth]{fig3_14c_switch.png}
+                                                   &
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `fig3_14d_led.png' not found on input line 157.
+
+
+! Package pdftex.def Error: File `fig3_14d_led.png' not found: using draft sett
+ing.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 ...s[width=0.45\textwidth]{fig3_14d_led.png}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `fig3_14e_rrh.png' not found on input line 159.
+
+
+! Package pdftex.def Error: File `fig3_14e_rrh.png' not found: using draft sett
+ing.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...s[width=0.45\textwidth]{fig3_14e_rrh.png}
+                                                   &
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `fig3_14f_wifi.png' not found on input line 160.
+
+
+! Package pdftex.def Error: File `fig3_14f_wifi.png' not found: using draft set
+ting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 ...[width=0.45\textwidth]{fig3_14f_wifi.png}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `fig3_14g_internal.png' not found on input line 162.
+
+
+! Package pdftex.def Error: File `fig3_14g_internal.png' not found: using draft
+ setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.162 ...h=0.75\textwidth]{fig3_14g_internal.png}}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Float too large for page by 396.19034pt on input line 167.
+
+
+LaTeX Warning: Reference `fig:collocation' on page 34 undefined on input line 1
+70.
+
+
+LaTeX Warning: File `fig3_15_collocation.png' not found on input line 174.
+
+
+! Package pdftex.def Error: File `fig3_15_collocation.png' not found: using dra
+ft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 ...=0.65\textwidth]{fig3_15_collocation.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:live_thingspeak' on page 34 undefined on input li
+ne 179.
+
+[34] [35] [36]
+
+LaTeX Warning: File `fig3_16_live_thingspeak.png' not found on input line 183.
+
+
+! Package pdftex.def Error: File `fig3_16_live_thingspeak.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...9\textwidth]{fig3_16_live_thingspeak.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:stack_operation' on page 37 undefined on input li
+ne 191.
+
+
+LaTeX Warning: File `fig3_7_stack_operation.png' not found on input line 195.
+
+
+! Package pdftex.def Error: File `fig3_7_stack_operation.png' not found: using 
+draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.195 ...85\textwidth]{fig3_7_stack_operation.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[37] [38] [39]
+
+LaTeX Warning: Reference `fig:data_gathering_flow' on page 40 undefined on inpu
+t line 203.
+
+
+LaTeX Warning: File `fig3_8_data_gathering.png' not found on input line 207.
+
+
+! Package pdftex.def Error: File `fig3_8_data_gathering.png' not found: using d
+raft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.207 ....95\textwidth]{fig3_8_data_gathering.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:stack_training' on page 40 undefined on input lin
+e 215.
+
+
+LaTeX Warning: File `fig3_6_stack_training.png' not found on input line 219.
+
+
+! Package pdftex.def Error: File `fig3_6_stack_training.png' not found: using d
+raft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.219 ....75\textwidth]{fig3_6_stack_training.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:model_training_flow' on page 40 undefined on inpu
+t line 224.
+
+
+LaTeX Warning: File `fig3_9_model_training.png' not found on input line 228.
+
+
+! Package pdftex.def Error: File `fig3_9_model_training.png' not found: using d
+raft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.228 ...0.5\textwidth]{fig3_9_model_training.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:rfr_training_flow' on page 40 undefined on input 
+line 233.
+
+[40] [41] [42]
+
+LaTeX Warning: File `fig3_10_rfr_training.png' not found on input line 237.
+
+
+! Package pdftex.def Error: File `fig3_10_rfr_training.png' not found: using dr
+aft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.237 ...=0.5\textwidth]{fig3_10_rfr_training.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:svr_training_flow' on page 43 undefined on input 
+line 242.
+
+
+LaTeX Warning: File `fig3_11_svr_training.png' not found on input line 246.
+
+
+! Package pdftex.def Error: File `fig3_11_svr_training.png' not found: using dr
+aft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.246 ...=0.5\textwidth]{fig3_11_svr_training.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:mlr_training_flow' on page 43 undefined on input 
+line 251.
+
+[43]
+
+LaTeX Warning: File `fig3_12_mlr_training.png' not found on input line 255.
+
+
+! Package pdftex.def Error: File `fig3_12_mlr_training.png' not found: using dr
+aft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.255 ...=0.5\textwidth]{fig3_12_mlr_training.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) [44]
 Chapter 4.
 (MightyBreadBoards_Results.tex
 
-LaTeX Warning: Reference `sec: expts' on page 26 undefined on input line 20.
+LaTeX Warning: Reference `sec: expts' on page 45 undefined on input line 20.
 
-) [26
+) [45
 
 ]
 Chapter 5.
-(MightyBreadBoards_Conclusions.tex) [27
+(MightyBreadBoards_Conclusions.tex) [46
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 132.
- [28
+ [47
 
-] [29] [30]
+] [48] [49]
 Overfull \hbox (5.19875pt too wide) in paragraph at lines 133--133
 []$\OT1/cmtt/m/n/12 https : / / www . sciencedirect . com / science / article /
  pii / S2590123025024971$[] 
@@ -1656,13 +2198,13 @@ Package biblatex Warning: Keyword 'Unpublished' not found on input line 134.
 
 LaTeX Warning: Empty bibliography on input line 134.
 
-[31] [32]
+[50] [51]
 Appendix A.
 (App_PASAR_docs.tex
 
 pdfTeX warning: pdflatex.exe (file ./App_AbstractKeyword_member1.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_AbstractKeyword_member1.pdf, id=670, page=1, 614.295pt x 794.97pt>
+<App_AbstractKeyword_member1.pdf, id=785, page=1, 614.295pt x 794.97pt>
 File: App_AbstractKeyword_member1.pdf Graphic file (type pdf)
 <use App_AbstractKeyword_member1.pdf, page 1>
 Package pdftex.def Info: App_AbstractKeyword_member1.pdf , page1 used on input 
@@ -1682,7 +2224,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
 pdfTeX warning: pdflatex.exe (file ./App_AbstractKeyword_member2.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_AbstractKeyword_member2.pdf, id=671, 614.295pt x 794.97pt>
+<App_AbstractKeyword_member2.pdf, id=786, 614.295pt x 794.97pt>
 File: App_AbstractKeyword_member2.pdf Graphic file (type pdf)
 <use App_AbstractKeyword_member2.pdf>
 Package pdftex.def Info: App_AbstractKeyword_member2.pdf  used on input line 6.
@@ -1696,7 +2238,7 @@ usion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./App_AbstractKeyword_member2.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_AbstractKeyword_member2.pdf, id=673, page=1, 614.295pt x 794.97pt>
+<App_AbstractKeyword_member2.pdf, id=788, page=1, 614.295pt x 794.97pt>
 File: App_AbstractKeyword_member2.pdf Graphic file (type pdf)
 <use App_AbstractKeyword_member2.pdf, page 1>
 Package pdftex.def Info: App_AbstractKeyword_member2.pdf , page1 used on input 
@@ -1707,13 +2249,13 @@ File: App_AbstractKeyword_member2.pdf Graphic file (type pdf)
 Package pdftex.def Info: App_AbstractKeyword_member2.pdf , page1 used on input 
 line 6.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[33
+[52
 
 ]
 Overfull \vbox (22.91924pt too high) has occurred while \output is active []
 
 
-[34 <./App_AbstractKeyword_member1.pdf>]
+[53 <./App_AbstractKeyword_member1.pdf>]
 File: App_AbstractKeyword_member2.pdf Graphic file (type pdf)
 <use App_AbstractKeyword_member2.pdf, page 1>
 Package pdftex.def Info: App_AbstractKeyword_member2.pdf , page1 used on input 
@@ -1729,13 +2271,13 @@ File: App_AbstractKeyword_member2.pdf Graphic file (type pdf)
 Package pdftex.def Info: App_AbstractKeyword_member2.pdf , page1 used on input 
 line 6.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [35
+ [54
 
  <./App_AbstractKeyword_member2.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./App_ISR_member1.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<App_ISR_member1.pdf, id=763, 614.295pt x 794.97pt>
+<App_ISR_member1.pdf, id=878, 614.295pt x 794.97pt>
 File: App_ISR_member1.pdf Graphic file (type pdf)
 <use App_ISR_member1.pdf>
 Package pdftex.def Info: App_ISR_member1.pdf  used on input line 8.
@@ -1748,7 +2290,7 @@ pdfTeX warning: pdflatex.exe (file ./App_ISR_member1.pdf): PDF inclusion: found
 
 pdfTeX warning: pdflatex.exe (file ./App_ISR_member1.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<App_ISR_member1.pdf, id=765, page=1, 614.295pt x 794.97pt>
+<App_ISR_member1.pdf, id=880, page=1, 614.295pt x 794.97pt>
 File: App_ISR_member1.pdf Graphic file (type pdf)
 <use App_ISR_member1.pdf, page 1>
 Package pdftex.def Info: App_ISR_member1.pdf , page1 used on input line 8.
@@ -1769,13 +2311,13 @@ File: App_ISR_member1.pdf Graphic file (type pdf)
 <use App_ISR_member1.pdf, page 1>
 Package pdftex.def Info: App_ISR_member1.pdf , page1 used on input line 8.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[36
+[55
 
  <./App_ISR_member1.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./App_PASAR_member1.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<App_PASAR_member1.pdf, id=813, 614.295pt x 794.97pt>
+<App_PASAR_member1.pdf, id=928, 614.295pt x 794.97pt>
 File: App_PASAR_member1.pdf Graphic file (type pdf)
 <use App_PASAR_member1.pdf>
 Package pdftex.def Info: App_PASAR_member1.pdf  used on input line 11.
@@ -1788,7 +2330,7 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./App_PASAR_member1.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<App_PASAR_member1.pdf, id=815, page=1, 614.295pt x 794.97pt>
+<App_PASAR_member1.pdf, id=930, page=1, 614.295pt x 794.97pt>
 File: App_PASAR_member1.pdf Graphic file (type pdf)
 <use App_PASAR_member1.pdf, page 1>
 Package pdftex.def Info: App_PASAR_member1.pdf , page1 used on input line 11.
@@ -1809,13 +2351,13 @@ File: App_PASAR_member1.pdf Graphic file (type pdf)
 <use App_PASAR_member1.pdf, page 1>
 Package pdftex.def Info: App_PASAR_member1.pdf , page1 used on input line 11.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[37
+[56
 
  <./App_PASAR_member1.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./App_PASAR_member1.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<App_PASAR_member1.pdf, id=858, page=2, 614.295pt x 794.97pt>
+<App_PASAR_member1.pdf, id=973, page=2, 614.295pt x 794.97pt>
 File: App_PASAR_member1.pdf Graphic file (type pdf)
 <use App_PASAR_member1.pdf, page 2>
 Package pdftex.def Info: App_PASAR_member1.pdf , page2 used on input line 11.
@@ -1828,13 +2370,13 @@ File: App_PASAR_member1.pdf Graphic file (type pdf)
 <use App_PASAR_member1.pdf, page 2>
 Package pdftex.def Info: App_PASAR_member1.pdf , page2 used on input line 11.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[38
+[57
 
  <./App_PASAR_member1.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./App_PASAR_member1.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<App_PASAR_member1.pdf, id=892, page=3, 614.295pt x 794.97pt>
+<App_PASAR_member1.pdf, id=1007, page=3, 614.295pt x 794.97pt>
 File: App_PASAR_member1.pdf Graphic file (type pdf)
 <use App_PASAR_member1.pdf, page 3>
 Package pdftex.def Info: App_PASAR_member1.pdf , page3 used on input line 11.
@@ -1847,7 +2389,7 @@ File: App_PASAR_member1.pdf Graphic file (type pdf)
 <use App_PASAR_member1.pdf, page 3>
 Package pdftex.def Info: App_PASAR_member1.pdf , page3 used on input line 11.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[39
+[58
 
  <./App_PASAR_member1.pdf>])
 pdfTeX warning (ext4): destination with the same identifier (name{appendix.A}) 
@@ -1861,7 +2403,7 @@ Appendix A.
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF005v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF005v01.pdf, id=921, page=1, 614.295pt x 794.97pt>
+<App_GroupName_PD_IPPF005v01.pdf, id=1037, page=1, 614.295pt x 794.97pt>
 File: App_GroupName_PD_IPPF005v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF005v01.pdf, page 1>
 Package pdftex.def Info: App_GroupName_PD_IPPF005v01.pdf , page1 used on input 
@@ -1881,7 +2423,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF006v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF006v01.pdf, id=922, 794.97pt x 614.295pt>
+<App_GroupName_PD_IPPF006v01.pdf, id=1038, 794.97pt x 614.295pt>
 File: App_GroupName_PD_IPPF006v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF006v01.pdf>
 Package pdftex.def Info: App_GroupName_PD_IPPF006v01.pdf  used on input line 3.
@@ -1895,7 +2437,7 @@ usion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF006v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF006v01.pdf, id=924, page=1, 794.97pt x 614.295pt>
+<App_GroupName_PD_IPPF006v01.pdf, id=1040, page=1, 794.97pt x 614.295pt>
 File: App_GroupName_PD_IPPF006v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF006v01.pdf, page 1>
 Package pdftex.def Info: App_GroupName_PD_IPPF006v01.pdf , page1 used on input 
@@ -1906,13 +2448,13 @@ File: App_GroupName_PD_IPPF006v01.pdf Graphic file (type pdf)
 Package pdftex.def Info: App_GroupName_PD_IPPF006v01.pdf , page1 used on input 
 line 3.
 (pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
-[40
+[59
 
 ]
 Overfull \vbox (22.91924pt too high) has occurred while \output is active []
 
 
-[41 <./App_GroupName_PD_IPPF005v01.pdf>]
+[60 <./App_GroupName_PD_IPPF005v01.pdf>]
 File: App_GroupName_PD_IPPF006v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF006v01.pdf, page 1>
 Package pdftex.def Info: App_GroupName_PD_IPPF006v01.pdf , page1 used on input 
@@ -1928,13 +2470,13 @@ File: App_GroupName_PD_IPPF006v01.pdf Graphic file (type pdf)
 Package pdftex.def Info: App_GroupName_PD_IPPF006v01.pdf , page1 used on input 
 line 3.
 (pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
- [42
+ [61
 
  <./App_GroupName_PD_IPPF006v01.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF007v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF007v01.pdf, id=1014, 597.53236pt x 845.05714pt>
+<App_GroupName_PD_IPPF007v01.pdf, id=1129, 597.53236pt x 845.05714pt>
 File: App_GroupName_PD_IPPF007v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF007v01.pdf>
 Package pdftex.def Info: App_GroupName_PD_IPPF007v01.pdf  used on input line 4.
@@ -1948,7 +2490,7 @@ usion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF007v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF007v01.pdf, id=1016, page=1, 597.53236pt x 845.05714pt>
+<App_GroupName_PD_IPPF007v01.pdf, id=1131, page=1, 597.53236pt x 845.05714pt>
 File: App_GroupName_PD_IPPF007v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF007v01.pdf, page 1>
 Package pdftex.def Info: App_GroupName_PD_IPPF007v01.pdf , page1 used on input 
@@ -1974,13 +2516,13 @@ File: App_GroupName_PD_IPPF007v01.pdf Graphic file (type pdf)
 Package pdftex.def Info: App_GroupName_PD_IPPF007v01.pdf , page1 used on input 
 line 4.
 (pdftex.def)             Requested size: 562.1455pt x 795.01144pt.
-[43
+[62
 
  <./App_GroupName_PD_IPPF007v01.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF007v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF007v01.pdf, id=1064, page=2, 597.53236pt x 845.05714pt>
+<App_GroupName_PD_IPPF007v01.pdf, id=1179, page=2, 597.53236pt x 845.05714pt>
 File: App_GroupName_PD_IPPF007v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF007v01.pdf, page 2>
 Package pdftex.def Info: App_GroupName_PD_IPPF007v01.pdf , page2 used on input 
@@ -1996,13 +2538,13 @@ File: App_GroupName_PD_IPPF007v01.pdf Graphic file (type pdf)
 Package pdftex.def Info: App_GroupName_PD_IPPF007v01.pdf , page2 used on input 
 line 4.
 (pdftex.def)             Requested size: 562.1455pt x 795.01144pt.
-[44
+[63
 
  <./App_GroupName_PD_IPPF007v01.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF007v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF007v01.pdf, id=1093, page=3, 597.53236pt x 845.05714pt>
+<App_GroupName_PD_IPPF007v01.pdf, id=1208, page=3, 597.53236pt x 845.05714pt>
 File: App_GroupName_PD_IPPF007v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF007v01.pdf, page 3>
 Package pdftex.def Info: App_GroupName_PD_IPPF007v01.pdf , page3 used on input 
@@ -2018,13 +2560,13 @@ File: App_GroupName_PD_IPPF007v01.pdf Graphic file (type pdf)
 Package pdftex.def Info: App_GroupName_PD_IPPF007v01.pdf , page3 used on input 
 line 4.
 (pdftex.def)             Requested size: 562.1455pt x 795.01144pt.
-[45
+[64
 
  <./App_GroupName_PD_IPPF007v01.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF007v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF007v01.pdf, id=1122, page=4, 597.53236pt x 845.05714pt>
+<App_GroupName_PD_IPPF007v01.pdf, id=1238, page=4, 597.53236pt x 845.05714pt>
 File: App_GroupName_PD_IPPF007v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF007v01.pdf, page 4>
 Package pdftex.def Info: App_GroupName_PD_IPPF007v01.pdf , page4 used on input 
@@ -2040,13 +2582,13 @@ File: App_GroupName_PD_IPPF007v01.pdf Graphic file (type pdf)
 Package pdftex.def Info: App_GroupName_PD_IPPF007v01.pdf , page4 used on input 
 line 4.
 (pdftex.def)             Requested size: 562.1455pt x 795.01144pt.
-[46
+[65
 
  <./App_GroupName_PD_IPPF007v01.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF007v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF007v01.pdf, id=1152, page=5, 597.53236pt x 845.05714pt>
+<App_GroupName_PD_IPPF007v01.pdf, id=1267, page=5, 597.53236pt x 845.05714pt>
 File: App_GroupName_PD_IPPF007v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF007v01.pdf, page 5>
 Package pdftex.def Info: App_GroupName_PD_IPPF007v01.pdf , page5 used on input 
@@ -2062,13 +2604,13 @@ File: App_GroupName_PD_IPPF007v01.pdf Graphic file (type pdf)
 Package pdftex.def Info: App_GroupName_PD_IPPF007v01.pdf , page5 used on input 
 line 4.
 (pdftex.def)             Requested size: 562.1455pt x 795.01144pt.
-[47
+[66
 
  <./App_GroupName_PD_IPPF007v01.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF008v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF008v01.pdf, id=1181, 597.58253pt x 845.10733pt>
+<App_GroupName_PD_IPPF008v01.pdf, id=1296, 597.58253pt x 845.10733pt>
 File: App_GroupName_PD_IPPF008v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF008v01.pdf>
 Package pdftex.def Info: App_GroupName_PD_IPPF008v01.pdf  used on input line 5.
@@ -2082,7 +2624,7 @@ usion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF008v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF008v01.pdf, id=1183, page=1, 597.58253pt x 845.10733pt>
+<App_GroupName_PD_IPPF008v01.pdf, id=1298, page=1, 597.58253pt x 845.10733pt>
 File: App_GroupName_PD_IPPF008v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF008v01.pdf, page 1>
 Package pdftex.def Info: App_GroupName_PD_IPPF008v01.pdf , page1 used on input 
@@ -2108,13 +2650,13 @@ File: App_GroupName_PD_IPPF008v01.pdf Graphic file (type pdf)
 Package pdftex.def Info: App_GroupName_PD_IPPF008v01.pdf , page1 used on input 
 line 5.
 (pdftex.def)             Requested size: 562.19269pt x 795.05867pt.
-[48
+[67
 
  <./App_GroupName_PD_IPPF008v01.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF008v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF008v01.pdf, id=1236, page=2, 597.58253pt x 845.10733pt>
+<App_GroupName_PD_IPPF008v01.pdf, id=1351, page=2, 597.58253pt x 845.10733pt>
 File: App_GroupName_PD_IPPF008v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF008v01.pdf, page 2>
 Package pdftex.def Info: App_GroupName_PD_IPPF008v01.pdf , page2 used on input 
@@ -2130,13 +2672,13 @@ File: App_GroupName_PD_IPPF008v01.pdf Graphic file (type pdf)
 Package pdftex.def Info: App_GroupName_PD_IPPF008v01.pdf , page2 used on input 
 line 5.
 (pdftex.def)             Requested size: 562.19269pt x 795.05867pt.
-[49
+[68
 
  <./App_GroupName_PD_IPPF008v01.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF008v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF008v01.pdf, id=1265, page=3, 597.58253pt x 845.10733pt>
+<App_GroupName_PD_IPPF008v01.pdf, id=1380, page=3, 597.58253pt x 845.10733pt>
 File: App_GroupName_PD_IPPF008v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF008v01.pdf, page 3>
 Package pdftex.def Info: App_GroupName_PD_IPPF008v01.pdf , page3 used on input 
@@ -2152,13 +2694,13 @@ File: App_GroupName_PD_IPPF008v01.pdf Graphic file (type pdf)
 Package pdftex.def Info: App_GroupName_PD_IPPF008v01.pdf , page3 used on input 
 line 5.
 (pdftex.def)             Requested size: 562.19269pt x 795.05867pt.
-[50
+[69
 
  <./App_GroupName_PD_IPPF008v01.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF008v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF008v01.pdf, id=1294, page=4, 597.58253pt x 845.10733pt>
+<App_GroupName_PD_IPPF008v01.pdf, id=1409, page=4, 597.58253pt x 845.10733pt>
 File: App_GroupName_PD_IPPF008v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF008v01.pdf, page 4>
 Package pdftex.def Info: App_GroupName_PD_IPPF008v01.pdf , page4 used on input 
@@ -2174,34 +2716,34 @@ File: App_GroupName_PD_IPPF008v01.pdf Graphic file (type pdf)
 Package pdftex.def Info: App_GroupName_PD_IPPF008v01.pdf , page4 used on input 
 line 5.
 (pdftex.def)             Requested size: 562.19269pt x 795.05867pt.
-[51
+[70
 
  <./App_GroupName_PD_IPPF008v01.pdf>])
 Appendix B.
-(App_Timetable.tex [52
+(App_Timetable.tex [71
 
-] [53]) [54]
+] [72]) [73]
 Appendix C.
-(App_Budget.tex) [55
+(App_Budget.tex) [74
 
 ]
 Appendix D.
-(App_Flowcharts.tex) [56
+(App_Flowcharts.tex) [75
 
 ]
 Appendix E.
 (App_Codes.tex
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 6.
-) [57
+) [76
 
 ]
 Appendix F.
-(App_Circuits.tex) [58
+(App_Circuits.tex) [77
 
 ]
 Appendix G.
-(App_Data.tex) [59
+(App_Data.tex) [78
 
 ]
 Appendix H.
@@ -2209,7 +2751,7 @@ Appendix H.
 
 pdfTeX warning: pdflatex.exe (file ./Turnitin_sample_abstract.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Turnitin_sample_abstract.pdf, id=1360, page=1, 614.295pt x 794.97pt>
+<Turnitin_sample_abstract.pdf, id=1475, page=1, 614.295pt x 794.97pt>
 File: Turnitin_sample_abstract.pdf Graphic file (type pdf)
 <use Turnitin_sample_abstract.pdf, page 1>
 Package pdftex.def Info: Turnitin_sample_abstract.pdf , page1 used on input lin
@@ -2220,13 +2762,13 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 4--5
 [][] 
  []
 
-[60
+[79
 
  <./Turnitin_sample_abstract.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Turnitin_sample_abstract.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Turnitin_sample_abstract.pdf, id=1366, page=2, 614.295pt x 794.97pt>
+<Turnitin_sample_abstract.pdf, id=1481, page=2, 614.295pt x 794.97pt>
 File: Turnitin_sample_abstract.pdf Graphic file (type pdf)
 <use Turnitin_sample_abstract.pdf, page 2>
 Package pdftex.def Info: Turnitin_sample_abstract.pdf , page2 used on input lin
@@ -2237,11 +2779,11 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 6--7
 [][] 
  []
 
-[61 <./Turnitin_sample_abstract.pdf>]
+[80 <./Turnitin_sample_abstract.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Turnitin_sample_abstract.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Turnitin_sample_abstract.pdf, id=1372, page=3, 614.295pt x 794.97pt>
+<Turnitin_sample_abstract.pdf, id=1487, page=3, 614.295pt x 794.97pt>
 File: Turnitin_sample_abstract.pdf Graphic file (type pdf)
 <use Turnitin_sample_abstract.pdf, page 3>
 Package pdftex.def Info: Turnitin_sample_abstract.pdf , page3 used on input lin
@@ -2252,11 +2794,11 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 8--9
 [][] 
  []
 
-[62 <./Turnitin_sample_abstract.pdf>]
+[81 <./Turnitin_sample_abstract.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Turnitin_sample_abstract.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Turnitin_sample_abstract.pdf, id=1378, page=4, 614.295pt x 794.97pt>
+<Turnitin_sample_abstract.pdf, id=1493, page=4, 614.295pt x 794.97pt>
 File: Turnitin_sample_abstract.pdf Graphic file (type pdf)
 <use Turnitin_sample_abstract.pdf, page 4>
 Package pdftex.def Info: Turnitin_sample_abstract.pdf , page4 used on input lin
@@ -2267,11 +2809,11 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 10--11
 [][] 
  []
 
-[63 <./Turnitin_sample_abstract.pdf>]
+[82 <./Turnitin_sample_abstract.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Turnitin_sample_abstract.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Turnitin_sample_abstract.pdf, id=1384, page=5, 614.295pt x 794.97pt>
+<Turnitin_sample_abstract.pdf, id=1500, page=5, 614.295pt x 794.97pt>
 File: Turnitin_sample_abstract.pdf Graphic file (type pdf)
 <use Turnitin_sample_abstract.pdf, page 5>
 Package pdftex.def Info: Turnitin_sample_abstract.pdf , page5 used on input lin
@@ -2282,11 +2824,11 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 12--13
 [][] 
  []
 
-[64 <./Turnitin_sample_abstract.pdf>]
+[83 <./Turnitin_sample_abstract.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Turnitin_sample_abstract.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Turnitin_sample_abstract.pdf, id=1391, page=6, 614.295pt x 794.97pt>
+<Turnitin_sample_abstract.pdf, id=1506, page=6, 614.295pt x 794.97pt>
 File: Turnitin_sample_abstract.pdf Graphic file (type pdf)
 <use Turnitin_sample_abstract.pdf, page 6>
 Package pdftex.def Info: Turnitin_sample_abstract.pdf , page6 used on input lin
@@ -2297,11 +2839,11 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 14--15
 [][] 
  []
 
-[65 <./Turnitin_sample_abstract.pdf>]
+[84 <./Turnitin_sample_abstract.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Turnitin_sample_abstract.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Turnitin_sample_abstract.pdf, id=1397, page=7, 614.295pt x 794.97pt>
+<Turnitin_sample_abstract.pdf, id=1512, page=7, 614.295pt x 794.97pt>
 File: Turnitin_sample_abstract.pdf Graphic file (type pdf)
 <use Turnitin_sample_abstract.pdf, page 7>
 Package pdftex.def Info: Turnitin_sample_abstract.pdf , page7 used on input lin
@@ -2312,11 +2854,11 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 16--17
 [][] 
  []
 
-[66 <./Turnitin_sample_abstract.pdf>]
+[85 <./Turnitin_sample_abstract.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Turnitin_sample_abstract.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Turnitin_sample_abstract.pdf, id=1403, page=8, 614.295pt x 794.97pt>
+<Turnitin_sample_abstract.pdf, id=1518, page=8, 614.295pt x 794.97pt>
 File: Turnitin_sample_abstract.pdf Graphic file (type pdf)
 <use Turnitin_sample_abstract.pdf, page 8>
 Package pdftex.def Info: Turnitin_sample_abstract.pdf , page8 used on input lin
@@ -2332,13 +2874,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--216
 
  []
 
-[67 <./Turnitin_sample_abstract.pdf>]
+[86 <./Turnitin_sample_abstract.pdf>]
 Appendix I.
 (App_EthicsClearance.tex
 
 pdfTeX warning: pdflatex.exe (file ./App_EthicsClearance.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<App_EthicsClearance.pdf, id=1409, page=1, 614.295pt x 794.97pt>
+<App_EthicsClearance.pdf, id=1524, page=1, 614.295pt x 794.97pt>
 File: App_EthicsClearance.pdf Graphic file (type pdf)
 <use App_EthicsClearance.pdf, page 1>
 Package pdftex.def Info: App_EthicsClearance.pdf , page1 used on input line 1.
@@ -2348,13 +2890,13 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 1--2
 [][] 
  []
 
-[68
+[87
 
  <./App_EthicsClearance.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./App_EthicsClearance.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<App_EthicsClearance.pdf, id=1444, page=2, 614.295pt x 794.97pt>
+<App_EthicsClearance.pdf, id=1559, page=2, 614.295pt x 794.97pt>
 File: App_EthicsClearance.pdf Graphic file (type pdf)
 <use App_EthicsClearance.pdf, page 2>
 Package pdftex.def Info: App_EthicsClearance.pdf , page2 used on input line 3.
@@ -2369,23 +2911,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--222
 
  []
 
-[69 <./App_EthicsClearance.pdf>]
+[88 <./App_EthicsClearance.pdf>]
 Appendix J.
 (App_CV_member1.tex
-<cea_seal.jpg, id=1467, 763.8939pt x 764.6166pt>
+<cea_seal.jpg, id=1583, 763.8939pt x 764.6166pt>
 File: cea_seal.jpg Graphic file (type jpg)
 <use cea_seal.jpg>
 Package pdftex.def Info: cea_seal.jpg  used on input line 11.
 (pdftex.def)             Requested size: 72.26761pt x 72.26598pt.
- [70
+ [89
 
- <./cea_seal.jpg>]) [71] (App_CV_member2.tex
-<ecelogo.jpg, id=1478, 620.76126pt x 613.1539pt>
+ <./cea_seal.jpg>]) [90] (App_CV_member2.tex
+<ecelogo.jpg, id=1593, 620.76126pt x 613.1539pt>
 File: ecelogo.jpg Graphic file (type jpg)
 <use ecelogo.jpg>
 Package pdftex.def Info: ecelogo.jpg  used on input line 11.
 (pdftex.def)             Requested size: 72.2622pt x 72.26546pt.
- [72 <./ecelogo.jpg>]) [73] (MightyBreadBoards_Main_2024_12_09.aux)
+ [91 <./ecelogo.jpg>]) [92] (MightyBreadBoards_Main_2024_12_09.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -2394,9 +2936,19 @@ L3 programming layer <2025-12-24>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `MightyBreadBoards_Main_2024_12_09.out' has n
-ot changed.
-(rerunfilecheck)             Checksum: AC9F9F8A1A13FC3995395614B0B70867;7899.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `MightyBreadBoards_Main_2024_12_09.out' ha
+s changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `MightyBreadBoards_Main_2024_12_09.o
+ut':
+(rerunfilecheck)             Before: AC9F9F8A1A13FC3995395614B0B70867;7899
+(rerunfilecheck)             After:  61D225E26756DA88C0A5BC8F104001CA;8540.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                MightyBreadBoards_Main_2024_12_09
@@ -2408,11 +2960,11 @@ Package logreq Info: Writing requests to 'MightyBreadBoards_Main_2024_12_09.run
 
  ) 
 Here is how much of TeX's memory you used:
- 38446 strings out of 467870
- 750589 string characters out of 5418839
+ 39369 strings out of 467870
+ 777541 string characters out of 5418839
  1616806 words of memory out of 5000000
- 66443 multiletter control sequences out of 15000+600000
- 643821 words of font info for 73 fonts, out of 8000000 for 9000
+ 67311 multiletter control sequences out of 15000+600000
+ 645033 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,17n,111p,1292b,1541s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/zach/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
@@ -2431,10 +2983,10 @@ b><C:/Users/zach/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.
 pfb><C:/Users/zach/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8
 a.pfb><C:/Users/zach/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhv
 ro8a.pfb>
-Output written on MightyBreadBoards_Main_2024_12_09.pdf (82 pages, 3238618 byte
-s).
+Output written on MightyBreadBoards_Main_2024_12_09.pdf (101 pages, 3270030 byt
+es).
 PDF statistics:
- 1592 PDF objects out of 1728 (max. 8388607)
- 195 named destinations out of 1000 (max. 500000)
+ 1719 PDF objects out of 1728 (max. 8388607)
+ 250 named destinations out of 1000 (max. 500000)
  654 words of extra memory for PDF output out of 10000 (max. 10000000)
 

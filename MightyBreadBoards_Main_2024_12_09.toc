@@ -34,26 +34,31 @@
 \contentsline {subsection}{\numberline {2.2.2}Calibration using random forest}{21}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Stacked ensemble and hybrid approaches}{23}{subsection.2.2.3}%
 \contentsline {chapter}{\numberline {3}RESEARCH METHODOLOGY}{25}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Proposed Method}{25}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Description of Experiments}{25}{section.3.2}%
-\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSIONS}{26}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Title of Experiment of 1}{26}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Title of Experiment of 2}{26}{section.4.2}%
-\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{27}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Conclusions}{27}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Recommendations}{27}{section.5.2}%
-\contentsline {chapter}{BIBLIOGRAPHY}{28}{section.5.2}%
+\contentsline {section}{\numberline {3.1}Proposed Methods}{25}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}System Components}{25}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Circuit Configuration}{33}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Design}{34}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Collocation}{34}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Algorithm}{37}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}Description of Experiments}{44}{section.3.2}%
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSIONS}{45}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Title of Experiment of 1}{45}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Title of Experiment of 2}{45}{section.4.2}%
+\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{46}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusions}{46}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Recommendations}{46}{section.5.2}%
+\contentsline {chapter}{BIBLIOGRAPHY}{47}{section.5.2}%
 \renewcommand \chaptername {Appendix}
-\contentsline {chapter}{\numberline {A}PRIOR ART SEARCH and ANALYSIS REPORT}{33}{appendix.A}%
+\contentsline {chapter}{\numberline {A}PRIOR ART SEARCH and ANALYSIS REPORT}{52}{appendix.A}%
 \renewcommand \chaptername {Appendix}
-\contentsline {chapter}{\numberline {A}PATENT DRAFT}{40}{appendix.A}%
-\contentsline {chapter}{\numberline {B}TIMETABLE OF ACTIVITIES}{52}{appendix.B}%
-\contentsline {chapter}{\numberline {C}RESEARCH BUDGET}{55}{appendix.C}%
-\contentsline {chapter}{\numberline {D}ADDITIONAL FLOWCHARTS}{56}{appendix.D}%
-\contentsline {chapter}{\numberline {E}PSEUDO-CODES}{57}{appendix.E}%
-\contentsline {chapter}{\numberline {F}ELECTRICAL CIRCUITS}{58}{appendix.F}%
-\contentsline {chapter}{\numberline {G}SUPPLEMENTAL DATA}{59}{appendix.G}%
-\contentsline {chapter}{\numberline {H}PLAGIARISM CHECK REPORT}{60}{appendix.H}%
-\contentsline {chapter}{\numberline {I}ETHICS CLEARANCE}{68}{appendix.I}%
-\contentsline {chapter}{\numberline {J}CURRICULUM VITAE}{70}{appendix.J}%
+\contentsline {chapter}{\numberline {A}PATENT DRAFT}{59}{appendix.A}%
+\contentsline {chapter}{\numberline {B}TIMETABLE OF ACTIVITIES}{71}{appendix.B}%
+\contentsline {chapter}{\numberline {C}RESEARCH BUDGET}{74}{appendix.C}%
+\contentsline {chapter}{\numberline {D}ADDITIONAL FLOWCHARTS}{75}{appendix.D}%
+\contentsline {chapter}{\numberline {E}PSEUDO-CODES}{76}{appendix.E}%
+\contentsline {chapter}{\numberline {F}ELECTRICAL CIRCUITS}{77}{appendix.F}%
+\contentsline {chapter}{\numberline {G}SUPPLEMENTAL DATA}{78}{appendix.G}%
+\contentsline {chapter}{\numberline {H}PLAGIARISM CHECK REPORT}{79}{appendix.H}%
+\contentsline {chapter}{\numberline {I}ETHICS CLEARANCE}{87}{appendix.I}%
+\contentsline {chapter}{\numberline {J}CURRICULUM VITAE}{89}{appendix.J}%
 \contentsfinish 
