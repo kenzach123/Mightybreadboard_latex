@@ -8,25 +8,25 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Simplified Air Monitoring System diagram}}{26}{figure.caption.10}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces RRH62000}}{27}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces MPU6500}}{28}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces 9V Adapter}}{29}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces MPU6500}}{27}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 9V Adapter}}{28}{figure.caption.13}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Switch}}{29}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces ESP32 WROOM 32E}}{30}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces ThingSpeak}}{31}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces TP-Link TL-MR100}}{32}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces ESP32 WROOM 32E}}{29}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces ThingSpeak}}{30}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces TP-Link TL-MR100}}{31}{figure.caption.17}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Clear RGB LED}}{32}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces FAN}}{33}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Relay Module}}{34}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Air Monitoring System Circuit Diagram}}{35}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces FAN}}{32}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Relay Module}}{33}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Air Monitoring System Circuit Diagram}}{34}{figure.caption.21}%
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Air Monitoring System}}{36}{figure.caption.22}%
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Collocation}}{37}{figure.caption.23}%
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Live ThingSpeak Readings}}{38}{figure.caption.24}%
 \contentsline {figure}{\numberline {3.16}{\ignorespaces Stack Ensemble Architecture - Operation}}{39}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Data Gathering}}{41}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Stack Ensemble Architecture - Training}}{42}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Model training}}{42}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces RFR Training}}{43}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces SVR Training}}{44}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Data Gathering}}{40}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Stack Ensemble Architecture - Training}}{41}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Model training}}{41}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces RFR Training}}{42}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces SVR Training}}{43}{figure.caption.30}%
 \contentsline {figure}{\numberline {3.22}{\ignorespaces MLR Training}}{44}{figure.caption.31}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
