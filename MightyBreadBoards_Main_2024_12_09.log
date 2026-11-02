@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.29)  28 OCT 2026 09:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.29)  2 NOV 2026 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1722,81 +1722,76 @@ Package pdftex.def Info: LED Designation.jpeg  used on input line 157.
 <RRH62000 dimentions.jpg, id=790, 1084.05pt x 1084.05pt>
 File: RRH62000 dimentions.jpg Graphic file (type jpg)
 <use RRH62000 dimentions.jpg>
-Package pdftex.def Info: RRH62000 dimentions.jpg  used on input line 159.
+Package pdftex.def Info: RRH62000 dimentions.jpg  used on input line 165.
 (pdftex.def)             Requested size: 195.12767pt x 195.12057pt.
-<Wifi dimentions.jpeg, id=791, 1156.32pt x 1251.17438pt>
-File: Wifi dimentions.jpeg Graphic file (type jpg)
-<use Wifi dimentions.jpeg>
-Package pdftex.def Info: Wifi dimentions.jpeg  used on input line 160.
+<wifi dimentions.jpeg, id=791, 1156.32pt x 1251.17438pt>
+File: wifi dimentions.jpeg Graphic file (type jpg)
+<use wifi dimentions.jpeg>
+Package pdftex.def Info: wifi dimentions.jpeg  used on input line 166.
 (pdftex.def)             Requested size: 195.12767pt x 211.13133pt.
 <Internal Dimentions.jpeg, id=792, 1541.76pt x 1160.83687pt>
 File: Internal Dimentions.jpeg Graphic file (type jpg)
 <use Internal Dimentions.jpeg>
-Package pdftex.def Info: Internal Dimentions.jpeg  used on input line 162.
-(pdftex.def)             Requested size: 325.215pt x 244.86342pt.
-
-
-LaTeX Warning: Float too large for page by 235.28674pt on input line 167.
-
-<collocation.jpg, id=794, 1541.76pt x 2047.65pt>
+Package pdftex.def Info: Internal Dimentions.jpeg  used on input line 168.
+(pdftex.def)             Requested size: 303.53267pt x 228.5321pt.
+ [35 <./Front Dimention.jpeg> <./Side Dimentions.jpeg> <./Switch designation.jp
+eg> <./LED Designation.jpeg>] [36 <./RRH62000 dimentions.jpg> <./wifi dimention
+s.jpeg> <./Internal Dimentions.jpeg>]
+<collocation.jpg, id=803, 1541.76pt x 2047.65pt>
 File: collocation.jpg Graphic file (type jpg)
 <use collocation.jpg>
-Package pdftex.def Info: collocation.jpg  used on input line 174.
+Package pdftex.def Info: collocation.jpg  used on input line 180.
 (pdftex.def)             Requested size: 281.85036pt x 374.3101pt.
-<Live Thingspeak Readings.png, id=796, 879.285pt x 715.17188pt>
+<Live Thingspeak Readings.png, id=805, 879.285pt x 715.17188pt>
 File: Live Thingspeak Readings.png Graphic file (type png)
 <use Live Thingspeak Readings.png>
-Package pdftex.def Info: Live Thingspeak Readings.png  used on input line 183.
+Package pdftex.def Info: Live Thingspeak Readings.png  used on input line 189.
 (pdftex.def)             Requested size: 390.25536pt x 317.41566pt.
-<Stack Ensemble Architecture - Operation.png, id=798, 960.58875pt x 297.36093pt
+ [37 <./collocation.jpg>] [38 <./Live Thingspeak Readings.png>]
+<Stack Ensemble Architecture - Operation.png, id=816, 960.58875pt x 297.36093pt
 >
 File: Stack Ensemble Architecture - Operation.png Graphic file (type png)
 <use Stack Ensemble Architecture - Operation.png>
 Package pdftex.def Info: Stack Ensemble Architecture - Operation.png  used on i
-nput line 195.
+nput line 201.
 (pdftex.def)             Requested size: 368.57965pt x 114.09636pt.
-[35] [36 <./Front Dimention.jpeg> <./Side Dimentions.jpeg> <./Switch designatio
-n.jpeg> <./LED Designation.jpeg> <./RRH62000 dimentions.jpg> <./Wifi dimentions
-.jpeg> <./Internal Dimentions.jpeg>] [37 <./collocation.jpg>] [38 <./Live Thing
-speak Readings.png>]
-<Data Gathering.png, id=817, 1003.49907pt x 633.11531pt>
-File: Data Gathering.png Graphic file (type png)
-<use Data Gathering.png>
-Package pdftex.def Info: Data Gathering.png  used on input line 207.
-(pdftex.def)             Requested size: 411.93768pt x 259.89775pt.
- [39 <./Stack Ensemble Architecture - Operation.png>]
-<Stack enseble architecture - training.png, id=825, 498.36188pt x 328.97906pt>
+
+[39 <./Stack Ensemble Architecture - Operation.png>]
+<Data Gathering Flowchart.png, id=824, 1275.26437pt x 627.09282pt>
+File: Data Gathering Flowchart.png Graphic file (type png)
+<use Data Gathering Flowchart.png>
+Package pdftex.def Info: Data Gathering Flowchart.png  used on input line 213.
+(pdftex.def)             Requested size: 411.93768pt x 202.55882pt.
+<Stack enseble architecture - training.png, id=826, 498.36188pt x 328.97906pt>
 File: Stack enseble architecture - training.png Graphic file (type png)
 <use Stack enseble architecture - training.png>
 Package pdftex.def Info: Stack enseble architecture - training.png  used on inp
-ut line 219.
+ut line 225.
 (pdftex.def)             Requested size: 325.215pt x 214.68723pt.
-<Model Training.png, id=827, 434.37282pt x 738.50906pt>
+<Model Training.png, id=828, 434.37282pt x 738.50906pt>
 File: Model Training.png Graphic file (type png)
 <use Model Training.png>
-Package pdftex.def Info: Model Training.png  used on input line 228.
+Package pdftex.def Info: Model Training.png  used on input line 234.
 (pdftex.def)             Requested size: 216.81pt x 368.62257pt.
-<RFR Training.png, id=829, 438.13687pt x 674.52pt>
+ [40 <./Data Gathering Flowchart.png>] [41 <./Stack enseble architecture - trai
+ning.png> <./Model Training.png>]
+<RFR Training.png, id=841, 438.13687pt x 674.52pt>
 File: RFR Training.png Graphic file (type png)
 <use RFR Training.png>
-Package pdftex.def Info: RFR Training.png  used on input line 237.
+Package pdftex.def Info: RFR Training.png  used on input line 243.
 (pdftex.def)             Requested size: 216.81pt x 333.79065pt.
-
-[40 <./Data Gathering.png>] [41 <./Stack enseble architecture - training.png> <
-./Model Training.png>]
-<SVR Training.png, id=842, 420.06938pt x 677.53125pt>
+<SVR Training.png, id=843, 420.06938pt x 677.53125pt>
 File: SVR Training.png Graphic file (type png)
 <use SVR Training.png>
-Package pdftex.def Info: SVR Training.png  used on input line 246.
+Package pdftex.def Info: SVR Training.png  used on input line 252.
 (pdftex.def)             Requested size: 216.81pt x 349.69235pt.
- [42 <./RFR Training.png>] [43 <./SVR Training.png>]
-<MLR Training.png, id=854, 429.10312pt x 664.73344pt>
+ [42 <./RFR Training.png>]
+<MLR Training.png, id=850, 429.10312pt x 664.73344pt>
 File: MLR Training.png Graphic file (type png)
 <use MLR Training.png>
-Package pdftex.def Info: MLR Training.png  used on input line 255.
+Package pdftex.def Info: MLR Training.png  used on input line 261.
 (pdftex.def)             Requested size: 216.81pt x 335.86523pt.
-
-[44 <./MLR Training.png>] [45] [46] [47]) [48]
+ [43 <./SVR Training.png>] [44 <./MLR Training.png>] [45] [46] [47]) [48]
 Chapter 4.
 (MightyBreadBoards_Results.tex
 
@@ -1831,7 +1826,7 @@ Appendix A.
 
 pdfTeX warning: pdflatex.exe (file ./App_AbstractKeyword_member1.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_AbstractKeyword_member1.pdf, id=981, page=1, 614.295pt x 794.97pt>
+<App_AbstractKeyword_member1.pdf, id=982, page=1, 614.295pt x 794.97pt>
 File: App_AbstractKeyword_member1.pdf Graphic file (type pdf)
 <use App_AbstractKeyword_member1.pdf, page 1>
 Package pdftex.def Info: App_AbstractKeyword_member1.pdf , page1 used on input 
@@ -1851,7 +1846,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
 pdfTeX warning: pdflatex.exe (file ./App_AbstractKeyword_member2.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_AbstractKeyword_member2.pdf, id=982, 614.295pt x 794.97pt>
+<App_AbstractKeyword_member2.pdf, id=983, 614.295pt x 794.97pt>
 File: App_AbstractKeyword_member2.pdf Graphic file (type pdf)
 <use App_AbstractKeyword_member2.pdf>
 Package pdftex.def Info: App_AbstractKeyword_member2.pdf  used on input line 6.
@@ -1865,7 +1860,7 @@ usion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./App_AbstractKeyword_member2.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_AbstractKeyword_member2.pdf, id=984, page=1, 614.295pt x 794.97pt>
+<App_AbstractKeyword_member2.pdf, id=985, page=1, 614.295pt x 794.97pt>
 File: App_AbstractKeyword_member2.pdf Graphic file (type pdf)
 <use App_AbstractKeyword_member2.pdf, page 1>
 Package pdftex.def Info: App_AbstractKeyword_member2.pdf , page1 used on input 
@@ -1904,7 +1899,7 @@ line 6.
 
 pdfTeX warning: pdflatex.exe (file ./App_ISR_member1.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<App_ISR_member1.pdf, id=1074, 614.295pt x 794.97pt>
+<App_ISR_member1.pdf, id=1075, 614.295pt x 794.97pt>
 File: App_ISR_member1.pdf Graphic file (type pdf)
 <use App_ISR_member1.pdf>
 Package pdftex.def Info: App_ISR_member1.pdf  used on input line 8.
@@ -1917,7 +1912,7 @@ pdfTeX warning: pdflatex.exe (file ./App_ISR_member1.pdf): PDF inclusion: found
 
 pdfTeX warning: pdflatex.exe (file ./App_ISR_member1.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<App_ISR_member1.pdf, id=1076, page=1, 614.295pt x 794.97pt>
+<App_ISR_member1.pdf, id=1077, page=1, 614.295pt x 794.97pt>
 File: App_ISR_member1.pdf Graphic file (type pdf)
 <use App_ISR_member1.pdf, page 1>
 Package pdftex.def Info: App_ISR_member1.pdf , page1 used on input line 8.
@@ -1944,7 +1939,7 @@ Package pdftex.def Info: App_ISR_member1.pdf , page1 used on input line 8.
 
 pdfTeX warning: pdflatex.exe (file ./App_PASAR_member1.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<App_PASAR_member1.pdf, id=1124, 614.295pt x 794.97pt>
+<App_PASAR_member1.pdf, id=1125, 614.295pt x 794.97pt>
 File: App_PASAR_member1.pdf Graphic file (type pdf)
 <use App_PASAR_member1.pdf>
 Package pdftex.def Info: App_PASAR_member1.pdf  used on input line 11.
@@ -1957,7 +1952,7 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./App_PASAR_member1.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<App_PASAR_member1.pdf, id=1126, page=1, 614.295pt x 794.97pt>
+<App_PASAR_member1.pdf, id=1127, page=1, 614.295pt x 794.97pt>
 File: App_PASAR_member1.pdf Graphic file (type pdf)
 <use App_PASAR_member1.pdf, page 1>
 Package pdftex.def Info: App_PASAR_member1.pdf , page1 used on input line 11.
@@ -1984,7 +1979,7 @@ Package pdftex.def Info: App_PASAR_member1.pdf , page1 used on input line 11.
 
 pdfTeX warning: pdflatex.exe (file ./App_PASAR_member1.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<App_PASAR_member1.pdf, id=1169, page=2, 614.295pt x 794.97pt>
+<App_PASAR_member1.pdf, id=1170, page=2, 614.295pt x 794.97pt>
 File: App_PASAR_member1.pdf Graphic file (type pdf)
 <use App_PASAR_member1.pdf, page 2>
 Package pdftex.def Info: App_PASAR_member1.pdf , page2 used on input line 11.
@@ -2003,7 +1998,7 @@ Package pdftex.def Info: App_PASAR_member1.pdf , page2 used on input line 11.
 
 pdfTeX warning: pdflatex.exe (file ./App_PASAR_member1.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<App_PASAR_member1.pdf, id=1203, page=3, 614.295pt x 794.97pt>
+<App_PASAR_member1.pdf, id=1204, page=3, 614.295pt x 794.97pt>
 File: App_PASAR_member1.pdf Graphic file (type pdf)
 <use App_PASAR_member1.pdf, page 3>
 Package pdftex.def Info: App_PASAR_member1.pdf , page3 used on input line 11.
@@ -2030,7 +2025,7 @@ Appendix A.
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF005v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF005v01.pdf, id=1232, page=1, 614.295pt x 794.97pt>
+<App_GroupName_PD_IPPF005v01.pdf, id=1233, page=1, 614.295pt x 794.97pt>
 File: App_GroupName_PD_IPPF005v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF005v01.pdf, page 1>
 Package pdftex.def Info: App_GroupName_PD_IPPF005v01.pdf , page1 used on input 
@@ -2050,7 +2045,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF006v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF006v01.pdf, id=1233, 794.97pt x 614.295pt>
+<App_GroupName_PD_IPPF006v01.pdf, id=1234, 794.97pt x 614.295pt>
 File: App_GroupName_PD_IPPF006v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF006v01.pdf>
 Package pdftex.def Info: App_GroupName_PD_IPPF006v01.pdf  used on input line 3.
@@ -2064,7 +2059,7 @@ usion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF006v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF006v01.pdf, id=1235, page=1, 794.97pt x 614.295pt>
+<App_GroupName_PD_IPPF006v01.pdf, id=1236, page=1, 794.97pt x 614.295pt>
 File: App_GroupName_PD_IPPF006v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF006v01.pdf, page 1>
 Package pdftex.def Info: App_GroupName_PD_IPPF006v01.pdf , page1 used on input 
@@ -2103,7 +2098,7 @@ line 3.
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF007v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF007v01.pdf, id=1325, 597.53236pt x 845.05714pt>
+<App_GroupName_PD_IPPF007v01.pdf, id=1326, 597.53236pt x 845.05714pt>
 File: App_GroupName_PD_IPPF007v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF007v01.pdf>
 Package pdftex.def Info: App_GroupName_PD_IPPF007v01.pdf  used on input line 4.
@@ -2117,7 +2112,7 @@ usion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF007v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF007v01.pdf, id=1327, page=1, 597.53236pt x 845.05714pt>
+<App_GroupName_PD_IPPF007v01.pdf, id=1328, page=1, 597.53236pt x 845.05714pt>
 File: App_GroupName_PD_IPPF007v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF007v01.pdf, page 1>
 Package pdftex.def Info: App_GroupName_PD_IPPF007v01.pdf , page1 used on input 
@@ -2149,7 +2144,7 @@ line 4.
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF007v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF007v01.pdf, id=1375, page=2, 597.53236pt x 845.05714pt>
+<App_GroupName_PD_IPPF007v01.pdf, id=1376, page=2, 597.53236pt x 845.05714pt>
 File: App_GroupName_PD_IPPF007v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF007v01.pdf, page 2>
 Package pdftex.def Info: App_GroupName_PD_IPPF007v01.pdf , page2 used on input 
@@ -2171,7 +2166,7 @@ line 4.
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF007v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF007v01.pdf, id=1404, page=3, 597.53236pt x 845.05714pt>
+<App_GroupName_PD_IPPF007v01.pdf, id=1405, page=3, 597.53236pt x 845.05714pt>
 File: App_GroupName_PD_IPPF007v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF007v01.pdf, page 3>
 Package pdftex.def Info: App_GroupName_PD_IPPF007v01.pdf , page3 used on input 
@@ -2193,7 +2188,7 @@ line 4.
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF007v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF007v01.pdf, id=1433, page=4, 597.53236pt x 845.05714pt>
+<App_GroupName_PD_IPPF007v01.pdf, id=1434, page=4, 597.53236pt x 845.05714pt>
 File: App_GroupName_PD_IPPF007v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF007v01.pdf, page 4>
 Package pdftex.def Info: App_GroupName_PD_IPPF007v01.pdf , page4 used on input 
@@ -2215,7 +2210,7 @@ line 4.
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF007v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF007v01.pdf, id=1463, page=5, 597.53236pt x 845.05714pt>
+<App_GroupName_PD_IPPF007v01.pdf, id=1464, page=5, 597.53236pt x 845.05714pt>
 File: App_GroupName_PD_IPPF007v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF007v01.pdf, page 5>
 Package pdftex.def Info: App_GroupName_PD_IPPF007v01.pdf , page5 used on input 
@@ -2237,7 +2232,7 @@ line 4.
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF008v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF008v01.pdf, id=1492, 597.58253pt x 845.10733pt>
+<App_GroupName_PD_IPPF008v01.pdf, id=1493, 597.58253pt x 845.10733pt>
 File: App_GroupName_PD_IPPF008v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF008v01.pdf>
 Package pdftex.def Info: App_GroupName_PD_IPPF008v01.pdf  used on input line 5.
@@ -2251,7 +2246,7 @@ usion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF008v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF008v01.pdf, id=1494, page=1, 597.58253pt x 845.10733pt>
+<App_GroupName_PD_IPPF008v01.pdf, id=1495, page=1, 597.58253pt x 845.10733pt>
 File: App_GroupName_PD_IPPF008v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF008v01.pdf, page 1>
 Package pdftex.def Info: App_GroupName_PD_IPPF008v01.pdf , page1 used on input 
@@ -2283,7 +2278,7 @@ line 5.
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF008v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF008v01.pdf, id=1547, page=2, 597.58253pt x 845.10733pt>
+<App_GroupName_PD_IPPF008v01.pdf, id=1548, page=2, 597.58253pt x 845.10733pt>
 File: App_GroupName_PD_IPPF008v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF008v01.pdf, page 2>
 Package pdftex.def Info: App_GroupName_PD_IPPF008v01.pdf , page2 used on input 
@@ -2305,7 +2300,7 @@ line 5.
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF008v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF008v01.pdf, id=1576, page=3, 597.58253pt x 845.10733pt>
+<App_GroupName_PD_IPPF008v01.pdf, id=1577, page=3, 597.58253pt x 845.10733pt>
 File: App_GroupName_PD_IPPF008v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF008v01.pdf, page 3>
 Package pdftex.def Info: App_GroupName_PD_IPPF008v01.pdf , page3 used on input 
@@ -2327,7 +2322,7 @@ line 5.
 
 pdfTeX warning: pdflatex.exe (file ./App_GroupName_PD_IPPF008v01.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<App_GroupName_PD_IPPF008v01.pdf, id=1605, page=4, 597.58253pt x 845.10733pt>
+<App_GroupName_PD_IPPF008v01.pdf, id=1606, page=4, 597.58253pt x 845.10733pt>
 File: App_GroupName_PD_IPPF008v01.pdf Graphic file (type pdf)
 <use App_GroupName_PD_IPPF008v01.pdf, page 4>
 Package pdftex.def Info: App_GroupName_PD_IPPF008v01.pdf , page4 used on input 
@@ -2378,7 +2373,7 @@ Appendix H.
 
 pdfTeX warning: pdflatex.exe (file ./Turnitin_sample_abstract.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Turnitin_sample_abstract.pdf, id=1671, page=1, 614.295pt x 794.97pt>
+<Turnitin_sample_abstract.pdf, id=1672, page=1, 614.295pt x 794.97pt>
 File: Turnitin_sample_abstract.pdf Graphic file (type pdf)
 <use Turnitin_sample_abstract.pdf, page 1>
 Package pdftex.def Info: Turnitin_sample_abstract.pdf , page1 used on input lin
@@ -2395,7 +2390,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 4--5
 
 pdfTeX warning: pdflatex.exe (file ./Turnitin_sample_abstract.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Turnitin_sample_abstract.pdf, id=1677, page=2, 614.295pt x 794.97pt>
+<Turnitin_sample_abstract.pdf, id=1678, page=2, 614.295pt x 794.97pt>
 File: Turnitin_sample_abstract.pdf Graphic file (type pdf)
 <use Turnitin_sample_abstract.pdf, page 2>
 Package pdftex.def Info: Turnitin_sample_abstract.pdf , page2 used on input lin
@@ -2410,7 +2405,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 6--7
 
 pdfTeX warning: pdflatex.exe (file ./Turnitin_sample_abstract.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Turnitin_sample_abstract.pdf, id=1683, page=3, 614.295pt x 794.97pt>
+<Turnitin_sample_abstract.pdf, id=1684, page=3, 614.295pt x 794.97pt>
 File: Turnitin_sample_abstract.pdf Graphic file (type pdf)
 <use Turnitin_sample_abstract.pdf, page 3>
 Package pdftex.def Info: Turnitin_sample_abstract.pdf , page3 used on input lin
@@ -2425,7 +2420,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 8--9
 
 pdfTeX warning: pdflatex.exe (file ./Turnitin_sample_abstract.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Turnitin_sample_abstract.pdf, id=1689, page=4, 614.295pt x 794.97pt>
+<Turnitin_sample_abstract.pdf, id=1690, page=4, 614.295pt x 794.97pt>
 File: Turnitin_sample_abstract.pdf Graphic file (type pdf)
 <use Turnitin_sample_abstract.pdf, page 4>
 Package pdftex.def Info: Turnitin_sample_abstract.pdf , page4 used on input lin
@@ -2440,7 +2435,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 10--11
 
 pdfTeX warning: pdflatex.exe (file ./Turnitin_sample_abstract.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Turnitin_sample_abstract.pdf, id=1695, page=5, 614.295pt x 794.97pt>
+<Turnitin_sample_abstract.pdf, id=1696, page=5, 614.295pt x 794.97pt>
 File: Turnitin_sample_abstract.pdf Graphic file (type pdf)
 <use Turnitin_sample_abstract.pdf, page 5>
 Package pdftex.def Info: Turnitin_sample_abstract.pdf , page5 used on input lin
@@ -2455,7 +2450,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 12--13
 
 pdfTeX warning: pdflatex.exe (file ./Turnitin_sample_abstract.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Turnitin_sample_abstract.pdf, id=1702, page=6, 614.295pt x 794.97pt>
+<Turnitin_sample_abstract.pdf, id=1703, page=6, 614.295pt x 794.97pt>
 File: Turnitin_sample_abstract.pdf Graphic file (type pdf)
 <use Turnitin_sample_abstract.pdf, page 6>
 Package pdftex.def Info: Turnitin_sample_abstract.pdf , page6 used on input lin
@@ -2470,7 +2465,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 14--15
 
 pdfTeX warning: pdflatex.exe (file ./Turnitin_sample_abstract.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Turnitin_sample_abstract.pdf, id=1708, page=7, 614.295pt x 794.97pt>
+<Turnitin_sample_abstract.pdf, id=1709, page=7, 614.295pt x 794.97pt>
 File: Turnitin_sample_abstract.pdf Graphic file (type pdf)
 <use Turnitin_sample_abstract.pdf, page 7>
 Package pdftex.def Info: Turnitin_sample_abstract.pdf , page7 used on input lin
@@ -2485,7 +2480,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 16--17
 
 pdfTeX warning: pdflatex.exe (file ./Turnitin_sample_abstract.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Turnitin_sample_abstract.pdf, id=1714, page=8, 614.295pt x 794.97pt>
+<Turnitin_sample_abstract.pdf, id=1715, page=8, 614.295pt x 794.97pt>
 File: Turnitin_sample_abstract.pdf Graphic file (type pdf)
 <use Turnitin_sample_abstract.pdf, page 8>
 Package pdftex.def Info: Turnitin_sample_abstract.pdf , page8 used on input lin
@@ -2507,7 +2502,7 @@ Appendix I.
 
 pdfTeX warning: pdflatex.exe (file ./App_EthicsClearance.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<App_EthicsClearance.pdf, id=1720, page=1, 614.295pt x 794.97pt>
+<App_EthicsClearance.pdf, id=1721, page=1, 614.295pt x 794.97pt>
 File: App_EthicsClearance.pdf Graphic file (type pdf)
 <use App_EthicsClearance.pdf, page 1>
 Package pdftex.def Info: App_EthicsClearance.pdf , page1 used on input line 1.
@@ -2523,7 +2518,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 1--2
 
 pdfTeX warning: pdflatex.exe (file ./App_EthicsClearance.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<App_EthicsClearance.pdf, id=1755, page=2, 614.295pt x 794.97pt>
+<App_EthicsClearance.pdf, id=1756, page=2, 614.295pt x 794.97pt>
 File: App_EthicsClearance.pdf Graphic file (type pdf)
 <use App_EthicsClearance.pdf, page 2>
 Package pdftex.def Info: App_EthicsClearance.pdf , page2 used on input line 3.
@@ -2541,7 +2536,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--222
 [92 <./App_EthicsClearance.pdf>]
 Appendix J.
 (App_CV_member1.tex
-<cea_seal.jpg, id=1778, 763.8939pt x 764.6166pt>
+<cea_seal.jpg, id=1779, 763.8939pt x 764.6166pt>
 File: cea_seal.jpg Graphic file (type jpg)
 <use cea_seal.jpg>
 Package pdftex.def Info: cea_seal.jpg  used on input line 11.
@@ -2549,7 +2544,7 @@ Package pdftex.def Info: cea_seal.jpg  used on input line 11.
  [93
 
  <./cea_seal.jpg>]) [94] (App_CV_member2.tex
-<ecelogo.jpg, id=1789, 620.76126pt x 613.1539pt>
+<ecelogo.jpg, id=1790, 620.76126pt x 613.1539pt>
 File: ecelogo.jpg Graphic file (type jpg)
 <use ecelogo.jpg>
 Package pdftex.def Info: ecelogo.jpg  used on input line 11.
@@ -2577,10 +2572,10 @@ Package logreq Info: Writing requests to 'MightyBreadBoards_Main_2024_12_09.run
 
  ) 
 Here is how much of TeX's memory you used:
- 38790 strings out of 467870
- 757964 string characters out of 5418839
- 1618304 words of memory out of 5000000
- 66689 multiletter control sequences out of 15000+600000
+ 38792 strings out of 467870
+ 758061 string characters out of 5418839
+ 1617304 words of memory out of 5000000
+ 66690 multiletter control sequences out of 15000+600000
  645033 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,17n,111p,1292b,1541s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2600,10 +2595,10 @@ b><C:/Users/zach/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.
 pfb><C:/Users/zach/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8
 a.pfb><C:/Users/zach/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhv
 ro8a.pfb>
-Output written on MightyBreadBoards_Main_2024_12_09.pdf (106 pages, 12672628 by
+Output written on MightyBreadBoards_Main_2024_12_09.pdf (106 pages, 12657113 by
 tes).
 PDF statistics:
- 1924 PDF objects out of 2073 (max. 8388607)
- 293 named destinations out of 1000 (max. 500000)
+ 1925 PDF objects out of 2073 (max. 8388607)
+ 294 named destinations out of 1000 (max. 500000)
  858 words of extra memory for PDF output out of 10000 (max. 10000000)
 
